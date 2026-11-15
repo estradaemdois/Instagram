@@ -31,3 +31,30 @@ Quadros vistos: 1,5 s · 5 s · 9 s · 14 s · 21 s · 25 s · 29,5 s · 33 s ·
 Prioridades:
 1. **Moldura:** pôr um fundo escuro translúcido ou uma sombra forte na legenda (resolve 9, 14, 21, 29,5, 33 e 42 s). Pôr um degradê no topo da cena 8. Corrigir a quebra de linha da cena 9. Mostrar as duas silhuetas na cena 7.
 2. **Lente:** trocar o clipe da cena 6 (rosto identificável, encosto branco atrás da legenda e clima triste). Rever o plano real da cena 5, que repete a mulher triste em vez de mostrar a foto do casal com luz dourada.
+
+## Rodada 2
+
+Data: 15/11/2026 · Quadros vistos: 1,5 s · 5 s · 9 s · 14 s · 18 s · 21 s · 25 s · 27 s · 29,5 s · 33 s · 37 s · 42 s · 45,5 s.
+
+**Legenda:** a faixa escura translúcida resolveu o problema em todos os quadros. Agora a legenda se lê bem sobre a silhueta, sobre o suéter e sobre a foto. As zonas do Instagram continuam respeitadas: título por volta de 330 a 440 px do topo e legenda por volta de 1.320 px.
+
+| Momento | OK/AJUSTAR | O que está errado | O que fazer | Quem corrige |
+|---|---|---|---|---|
+| 1,5 s · cena 1 | OK | A legenda na faixa escura ficou legível. Rosto escondido e clima certo. | — | — |
+| 5 s · cena 2 | OK | — | — | — |
+| 9 s · cena 3 | OK | A legenda ficou legível sobre a silhueta. Duas silhuetas ligadas por cordões, fiel ao roteiro. | — | — |
+| 14 s · cena 4 | OK | A outra silhueta aparece pequena, se afastando no canto de cima, à direita: está fiel. O cordão ficou acinzentado, mas ainda muito parecido com o da cena 3. O "escurecer" quase não se nota no quadro parado. Não reprova. | Opcional: escurecer um pouco mais o cordão nesta cena. | Moldura |
+| 18 s · cena 5 | OK | Agora a cena é toda astral, e a luz quente entra pelo canto de cima, à direita. Observação: o título "não apaga o que *viveram.*" já está na tela enquanto a voz ainda diz "Mas dá medo de…", então a resposta aparece antes da pergunta. Não atrapalha a leitura. | Opcional: fazer o título entrar perto de 19,5 s, junto com "não apaga". | Moldura |
+| 21 s · cena 5 | OK | A luz dourada envolve os cordões, que continuam presos, como pede o roteiro. Legenda legível. | — | — |
+| 25 s · cena 6 (real) | OK | Mulher de costas, sem rosto, com plantas ao fundo e clima sereno. A legenda fica sobre o vestido escuro, bem legível. O vídeo está bem escuro, mas isso combina com o ponto do arco. | — | — |
+| 27 s · cena 6 (distância) | OK | Os anéis dourados finos formam o campo circular, e os cordões cinzentos saem do quadro: fiel a "à distância". | — | — |
+| 29,5 s · cena 6 (luz) | OK | Os cordões ficaram dourados e mais curtos, terminando dentro do quadro, e já se lê que estão "soltando". Anéis presentes e legenda legível. | — | — |
+| 33 s · cena 7 | OK | Duas silhuetas, cada uma com um ponto dourado no peito, separadas e sem cordão: está fiel a "os dois ficam livres". O fundo continua petróleo, sem passar ao creme, mas fica dentro da marca. | — | — |
+| 37 s · cena 8 | AJUSTAR | O título "nem pensei nele *hoje!*", no terço de cima, **continua sobre a parte alta da janela**, que é cinza-azulada clara. O escurecimento do topo quase não se nota neste quadro. O branco tem contraste fraco, e o "hoje!" dourado é o que mais some, justamente a palavra-chave da cena. A imagem e a legenda estão OK. | Escurecer o topo com mais força neste vídeo (degradê `#0A1C1E` com cerca de 70% no alto, sumindo até ~700 px) ou pôr no título a mesma faixa escura da legenda ou uma sombra forte. | Moldura |
+| 42 s · cena 9 | OK | O título ficou equilibrado em "manda pra / quem *terminou.*", sem palavra sozinha. Legenda legível. | — | — |
+| 45,5 s · assinatura | OK | — | — | — |
+
+### Veredito: **AJUSTAR** (só a cena 8)
+
+Falta 1 ajuste da Moldura: o contraste do título na cena 8 (37 s). Todo o resto está aprovado.
+Esta é a 2ª volta, o máximo previsto em `docs/criterios.md`. Se a responsável preferir, a correção do título da cena 8 pode ser feita e conferida sem uma nova rodada completa. É uma mudança de uma só camada, que não afeta as outras cenas.

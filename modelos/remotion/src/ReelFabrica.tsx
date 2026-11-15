@@ -69,7 +69,7 @@ const Video: React.FC<{src: string; dur: number; inicioClipe?: number}> = ({src,
   return (
     <AbsoluteFill>
       <OffthreadVideo src={src} muted startFrom={s(inicioClipe)} style={{width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${z})`, filter: 'saturate(0.7) contrast(1.05) brightness(0.85)'}} />
-      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,28,30,0.72) 0%, rgba(10,28,30,0.35) 22%, rgba(10,28,30,0.1) 38%, rgba(10,28,30,0.25) 60%, rgba(10,28,30,0.7) 100%)'}} />
+      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,28,30,0.88) 0%, rgba(10,28,30,0.78) 17%, rgba(10,28,30,0.45) 28%, rgba(10,28,30,0.1) 38%, rgba(10,28,30,0.25) 60%, rgba(10,28,30,0.7) 100%)'}} />
     </AbsoluteFill>
   );
 };
