@@ -28,3 +28,26 @@ A média ficou abaixo de 8,5. Nenhum critério ficou abaixo de 7.
 4. **Lâm. 5, última frase.** Termina em "…e, quando faz sentido, do lar." e não deixa ponta solta. Acrescentar uma frase curta que puxe a lâm. 6, ex.: "E aí surge uma dúvida comum: pensar nisso atrai?". Cortar palavras em outro ponto, se precisar, para caber no limite.
 5. **Lâm. 6, primeira frase.** "Na visão energética e espiritual, o que aproxima ou afasta é o estado em que a gente está, a sintonia." Encurtar para "Na visão espiritual, o que aproxima ou afasta é a sintonia: o estado em que a gente está." Isso tira a terceira repetição da fórmula longa.
 6. **Peça inteira (lâms. 2, 4 e 6).** Usar a forma completa "visão energética e espiritual" só na lâm. 3 e "na visão espiritual" nas outras. A regra da marca continua cumprida e o texto fica menos repetitivo.
+
+## Versão 2
+
+Data: 15/11/2026 · Crítica: Lupa · Arquivo julgado: `04-roteiro.md` (Versão 2)
+
+As 6 mudanças da versão 1 foram feitas, e cada uma resolveu o problema apontado. O texto de apoio de todas as lâminas ficou dentro de ~45 palavras (lâm. 4: 44; lâm. 5: 40).
+
+| # | Critério | Peso | Nota | Justificativa | Instrução de melhoria |
+|---|---|---|---|---|---|
+| 1 | Gancho | 25% | 9 | A capa não mudou e segue forte: "O mesmo pesadelo, *quase toda noite*?" é curto, fala do sintoma, vem do Quora e não dá medo. | (nota 9: sem instrução obrigatória) |
+| 2 | Identificação | 20% | 9 | Agora as palavras do público aparecem no começo e no miolo: "Acordar de susto / e *já cansada*." (lâm. 2), as duas perguntas do Quora e "acorda de susto, com aquele cansaço que não passa" (lâm. 4). | (nota 9: sem instrução obrigatória) |
+| 3 | Progressão | 20% | 8,5 | Uma ideia por lâmina. A lâm. 4 trata só da repetição, a lâm. 5 termina puxando a 6 ("pensar nisso atrai?") e a 6 puxa a 7 ("é aí que entra o cuidado de cada noite"). Resta um eco: o fim da lâm. 4 ("acorda de susto, com aquele cansaço") repete o título da lâm. 2 sem parecer retomada proposital. | Lâm. 4: deixar o eco claramente intencional, como fechamento do ciclo, ex.: "E a pessoa volta a acordar de susto, com aquele cansaço que não passa." |
+| 4 | Valor | 15% | 8,5 | Agora a leitora entende o que são vínculos e interferências ("ligações energéticas que continuam puxando a pessoa para a mesma experiência"), e a objeção é desfeita sem bronca. A lâm. 5 ainda é a mais abstrata: "estudo individual de cada caso" não diz o que se estuda. | Lâm. 5: ligar o estudo ao título, ex.: "com estudo individual de cada caso, para ver o que mantém o ciclo naquela pessoa", sem passar de ~45 palavras (cortar "da pessoa e" se precisar). |
+| 5 | Naturalidade | 10% | 8,5 | As frases travadas sumiram, e a fórmula longa ficou só na lâm. 3. Sobrou um ponto solto: na lâm. 2, "Levantar pesada, com medo de voltar a dormir." é um fragmento sem sujeito logo depois das duas perguntas, e a leitura tropeça. | Lâm. 2: trocar por "Muitas acordam pesadas, com medo de voltar a dormir." (terceira pessoa, não afirma nada sobre a leitora). |
+| 6 | Fechamento | 10% | 9 | Igual à versão 1: retoma a capa como desejo, acolhe e tem chamadas leves e coerentes. | (nota 9: sem instrução obrigatória) |
+
+### Média ponderada
+(9 × 0,25) + (9 × 0,20) + (8,5 × 0,20) + (8,5 × 0,15) + (8,5 × 0,10) + (9 × 0,10)
+= 2,25 + 1,80 + 1,70 + 1,275 + 0,85 + 0,90
+= **8,775 (≈ 8,78)**
+
+### Veredito: **APROVADO**
+A média passou de 8,5 e nenhum critério ficou abaixo de 7. As três instruções acima (lâms. 2, 4 e 5) são ajustes opcionais de polimento. Não bloqueiam a peça. Se a Pena aplicar alguma, não precisa de nova rodada da Lupa, desde que o limite de palavras seja respeitado.
