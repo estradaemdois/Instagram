@@ -1,17 +1,22 @@
 # Pesquisa · Pesadelos recorrentes (Apometria Brasil)
 
-Data: 15/11/2026 · Pesquisadora: Sonda (2 rodadas)
+Data: 15/11/2026 · Pesquisadora: Sonda (3 rodadas)
 
-## Aviso importante sobre esta pesquisa
-- Rodada 1: 8 buscas. Todas as aberturas de página inteira (WebFetch) falharam (dol.com.br, personare.com.br, mdsaude.com não resolvem neste ambiente). Usei só títulos e resumos dos resultados.
-- Rodada 2: buscas com filtro de domínio. reddit.com é bloqueado para o buscador. Quora, YouTube e TikTok responderam, mas só com títulos e resumos. Ver seção "Rodada 2".
-- **Quase não há falas reais de pessoas.** O que existe de mais próximo são perguntas postadas por usuários no Quora (títulos) e um relato de comentário de YouTube parafraseado pela ferramenta (sem texto literal). Tudo está marcado como tal. Nada foi inventado.
+## Situação do mínimo de 8 falas reais: NÃO ATINGIDO
+- Falas literais de pessoas comuns, em primeira pessoa e com link, que consegui: **3** (todas perguntas postadas no Quora, em espanhol e inglês, ver Rodada 3). Mais **2 relatos só parafraseados** pela ferramenta de busca (comentários de leitores e de YouTube), que **não contam como literais**. Total possível: 3 literais + 2 parafraseados, **abaixo de 8**.
+- Motivo: as ferramentas só devolvem títulos e resumos. Reddit é bloqueado para o buscador. WebFetch falha em todos os sites testados (dol, personare, mdsaude, bing: rede restrita; o domínio precisaria ser liberado nas configurações da sessão). Busca por depoimentos de apometria sobre sono ou pesadelos: **nada encontrado**. Nada foi inventado.
+- Caminho para completar: liberar na rede da sessão sites como pt.quora.com, youtube.com, bing.com e os portais com comentários, ou a responsável colar comentários e Direct reais do próprio perfil.
+
+## Aviso sobre as rodadas anteriores
+- Rodada 1: 8 buscas, nenhuma página aberta, só resumos.
+- Rodada 2: reddit bloqueado; Quora, YouTube e TikTok com títulos e textos de criadores.
+- Rodada 3: mais 10 buscas em primeira pessoa e 1 tentativa de WebFetch (bing), sem relatos novos além dos listados.
 
 ## Dores latentes
 - Acordar cansado todos os dias e ter medo de dormir (Metrópoles, descrição de artigo: https://www.metropoles.com/saude/cansado-apos-pesadelos-entenda).
 - Acordar de susto no meio da noite, em especial por volta das 3 da manhã (Olhar Digital, Correio Braziliense, DOL). Volume de matérias mostra procura, não são relatos.
 - Sensação de presença, ouvir vozes e ruídos durante a paralisia do sono (DOL, resumo).
-- Perguntas reais no Quora (ver Rodada 2): "É normal ter pesadelos quase todas as noites?", "por que temos pesadelos que se repetem?", e, em espanhol, "pesadillas que me despiertan siempre en la madrugada tipo 3 o 4 AM".
+- Falas reais do Quora (ver Rodada 3): medo de voltar a dormir, tremer depois do pesadelo, acordar na madrugada, não conseguir acordar do pesadelo.
 - Do kit da marca (hipótese não confirmada): pesadelos junto com cansaço que não passa, peso nos ombros, sensação de ser observada.
 
 ## Perguntas e dúvidas frequentes
@@ -22,12 +27,13 @@ Data: 15/11/2026 · Pesquisadora: Sonda (2 rodadas)
 - "Por que acordo às 3 da manhã?" (horário das bruxas, hora dos anjos)
 - "Sensação de presença com pesadelo é paralisia do sono ou espírito?"
 - Do kit: "isso é espiritual?", "precisa acreditar?", "é seguro?", "é do espiritismo?"
+- Sonhar com quem já morreu: artigos tratam como luto e emoção pendente; não achei relatos de pessoas.
 
 ## O que já tentaram e não funcionou
-**Não encontrei relatos reais** de pessoas dizendo o que tentaram e não deu certo. O que circula como solução (e que o público provavelmente já viu):
+**Não encontrei relatos reais** de pessoas dizendo o que tentaram e não deu certo. O que circula como solução (o público provavelmente já viu):
 - Sal grosso na porta, copo de água embaixo da cama, cristais, frases e orações antes de dormir (Catraca Livre, UAI, EM, Tupi, TNH1).
-- Salmo 91 e orações contra pesadelos (vídeos de TikTok, ver Rodada 2).
-- "Blindagem mental" e "não pensar em obsessores para não atraí-los" (opiniões de comentaristas de YouTube, via resumo da busca).
+- Salmo 91 e orações contra pesadelos (TikTok, Rodada 2).
+- "Blindagem mental" e "não pensar em obsessores para não atraí-los" (opiniões de comentaristas de YouTube, via resumo).
 - Rotina de sono e diário de preocupações (CNN Brasil).
 Que tentaram e "não adiantou" é hipótese a confirmar.
 
@@ -36,11 +42,11 @@ Que tentaram e "não adiantou" é hipótese a confirmar.
 - Mito oposto: "é só ansiedade, não existe outra dimensão" (portais médicos).
 - Medo: "tem alguém no meu quarto", "estou sendo perseguida".
 - Medo ligado a horário (3h da manhã).
-- Conteúdos de "ataque espiritual" e "espírito obsessor te perseguindo" (títulos de YouTube e TikTok) alimentam o medo; a marca tem tom sem medo e sem sensacionalismo.
-- Medo de falar do assunto: um vídeo de YouTube diz que falar de obsessores "é um assunto muito delicado por causa do ceticismo" (via resumo da busca).
+- Conteúdos de "ataque espiritual" e "obsessor te perseguindo" (YouTube e TikTok) alimentam o medo; a marca tem tom sereno.
+- "Falar de obsessor atrai obsessor" (comentaristas de YouTube, via resumo).
 
 ## Vocabulário do público
-Fontes: kit, títulos de perguntas do Quora, títulos/hashtags de vídeos:
+Fontes: kit, perguntas do Quora, títulos e hashtags de vídeos:
 - pesadelo, sonho ruim, sonhos ruins, "pesadelos que se repetem", "pesadelos quase todas as noites"
 - acordar de susto, acordar sobressaltada, acordar suando e com medo, acordar às 3 da manhã, acordar cansada
 - paralisia do sono, sensação de presença, ser observada, "sendo perseguida"
@@ -50,43 +56,57 @@ Fontes: kit, títulos de perguntas do Quora, títulos/hashtags de vídeos:
 
 ## Conceitos da visão espiritual (uso interno; a peça final não cita livros nem autores)
 Fontes secundárias, qualidade desigual. Sempre apresentar como "na visão energética e espiritual".
-1. **Sono como liberdade parcial do espírito.** Durante o sono, a parte espiritual se solta parcialmente do corpo (desdobramento natural), seguindo ligada a ele por um fio de ligação. Fontes: artigo sobre o sono em Kardec (O Livro dos Espíritos, perguntas 400 a 412) e texto de divulgação espírita no TikTok (@alvim_francisco, ver Rodada 2).
-2. **Pesadelo como experiência nesse estado.** Texto espírita de divulgação diz que, às vezes, principalmente quando a pessoa não se harmoniza antes de dormir, espíritos ruins podem levar a alma a lugares ruins, e que isso se percebe pelo pesadelo. Outro texto diz que a pessoa acorda sobressaltada com a impressão de estar sendo perseguida. Em linguagem simples: o que se vive no sono pode ser mais do que imagens da cabeça. Fontes fracas (TikTok), usar com cautela.
+1. **Sono como liberdade parcial do espírito.** Durante o sono, a parte espiritual se solta parcialmente do corpo (desdobramento natural), seguindo ligada a ele por um fio de ligação. Fontes: artigo sobre o sono em Kardec (O Livro dos Espíritos, perguntas 400 a 412) e texto de divulgação espírita no TikTok (@alvim_francisco).
+2. **Pesadelo como experiência nesse estado.** Texto espírita de divulgação diz que, às vezes, principalmente quando a pessoa não se harmoniza antes de dormir, espíritos ruins podem levar a alma a lugares ruins, e que isso se percebe pelo pesadelo. Outro diz que a pessoa acorda sobressaltada com a impressão de ser perseguida. Fontes fracas, usar com cautela.
 3. **Obsessão e sinais.** Pesadelos frequentes entre os sinais possíveis de influência espiritual (vários vídeos "sinais de obsessor"). Sem obra de base citada.
 4. **Preparar-se para dormir.** Ideia recorrente: harmonizar-se (oração, leitura, calma) antes de dormir traz "mais sonhos e menos pesadelos". Boa ponte para a peça (cuidado diário, sem medo).
 5. **Apometria.** Técnica criada pelo médico José Lacerda de Azevedo e grupo espírita no Hospital Espírita de Porto Alegre (1964 a 1986), baseada no desdobramento do espírito. Em linguagem simples: o atendimento trabalha o lado espiritual da pessoa para retirar interferências e cortar vínculos.
-6. **Ligação com os temas da marca** (limpeza energética, corte de vínculos, desobsessão, limpeza do lar): inferência minha. Não achei fonte apométrica específica sobre sono e pesadelos.
+6. **Ligação com os temas da marca** (limpeza energética, corte de vínculos, desobsessão, limpeza do lar): inferência minha. Não achei fonte apométrica específica sobre sono e pesadelos, nem depoimentos.
 7. **Crítica externa:** o site Geo Legado de Allan Kardec diz que a apometria é incompatível com o espiritismo (https://www.geolegadodeallankardec.com.br/artigos/em-destaque/apometria-e-espiritismo-uma-leitura-critica-das-incompatibilidades-estruturais/). Relevante porque o público pergunta "é do espiritismo?". A peça pode dizer que a apometria é um trabalho próprio, sem polêmica.
 
 ## Cuidados
-- **Não encontrei** comentários literais de YouTube/Instagram, posts de Reddit (bloqueado) nem respostas do Quora lidas por completo.
-- **Não encontrei** fonte sobre apometria aplicada a pesadelos. A ligação é inferência.
-- A internet trata pesadelo quase só como assunto médico, e boa parte do conteúdo espiritual é de medo ("ataque", "perseguição"). Informação interna: a regra 4 da marca proíbe mencionar ajuda médica/psicológica nas peças. **Não incluir isso na peça** (revi minha sugestão da rodada 1).
+- **Não encontrei** comentários literais de YouTube/Instagram, posts de Reddit (bloqueado), nem depoimentos de quem fez apometria sobre sono.
+- Ligação entre apometria e pesadelos é inferência.
+- Regra 4 da marca: não mencionar ajuda médica/psicológica nas peças. **Não incluir isso na peça.**
 - Evitar prometer cura, "ataque", "perigo", medo do horário das 3h, e afirmar que todo pesadelo é espiritual. Acolher dizendo que é uma das leituras possíveis na visão espiritual.
 
 ## Rodada 2 · frases reais
-Resultado honesto: **não há falas literais de público**. O mais próximo:
+Resultado honesto: **não há falas literais de público** além das perguntas do Quora abaixo.
 
-**Perguntas reais postadas no Quora** (título digitado pelo usuário; respostas não lidas):
+**Perguntas postadas no Quora** (título digitado pelo usuário; respostas não lidas):
 - "É normal ter pesadelos quase todas as noites? Por que temos pesadelos que se repetem? Como evitar esse tipo de sonho?" https://pt.quora.com/%C3%89-normal-ter-pesadelos-quase-todas-as-noites-Por-que-temos-pesadelos-que-se-repetem-Como-evitar-esse-tipo-de-sonho
 - "Por que temos pesadelos?" https://pt.quora.com/Por-que-temos-pesadelos
 - (espanhol) "¿Por qué tengo pesadillas frecuentemente? Me despiertan siempre en la madrugada tipo 3 o 4 AM." https://es.quora.com/Por-qu%C3%A9-tengo-pesadillas-frecuentemente-Me-despiertan-siempre-en-la-madrugada-tipo-3-o-4-AM
 - (espanhol) "¿Por qué a veces tengo pesadillas de las cuales no puedo despertar debido a que mi cuerpo no responde las órdenes de mi mente?" https://es.quora.com/Por-qu%C3%A9-a-veces-tengo-pesadillas-de-las-cuales-no-puedo-despertar-debido-a-que-mi-cuerpo-no-responde-las-%C3%B3rdenes-de-mi-mente
 - (inglês) "...frequent nightmares 2-3 times a week... This keeps me from wanting to go back to sleep and usually I'm shaking after it." https://www.quora.com/Why-do-I-keep-having-frequent-nightmares-2-3-times-a-week-Theyre-always-about-myself-or-someone-elses-life-being-jeopardized-This-keeps-me-from-wanting-to-go-back-to-sleep-and-usually-Im-shaking-after-it-Why-1
-  Uso: confirma as dores (medo de voltar a dormir, acordar na madrugada, não conseguir acordar do pesadelo). Em espanhol/inglês, não citar na peça.
+  Em espanhol/inglês, não citar na peça.
 
-**Comentários de YouTube (apenas paráfrase da busca, sem texto literal):** em palestra de Sérgio da Fonseca sobre afastar obsessores (https://www.youtube.com/watch?v=SgeFCUzAl2c), uma espectadora diz estar passando pelo processo, morar sozinha e fazer tratamento físico e espiritual; outros comentaristas defendem vida saudável e "blindagem mental", e outros aconselham não pensar em obsessores para não atraí-los. Vídeos que mostram a procura: "10 sinais de que um espírito obsessor pode estar te perturbando" (https://www.youtube.com/watch?v=a8V34YNiwRo), "Expert em Sonhos: Um Espírito Obsessor Pode Estar Próximo de Você!" (https://www.youtube.com/watch?v=rXypV5dPTWE).
+**YouTube (paráfrase, sem texto literal):** palestra de Sérgio da Fonseca sobre afastar obsessores (https://www.youtube.com/watch?v=SgeFCUzAl2c): uma espectadora diz estar passando pelo processo, morar sozinha e fazer tratamento físico e espiritual; outros defendem "blindagem mental"; outros aconselham não pensar em obsessores para não atraí-los. Vídeos que mostram a procura: https://www.youtube.com/watch?v=a8V34YNiwRo e https://www.youtube.com/watch?v=rXypV5dPTWE.
 
 **TikTok (texto de criadores, não de público):**
 - "Você tem muitos pesadelos? acorda suando e com medo?" (pastor) https://www.tiktok.com/@pastorlamartineposella/video/7276837368638819590
 - "É por isto que muita gente, no meio da noite acorda sobressaltada no corpo, com a nítida impressão de que estava sendo perseguida por uma ou por mais pessoas." (@diario_espirita) https://www.tiktok.com/@diario_espirita/video/7386707093476232454
 - "Às vezes, principalmente quando não oramos antes de dormir, Espíritos ruins podem nos levar a lugares ruins. E dá pra saber quando isso acontece: quando a gente tem um pesadelo." (@alvim_francisco) https://www.tiktok.com/@alvim_francisco/video/7347897147116784901
-- "Por que médiuns têm dor de cabeça e pesadelos em ..." https://www.tiktok.com/@japinha02538/video/7663876086874328340
 - "Oração para dormir em paz (contra pesadelos e sonhos ruins)" https://www.tiktok.com/@verciculos2/video/7297360157812608262
 
-**Reddit:** domínio bloqueado para o buscador, nada coletado.
+**Reddit:** bloqueado.
 
-**Objeção nova que surgiu:** (1) "falar de obsessor atrai obsessor": parte do público teme que pensar ou falar no assunto piore; a peça deve acalmar, sem dar peso ao "obsessor". (2) O público já vê muito conteúdo de medo ("ataque", "perseguição"), então a marca se diferencia pelo tom sereno.
+**Objeções novas:** "falar de obsessor atrai obsessor" (a peça deve acalmar e não dar peso ao obsessor); o público já vê muito conteúdo de medo, e o tom sereno da marca é o diferencial.
+
+## Rodada 3 · falas reais
+Contagem: **3 literais em primeira pessoa (Quora, línguas estrangeiras ou título de pergunta)** e **2 parafraseadas** (não literais). Mínimo de 8 **não atingido**.
+
+Parafraseados pela ferramenta (comentários de leitores; não consegui o texto exato):
+1. Comentário de leitora em artigo da Tribuna de Minas sobre pesadelos: ela diz ter pesadelos tão terríveis que dariam filmes de terror, "muito reais", e que por isso vive cansada. Origem: comentário de portal, via resumo. Link: https://tribunademinas.com.br/?p=400449
+2. Comentário de leitor no mesmo artigo: diz ter pesadelo como se estivesse acordado e lembrar de tudo ao acordar. Origem: comentário de portal, via resumo. Link: https://tribunademinas.com.br/?p=400449
+
+Uso sugerido (sem aspas, como ideia de dor): "pesadelos muito reais", "vive cansada", "lembra de tudo ao acordar".
+
+Buscas sem nenhum relato encontrado:
+- "toda noite tenho o mesmo pesadelo", "tenho medo de dormir", "sonho que estou sendo perseguida", "acordo às 3 da manhã assustada", "sonho com pessoa que já morreu toda noite": só artigos de portais, fiction (Recanto das Letras, Wattpad) e conteúdo de interpretação de sonhos.
+- Depoimentos de apometria sobre sono ou pesadelos ("fiz apometria", "depois da apometria sonhos", "depoimento apometria"): **nenhum resultado relevante**. A busca por "depoimentos apometria atendimento à distância" devolveu só telemedicina.
+- WebFetch no Bing: bloqueado (domínio não liberado na sessão).
+- Textos de ficção em primeira pessoa (Recanto das Letras, ex.: "Perseguida por uma Entidade", https://www.recantodasletras.com.br/contosdesuspense/6734260) existem, mas são contos e não contam como relato real.
 
 ## Fontes
 Rodada 1 (resultados de busca; nenhuma página aberta):
@@ -105,4 +125,5 @@ Rodada 1 (resultados de busca; nenhuma página aberta):
 13. https://www.megacurioso.com.br/saude-bem-estar/126989-por-que-podemos-ter-o-mesmo-pesadelo-varias-vezes.htm
 14. https://catracalivre.com.br/saude-bem-estar/se-voce-sonha-a-mesma-coisa-todo-dia-seu-cerebro-pode-ter-um-recado/
 
-Rodada 2: as páginas do Quora, YouTube e TikTok listadas acima (links na própria seção).
+Rodada 2: Quora, YouTube e TikTok (links na própria seção).
+Rodada 3: https://tribunademinas.com.br/?p=400449 (comentários de leitores, via resumo) e https://www.recantodasletras.com.br/contosdesuspense/6734260 (ficção, só como exemplo de que não é relato).
