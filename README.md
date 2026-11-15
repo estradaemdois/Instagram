@@ -54,6 +54,6 @@ O Maestro avisa em uma linha a cada etapa e para nas duas aprovações. Tudo fic
 | `.claude/skills/produzir/` | O roteiro do Maestro |
 | `marcas/<marca>/` | **Kit da marca**: identidade, voz, regras, público, aprendizados, exemplos, fontes, logo |
 | `marcas/_modelo/` | Kit em branco para um negócio novo |
-| `docs/` | Arquitetura, critérios dos juízes, formatos dos arquivos, como adicionar marca |
+| `docs/` | Arquitetura, critérios dos juízes, formatos dos arquivos, como adicionar marca, **continuidade** |
 | `modelos/remotion/` | Modelo visual (carrossel/post) que lê o kit da marca + o storyboard |
 | `producoes/` | Uma pasta por peça, com todas as etapas (o histórico da fábrica) |
