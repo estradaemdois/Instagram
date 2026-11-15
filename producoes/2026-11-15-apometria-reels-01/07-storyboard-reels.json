@@ -1,0 +1,138 @@
+{
+ "marca": "apometria-brasil",
+ "formato": "reels",
+ "duracao": 46.86,
+ "narracao": "narracao.wav",
+ "musica": "musica.wav",
+ "volumeMusica": 0.28,
+ "falas": [
+  {
+   "texto": "Terminou faz tempo e ainda sente ele por perto?",
+   "inicio": 0.4,
+   "fim": 3.482
+  },
+  {
+   "texto": "A gente não quer pensar nele… e pensa.",
+   "inicio": 3.932,
+   "fim": 6.44
+  },
+  {
+   "texto": "Na visão espiritual, a relação acaba… mas uns cordões de energia continuam ali.",
+   "inicio": 6.99,
+   "fim": 12.241
+  },
+  {
+   "texto": "Por isso a gente ainda sente a pessoa. E fica difícil se desligar.",
+   "inicio": 12.691,
+   "fim": 16.4
+  },
+  {
+   "texto": "Mas dá medo de se desligar de vez, né? O corte de vínculos não apaga o que vocês viveram.",
+   "inicio": 17.3,
+   "fim": 23.491
+  },
+  {
+   "texto": "Na apometria, a equipe espiritual faz isso à distância: solta os cordões aos poucos, sem arrancar.",
+   "inicio": 24.041,
+   "fim": 30.807
+  },
+  {
+   "texto": "E os dois ficam livres. Ninguém sai machucado.",
+   "inicio": 31.307,
+   "fim": 34.233
+  },
+  {
+   "texto": "Quando os cordões soltam, tem gente que diz: “nem pensei nele hoje!”",
+   "inicio": 35.133,
+   "fim": 39.652
+  },
+  {
+   "texto": "Tudo bem ainda sentir. Salva… e manda pra aquela amiga que terminou.",
+   "inicio": 40.352,
+   "fim": 45.263
+  }
+ ],
+ "cenas": [
+  {
+   "tipo": "video",
+   "arquivo": "real1.mp4",
+   "inicio": 0,
+   "fim": 3.71,
+   "tela": "ainda sente ele *perto?*"
+  },
+  {
+   "tipo": "video",
+   "arquivo": "real2.mp4",
+   "inicio": 3.71,
+   "fim": 6.71,
+   "tela": "não quer… e *pensa.*"
+  },
+  {
+   "tipo": "astral",
+   "estado": "ligados",
+   "inicio": 6.71,
+   "fim": 12.47,
+   "tela": "os *cordões* continuam."
+  },
+  {
+   "tipo": "astral",
+   "estado": "peso",
+   "inicio": 12.47,
+   "fim": 16.85,
+   "tela": "difícil se *desligar.*"
+  },
+  {
+   "tipo": "astral",
+   "estado": "envolve",
+   "inicio": 16.85,
+   "fim": 23.77,
+   "tela": "não apaga o que *viveram.*"
+  },
+  {
+   "tipo": "video",
+   "arquivo": "real3.mp4",
+   "inicio": 23.77,
+   "fim": 26.37
+  },
+  {
+   "tipo": "astral",
+   "estado": "distancia",
+   "inicio": 26.37,
+   "fim": 28.37
+  },
+  {
+   "tipo": "astral",
+   "estado": "luz",
+   "inicio": 28.37,
+   "fim": 31.06,
+   "tela": "solta *aos poucos.*"
+  },
+  {
+   "tipo": "astral",
+   "estado": "livres",
+   "inicio": 31.06,
+   "fim": 34.68,
+   "tela": "os dois ficam *livres.*"
+  },
+  {
+   "tipo": "video",
+   "arquivo": "real4.mp4",
+   "inicio": 34.68,
+   "fim": 40.0,
+   "tela": "nem pensei nele *hoje!*"
+  },
+  {
+   "tipo": "astral",
+   "estado": "leve",
+   "inicio": 40.0,
+   "fim": 43.86,
+   "tela": "manda pra quem *terminou.*"
+  },
+  {
+   "tipo": "astral",
+   "estado": "leve",
+   "inicio": 43.86,
+   "fim": 46.86
+  }
+ ]
+}

@@ -33,7 +33,7 @@ const TextoTela: React.FC<{txt: string; dur: number; id: Identidade}> = ({txt, d
   const o = Math.min(interpolate(f, [0, 12], [0, 1], {extrapolateRight: 'clamp'}), interpolate(f, [dur - 10, dur], [1, 0], {extrapolateLeft: 'clamp'}));
   const y = interpolate(f, [0, 14], [18, 0], {extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)});
   return (
-    <div style={{position: 'absolute', top: 300, left: 0, width: 1080, padding: '0 70px', boxSizing: 'border-box', textAlign: 'center', opacity: o, transform: `translateY(${y}px)`, fontFamily: familia('titulo'), fontSize: 76, lineHeight: 1.15, color: id.cores.texto, textShadow: '0 4px 30px rgba(0,0,0,0.6)'}}>
+    <div style={{position: 'absolute', top: 300, left: 0, width: 1080, padding: '0 70px', boxSizing: 'border-box', textAlign: 'center', opacity: o, transform: `translateY(${y}px)`, fontFamily: familia('titulo'), fontSize: 76, lineHeight: 1.15, color: id.cores.texto, textShadow: '0 2px 6px rgba(0,0,0,0.7), 0 4px 34px rgba(0,0,0,0.75)', textWrap: 'balance'} as React.CSSProperties}>
       {txt.split(/(\*[^*]+\*)/g).filter(Boolean).map((p, k) => p.startsWith('*')
         ? <span key={k} style={{fontStyle: 'italic', color: id.cores.destaque}}>{p.slice(1, -1)}</span>
         : <span key={k}>{p}</span>)}
@@ -55,11 +55,11 @@ const Legenda: React.FC<{falas: Fala[]; id: Identidade}> = ({falas, id}) => {
   const atual = Math.max(0, ini.findIndex((a, k) => t >= a && (k === ini.length - 1 || t < ini[k + 1])));
   const bloco = Math.floor(atual / 4) * 4; // até 4 palavras por vez
   return (
-    <div style={{position: 'absolute', top: 1290, left: 60, right: 60, textAlign: 'center', fontFamily: familia('rotulo'), fontWeight: 700, fontSize: 58, lineHeight: 1.2, color: '#FFFFFF', textShadow: '0 3px 18px rgba(0,0,0,0.85)'}}>
+    <div style={{position: 'absolute', top: 1290, left: 0, width: 1080, display: 'flex', justifyContent: 'center'}}><div style={{maxWidth: 940, padding: '14px 30px', borderRadius: 18, background: 'rgba(5,14,15,0.62)', textAlign: 'center', fontFamily: familia('rotulo'), fontWeight: 700, fontSize: 56, lineHeight: 1.2, color: '#FFFFFF', textShadow: '0 2px 10px rgba(0,0,0,0.6)'}}>
       {palavras.slice(bloco, bloco + 4).map((w, k) => (
         <span key={k} style={{color: bloco + k === atual ? id.cores.destaque : '#FFFFFF', marginRight: 14}}>{w}</span>
       ))}
-    </div>
+    </div></div>
   );
 };
 
@@ -69,7 +69,7 @@ const Video: React.FC<{src: string; dur: number; inicioClipe?: number}> = ({src,
   return (
     <AbsoluteFill>
       <OffthreadVideo src={src} muted startFrom={s(inicioClipe)} style={{width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${z})`, filter: 'saturate(0.7) contrast(1.05) brightness(0.85)'}} />
-      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,28,30,0.45) 0%, rgba(10,28,30,0.1) 35%, rgba(10,28,30,0.25) 60%, rgba(10,28,30,0.7) 100%)'}} />
+      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,28,30,0.72) 0%, rgba(10,28,30,0.35) 22%, rgba(10,28,30,0.1) 38%, rgba(10,28,30,0.25) 60%, rgba(10,28,30,0.7) 100%)'}} />
     </AbsoluteFill>
   );
 };

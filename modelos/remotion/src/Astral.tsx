@@ -2,7 +2,7 @@ import React from 'react';
 import {AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig, random, Easing} from 'remotion';
 
 // Cenas do astral desenhadas em código (motion graphics). Substituíveis por vídeo gerado (Kling) no futuro.
-export type EstadoAstral = 'peso' | 'ligados' | 'luz' | 'leve' | 'distancia' | 'envolve';
+export type EstadoAstral = 'peso' | 'ligados' | 'luz' | 'leve' | 'distancia' | 'envolve' | 'livres';
 type Cor = {escuro: string; marca: string; destaque: string; texto: string};
 
 const W = 1080, H = 1920;
@@ -85,8 +85,9 @@ export const CenaAstral: React.FC<{estado: EstadoAstral; dur: number; cores: Cor
     conteudo = (
       <>
         <Particulas f={f} n={40} cor={cinza} opac={0.3} />
-        {[0, 1, 2, 3, 4].map((i) => <Cordao key={i} x1={A.x + 20} y1={A.y - 10} x2={1300} y2={300 + i * 260} i={i} f={f * tensao} cor={cinza} espessura={3} />)}
-        <Silhueta x={A.x} y={A.y} s={1.15} brilho={0.55} cor="#C8D2D4" />
+        <Silhueta x={interpolate(p, [0, 1], [930, 990])} y={560} s={0.42} brilho={0.3} cor="#AEB8BA" />
+        {[0, 1, 2, 3].map((i) => <Cordao key={i} x1={A.x + 10 - p * 30} y1={A.y - 10} x2={interpolate(p, [0, 1], [930, 990])} y2={545 + i * 6} i={i} f={f * tensao} cor={i % 2 ? '#5E6769' : '#7A8386'} espessura={interpolate(p, [0, 1], [3, 5])} />)}
+        <Silhueta x={A.x - p * 30} y={A.y} s={1.15} brilho={0.5} cor="#B9C3C5" />
       </>
     );
   } else if (estado === 'ligados') {
@@ -127,15 +128,28 @@ export const CenaAstral: React.FC<{estado: EstadoAstral; dur: number; cores: Cor
         <Silhueta x={900} y={820} s={0.6} brilho={0.4} cor="#AEB8BA" />
       </>
     );
+  } else if (estado === 'livres') {
+    const sep = interpolate(p, [0, 1], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
+    conteudo = (
+      <>
+        <rect x={0} y={0} width={W} height={H} fill="#FAF7F0" opacity={interpolate(p, [0, 1], [0, 0.18])} />
+        <Particulas f={f} n={70} cor={cores.destaque} opac={0.5} subir seed="w" />
+        <Silhueta x={interpolate(sep, [0, 1], [430, 300])} y={1010} s={0.95} brilho={0.9} cor="#F2F0E8" aura={0.8} corAura={cores.destaque} />
+        <Silhueta x={interpolate(sep, [0, 1], [700, 860])} y={interpolate(sep, [0, 1], [880, 780])} s={0.6} brilho={0.75} cor="#EDE9DF" aura={0.6} corAura={cores.destaque} />
+        <circle cx={interpolate(sep, [0, 1], [430, 300])} cy={1000} r={14} fill={cores.destaque} filter="url(#glow)" />
+        <circle cx={interpolate(sep, [0, 1], [700, 860])} cy={interpolate(sep, [0, 1], [874, 774])} r={9} fill={cores.destaque} filter="url(#glow)" />
+      </>
+    );
   } else if (estado === 'luz') {
     // luz dourada desce e os cordões se desfazem do meio para as pontas
     const luz = interpolate(p, [0, 0.4], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
-    const corte = interpolate(p, [0.25, 0.85], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
+    const corte = interpolate(p, [0.08, 0.8], [0, 1], {...clamp, easing: Easing.inOut(Easing.cubic)});
     const corC = corte > 0.05 ? cores.destaque : cinza;
     conteudo = (
       <>
         <ellipse cx={A.x} cy={interpolate(luz, [0, 1], [-300, 700])} rx={520} ry={700} fill={cores.destaque} opacity={0.22 * luz} filter="url(#blurG)" />
         <Particulas f={f} n={70} cor={cores.destaque} opac={0.5 * luz} subir seed="l" />
+        {[0, 1, 2].map((k) => { const t = ((f / fps) * 0.35 + k / 3) % 1; return <circle key={'r' + k} cx={A.x} cy={A.y} r={140 + t * 640} fill="none" stroke={cores.destaque} strokeWidth={3} opacity={(1 - t) * 0.5} />; })}
         {[0, 1, 2, 3, 4].map((i) => <Cordao key={i} x1={A.x + 20} y1={A.y - 10} x2={1300} y2={300 + i * 260} i={i} f={f * (1 - corte * 0.8)} cor={corC} espessura={3} corte={corte} opac={1 - corte * 0.6} />)}
         <Silhueta x={A.x} y={A.y} s={1.0} brilho={interpolate(p, [0, 1], [0.6, 0.85])} cor="#E4EAEB" aura={luz * 0.8} corAura={cores.destaque} />
       </>
