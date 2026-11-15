@@ -25,6 +25,7 @@ Depois: `## Legenda` (gancho → 1 a 2 parágrafos curtos → chamada leve) e `#
 
 ## Regras de escrita
 - Uma ideia por lâmina; cada lâmina puxa a próxima.
+- Responda a **objeção** escolhida na pauta, no lugar indicado, de forma acolhedora (explicando, não convencendo).
 - Palavras do público (da pesquisa), frases curtas, nada de clichê de IA.
 - `*trecho*` = itálico em destaque; ` / ` = quebra de linha; pontuação colada ao trecho.
 - Siga `regras.md` à risca. Nunca invente dados, estudos ou números.

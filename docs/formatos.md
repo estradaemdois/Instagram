@@ -5,8 +5,8 @@ Toda produção mora em `producoes/AAAA-MM-DD-<marca>-<tema>/`. Os arquivos são
 | Arquivo | Quem escreve | Formato | Conteúdo |
 |---|---|---|---|
 | `00-pedido.md` | Maestro | Texto | Pedido da responsável, nas palavras dela: marca, tema, formato, pedidos especiais |
-| `01-pesquisa.md` | Sonda | Texto | Dores com frases reais e fonte, perguntas, mitos, vocabulário, conceitos, cuidados, fontes |
-| `02-pauta.md` | Bússola | Texto | Ângulo, dor de entrada, promessa, formato, estrutura por lâmina, clima visual, chamada, riscos |
+| `01-pesquisa.md` | Sonda | Texto | Dores com frases reais e fonte, perguntas, **objeções**, mitos, vocabulário, conceitos, cuidados, fontes |
+| `02-pauta.md` | Bússola | Texto | Ângulo, dor de entrada, promessa, formato, estrutura por lâmina, clima visual, chamada, objeção a responder, riscos |
 | `03-ganchos.md` | Faísca + Lupa | Texto | 10 ganchos (5 padrões) + ranking top 3 da Lupa |
 | `04-roteiro.md` | Pena | Texto | Versão N, "o que mudou", lâminas (rótulo/título/texto/chamada), legenda, hashtags |
 | `05-critica-lupa.md` | Lupa | Texto | Por versão: 6 notas, justificativas, média, veredito, mudanças pedidas |

@@ -11,13 +11,15 @@ Leia `marcas/<marca>/marca.md`, `marcas/<marca>/publico.md` e `00-pedido.md` da 
 
 ## Como pesquisar
 1. Escreva de 5 a 8 buscas diferentes sobre o tema, do jeito que uma pessoa comum digitaria ou falaria (ex.: "meu marido bebe e parece outra pessoa espiritual", "cansaço que não passa é espiritual?").
-2. Priorize, nesta ordem: comentários de YouTube e Instagram, Quora em português, fóruns e grupos, perguntas do tipo "as pessoas também perguntam". Use artigos só para conferir conceitos.
-3. Leia as páginas mais promissoras inteiras (WebFetch). Se um site bloquear, siga para outro, sem insistir.
-4. Pare quando tiver material suficiente para preencher todas as seções abaixo (geralmente 8 a 15 fontes).
+2. Inclua pelo menos 2 buscas de **dúvida e desconfiança** ("apometria funciona mesmo", "apometria é perigoso", "apometria reclame aqui").
+3. Priorize, nesta ordem: comentários de YouTube e Instagram, Quora em português, fóruns e grupos, perguntas do tipo "as pessoas também perguntam". Use artigos só para conferir conceitos.
+4. Leia as páginas mais promissoras inteiras (WebFetch). Se um site bloquear, siga para outro, sem insistir.
+5. Pare quando tiver material suficiente para preencher todas as seções abaixo (geralmente 8 a 15 fontes).
 
 ## O que entregar (`01-pesquisa.md`, em português)
 - **Dores latentes**: o que as pessoas sentem, com **frases reais entre aspas** e a fonte (link).
 - **Perguntas e dúvidas** que aparecem com frequência.
+- **Objeções**: o que faz a pessoa desconfiar ou não buscar ajuda (ex.: "é coisa de religião?", "funciona à distância?", "e se eu não acreditar?", "é perigoso?"). Para cada uma: a frase real, a fonte e quantas vezes apareceu (muito / às vezes / pouco).
 - **O que já tentaram e não funcionou.**
 - **Mitos e medos** comuns sobre o tema.
 - **Vocabulário exato do público** (lista de expressões).

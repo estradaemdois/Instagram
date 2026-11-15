@@ -15,7 +15,7 @@ Nota de 0 a 10 em cada critério, com **uma frase de justificativa** e, se a not
 | 1 | **Gancho** | 25% | Para o polegar em 1,5 s. Fala de algo que a pessoa sente ou cria uma curiosidade específica. Curto (até ~10 palavras). Nada genérico ("Você sabia que…", "Hoje vamos falar de…"). |
 | 2 | **Identificação** | 20% | Usa as palavras reais do público (da pesquisa da Sonda). A pessoa pensa "isso sou eu". |
 | 3 | **Progressão** | 20% | Uma ideia por lâmina/cena; cada uma deixa uma ponta solta para a próxima. Não repete. A capa promete o que o resto entrega. |
-| 4 | **Valor** | 15% | Ensina algo que a pessoa não sabia, de forma clara. Informativo, não propaganda. |
+| 4 | **Valor** | 15% | Ensina algo que a pessoa não sabia, de forma clara, e desfaz a objeção escolhida na pauta. Informativo, não propaganda. |
 | 5 | **Naturalidade** | 10% | Soa como gente. Sem clichês de IA (lista abaixo), sem frases longas demais, sem jargão sem explicar. |
 | 6 | **Fechamento** | 10% | Termina com acolhimento e uma chamada leve e coerente (salvar, compartilhar, comentar uma palavra). |
 
