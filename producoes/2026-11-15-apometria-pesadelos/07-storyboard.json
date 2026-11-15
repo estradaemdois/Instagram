@@ -19,10 +19,10 @@
       "url": "https://images.pexels.com/photos/6951891/pexels-photo-6951891.jpeg?auto=compress&cs=tinysrgb&w=2400",
       "fonte": "Pexels 6951891",
       "foco": [
-        0.42,
-        0.5
+        0.58,
+        0.45
       ],
-      "zoom": 1.0,
+      "zoom": 1.3,
       "brilho": 0.65,
       "saturacao": 0.45
     },
@@ -43,8 +43,8 @@
       "url": "https://images.pexels.com/photos/10343928/pexels-photo-10343928.jpeg?auto=compress&cs=tinysrgb&w=1600",
       "fonte": "Pexels 10343928",
       "foco": [
-        0.6,
-        0.5
+        0.5,
+        0.6
       ],
       "zoom": 1.0,
       "brilho": 0.75,
@@ -88,14 +88,14 @@
     },
     {
       "arquivo": "s8.jpg",
-      "url": "https://images.pexels.com/photos/545034/pexels-photo-545034.jpeg?auto=compress&cs=tinysrgb&w=2400",
-      "fonte": "Pexels 545034",
+      "url": "https://images.pexels.com/photos/3231743/pexels-photo-3231743.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 3231743",
       "foco": [
-        0.62,
-        0.5
+        0.5,
+        0.58
       ],
       "zoom": 1.0,
-      "brilho": 1.15,
+      "brilho": 1.0,
       "saturacao": 0.85
     }
   ],
@@ -141,16 +141,14 @@
       "titulo": "Mas falar disso / não *atrai*?",
       "texto": "Tem gente que evita até ler sobre isso, com medo de chamar coisa ruim. Para a apometria, o que aproxima ou afasta é o estado em que a gente está (agitação, mágoa, medo), não entender o assunto. E saber o que acontece de noite tira o susto.",
       "imagem": "s6.jpg",
-      "tom": "claro",
-      "topo": 820
+      "tom": "claro"
     },
     {
       "rotulo": "ANTES DE APAGAR A LUZ",
       "titulo": "O que vai junto / *para o travesseiro*?",
       "texto": "Deitar ainda respondendo mensagem é levar o dia inteiro para a cama. Se der, larga o celular um pouco antes e reza, ou conversa do seu jeito com aquilo em que você acredita. E, se já faz tratamento, vale seguir o que foi combinado.",
       "imagem": "s7.jpg",
-      "tom": "claro",
-      "topo": 820
+      "tom": "claro"
     },
     {
       "rotulo": "PARA A PRÓXIMA NOITE",
@@ -158,7 +156,6 @@
       "texto": "Pode ser que o sonho ainda apareça amanhã. Mas agora dá para entender o que está acontecendo, e apagar a luz fica menos pesado.",
       "imagem": "s8.jpg",
       "tom": "claro",
-      "topo": 820,
       "chamada": "Salve para ler antes de dormir. Se fez sentido, comente PAZ."
     }
   ]
