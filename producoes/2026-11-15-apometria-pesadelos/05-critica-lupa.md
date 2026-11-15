@@ -91,3 +91,36 @@ Observação para a Guardiã (não entra na nota): o horário aparece como **ró
 4. **Lâm. 6.** Na frase "o que aproxima é a sintonia, o estado em que a gente está", dizer o que se aproxima e explicar sem jargão, ex.: "o que aproxima ou afasta coisa ruim é o estado em que a gente está, não o fato de entender." Cortar "E com menos susto a gente deita em outra sintonia." e terminar em "Saber o que acontece de noite tira o susto." (com isso a lâmina fica abaixo de 45 palavras).
 5. **Lâm. 7.** Cortar o aforismo "Quem deita com o dia inteiro na cabeça leva o dia para a noite." ou trocar por uma cena concreta (ex.: "Deitar ainda respondendo mensagem é levar o dia inteiro para a cama."). Trocar "Quem faz tratamento segue o que foi recomendado." por algo falado (ex.: "E, se já faz tratamento, vale seguir o que foi combinado."). Usar uma pessoa só ("a gente" ou "você") na lâmina inteira.
 6. **Lâm. 8 e relatório.** Lâm. 8: trocar "e isso já muda o jeito de deitar" por um final concreto que não repita "deitar" do título (ex.: "e apagar a luz fica menos pesado"). No "O que mudou", corrigir a contagem de "na visão espiritual": são 3 ocorrências (capa, lâm. 3 e lâm. 6), não 2.
+
+## Versão 4
+
+Data: 15/11/2026 · Crítica: Lupa · Arquivo julgado: `04-roteiro.md` (Versão 4)
+Mesmo rigor da v3: Naturalidade ≥ 8 obrigatória, teste da leitura em voz alta e lista de estruturas de IA.
+
+**Visão geral.** As 6 mudanças da v3 foram feitas e conferi cada uma no texto. O relatório "O que mudou" agora bate com a peça: "na visão espiritual" aparece 2 vezes (capa e lâm. 3). Muitas frases novas saíram dos exemplos que a própria Lupa deu na v3. Por isso reli essas frases com mais cuidado, para não aprovar por eco, e julguei só como elas soam na peça. Lida em voz alta do começo ao fim, a peça soa como gente falando. A lâm. 2 continua a melhor, e as lâms. 4 a 7 perderam o tom de folheto. Restam três tropeços pequenos, nenhum de estrutura de IA.
+
+Tamanho do texto de apoio: lâm. 2: 42 palavras; lâm. 3: 38; lâm. 4: 42; lâm. 5: 31; lâm. 6: **47** (a Pena informou 45); lâm. 7: 43; lâm. 8: 23. Só a lâm. 6 passa um pouco de ~45.
+
+| # | Critério | Peso | Nota | Justificativa | Instrução de melhoria |
+|---|---|---|---|---|---|
+| 1 | Gancho | 25% | 9 | A capa não mudou: tem 6 palavras, vem da pergunta real do Quora, fala do sintoma e não dá medo. A linha de apoio "Por que ele volta, na visão espiritual." segue seca, mas entrega a promessa. | (nota 9: sem instrução obrigatória) |
+| 2 | Identificação | 20% | 9 | A dor do público atravessa a peça. A lâm. 2 traz o tremor, não querer dormir de novo, a madrugada, o sonho "tão real" (Quora e Tribuna) e agora o dia seguinte ("já começa moído"), que devolve o cansaço sem marcar gênero. A lâm. 4 fecha retomando a cena ("a pessoa acorda tremendo de novo"), e a lâm. 7 traz uma cena reconhecível ("Deitar ainda respondendo mensagem"). | (nota 9: sem instrução obrigatória) |
+| 3 | Progressão | 20% | 8,5 | O fio de perguntas segue firme (tão real? → o mesmo? → não atrai? → o que vai para o travesseiro?). A contradição "da outra semana" e a ponta solta da paralisia do sono saíram, e as lâms. 6 e 7 não se sobrepõem mais. A lâm. 5 ainda termina em "da casa" sem nada que puxe a dúvida da 6. A virada para a objeção depende só do título da 6, e o salto entre "corte do vínculo" e "falar disso atrai?" fica um pouco seco. | Opcional. Na lâm. 6, fazer a primeira frase ligar com a 5 sem frase-moldura, ex.: "Tem gente que evita até ler sobre isso, com medo de chamar coisa ruim." ("ler sobre isso" aponta para o que a leitora acabou de ler). |
+| 4 | Valor | 15% | 8,5 | Ensina o que a pessoa não sabia: o sono como experiência, o vínculo explicado em palavras simples e o processo com objetivo claro ("ver de onde vem essa ligação"). A objeção agora é desfeita em palavras do dia a dia. Só que "o estado em que a gente está" segue abstrato: a leitora não sabe que estado é esse. | Lâm. 6: dar um exemplo concreto do estado, tirado da pauta (item 5, lâm. 4: "agitação, peso do dia, mágoa, medo"), ex.: "é o estado em que a gente está (agitação, mágoa, medo), não entender o assunto." Isso também corta palavras. |
+| 5 | Naturalidade | 10% | 8,5 | Passa no teste da voz alta. Sumiram "Isso tem nome:", o folheto da lâm. 5, a frase redonda da 6, o aforismo e o tom de bula da 7. "larga o celular", "reza", "moído" e "vale seguir o que foi combinado" são fala de verdade, e não há nenhum clichê da lista. Ficam três tropeços. (1) Lâm. 3: "mas continua presa a ele. **E vive o que sonha.**" é fragmento solto, o mesmo tipo de problema da v1. (2) Lâm. 6 repete "coisa ruim" duas vezes em duas frases, e "não o fato de entender" é construção de texto escrito. (3) Lâm. 7: "conversa do seu jeito com aquilo em que você acredita" ainda soa cuidadoso demais, como frase de política de inclusão. | Lâm. 3: juntar em uma frase ("mas continua presa a ele, e vive o que sonha."). Lâm. 6: tirar o segundo "coisa ruim" e o "o fato de" (ver Valor). Lâm. 7, opcional: "ou conversa do seu jeito com Deus, com o que você acredita" ou só "e reza do seu jeito", como já está na legenda. |
+| 6 | Fechamento | 10% | 9 | "Pode ser que o sonho ainda apareça amanhã" é honesto, e "apagar a luz fica menos pesado" fecha com uma imagem concreta que conversa com o rótulo da lâm. 7 ("ANTES DE APAGAR A LUZ"), sem moral e sem repetir "deitar". A chamada é leve e combina com o tema. | (nota 9: sem instrução obrigatória) |
+
+### Média ponderada
+(9 × 0,25) + (9 × 0,20) + (8,5 × 0,20) + (8,5 × 0,15) + (8,5 × 0,10) + (9 × 0,10)
+= 2,25 + 1,80 + 1,70 + 1,275 + 0,85 + 0,90
+= **8,775 (≈ 8,78)**
+
+### Veredito: **APROVADO**
+A média (8,78) passou de 8,5, nenhum critério ficou abaixo de 7 e a **Naturalidade (8,5) cumpre o mínimo de 8**.
+
+**Polimento recomendado (não bloqueia; se aplicado, não precisa de nova rodada da Lupa, desde que respeite ~45 palavras e não crie frase nova de efeito):**
+1. **Lâm. 3:** "mas continua presa a ele. E vive o que sonha." → "mas continua presa a ele, e vive o que sonha."
+2. **Lâm. 6:** "o que aproxima ou afasta coisa ruim é o estado em que a gente está, não o fato de entender." → "o que aproxima ou afasta é o estado em que a gente está (agitação, mágoa, medo), não entender o assunto." Isso resolve a repetição, o tom escrito, o exemplo concreto e as 47 palavras.
+3. **Legenda, 3º parágrafo:** "O caso é estudado à distância" chega sem sujeito, e não fica claro de quem é o caso. Trocar por "Na apometria, o caso de cada pessoa é estudado à distância…".
+
+Observação para a Guardiã (não entra na nota): o horário saiu do rótulo, mas ficou no texto da lâm. 2 ("Três, quatro da manhã") e é a **primeira linha da legenda**, que funciona como gancho no feed. A pauta (item 9) pedia para não citar horário. Não há "horário das bruxas" nem nada sobrenatural ligado à hora. Cabe à Guardiã ou à responsável aceitar.
