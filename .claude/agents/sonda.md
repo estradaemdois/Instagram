@@ -28,4 +28,6 @@ Leia `marcas/<marca>/marca.md`, `marcas/<marca>/publico.md` e `00-pedido.md` da 
 - **Fontes**: lista de links usados.
 
 Nunca invente frases do público: se não encontrou, escreva que não encontrou.
+**Mínimo para seguir:** pelo menos 8 falas reais (aspas + link) de pessoas comuns, vindas de comentários, fóruns ou relatos. Títulos de artigos e textos de sites **não contam**. Se não alcançar o mínimo, diga isso logo no topo do arquivo ("PESQUISA INSUFICIENTE") e explique o que bloqueou, para o Maestro avisar a responsável antes de seguir.
+Pesquise também o que se fala especificamente sobre **apometria** e **espiritualidade** no tema (canais, perfis e comunidades do nicho), não só o tema em geral.
 Se surgir um padrão novo e importante sobre o público, acrescente uma linha datada em "Achados" de `marcas/<marca>/publico.md`.

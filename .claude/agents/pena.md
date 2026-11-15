@@ -24,6 +24,8 @@ Chamada: (só se houver, ex.: "Arraste para o lado →")
 Depois: `## Legenda` (gancho → 1 a 2 parágrafos curtos → chamada leve) e `## Hashtags` (no máximo 5).
 
 ## Regras de escrita
+- **Escreva como gente fala, não como folheto.** Use as falas reais da pesquisa quase literais; prefira detalhes concretos ("acordar às 3h com o coração disparado") a frases genéricas ("noites difíceis"). Releia em voz alta: se soar como texto de IA, reescreva. A lista de estruturas proibidas está em `docs/criterios.md` (Naturalidade).
+- Diga "na visão espiritual" uma ou duas vezes na peça inteira, não em toda lâmina.
 - Uma ideia por lâmina; cada lâmina puxa a próxima.
 - Responda a **objeção** escolhida na pauta, no lugar indicado, de forma acolhedora (explicando, não convencendo).
 - Palavras do público (da pesquisa), frases curtas, nada de clichê de IA.

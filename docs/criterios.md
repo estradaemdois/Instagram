@@ -16,11 +16,15 @@ Nota de 0 a 10 em cada critério, com **uma frase de justificativa** e, se a not
 | 2 | **Identificação** | 20% | Usa as palavras reais do público (da pesquisa da Sonda). A pessoa pensa "isso sou eu". |
 | 3 | **Progressão** | 20% | Uma ideia por lâmina/cena; cada uma deixa uma ponta solta para a próxima. Não repete. A capa promete o que o resto entrega. |
 | 4 | **Valor** | 15% | Ensina algo que a pessoa não sabia, de forma clara, e desfaz a objeção escolhida na pauta. Informativo, não propaganda. |
-| 5 | **Naturalidade** | 10% | Soa como gente. Sem clichês de IA (lista abaixo), sem frases longas demais, sem jargão sem explicar. |
+| 5 | **Naturalidade** | 10% | Soa como gente falando, não como texto institucional. Sem clichês de IA (lista abaixo), sem frases longas demais, sem jargão sem explicar. **Nota abaixo de 8 aqui reprova a peça, mesmo com média alta.** |
 | 6 | **Fechamento** | 10% | Termina com acolhimento e uma chamada leve e coerente (salvar, compartilhar, comentar uma palavra). |
 
-**Aprovado:** média ponderada **≥ 8,5** **e** nenhum critério abaixo de **7**.
+**Aprovado:** média ponderada **≥ 8,5**, nenhum critério abaixo de **7** **e Naturalidade ≥ 8** (decisão da responsável, 15/11/2026: texto com cara de IA é reprovado).
 **Reprovado:** volta para a Pena com as instruções. **Máximo de 3 voltas.** Na 3ª reprovação, o Maestro leva a melhor versão para a responsável decidir, com as notas.
+
+**Teste da leitura em voz alta:** leia cada lâmina como se fosse a Andressa falando com uma amiga. Se soar como folheto, site institucional ou "texto de IA", a nota de Naturalidade fica abaixo de 8.
+
+**Estruturas de IA que tiram ponto:** frases-moldura ("E é aí que entra…", "E aí surge uma dúvida…", "pode ser um convite para…", "com calma e sem medo"), repetir "na visão espiritual" em toda lâmina, listas de três ações em sequência, frases que explicam o óbvio, finais redondos e moralistas, linguagem genérica que serviria para qualquer tema.
 
 **Clichês de IA que tiram ponto em Naturalidade:** "mergulhar", "jornada" (em excesso), "desvendar", "não é apenas X, é Y", "é importante lembrar", "em um mundo onde", "transformador", "poderoso", "descubra o segredo", "você não está sozinho(a)" como muleta, travessão em toda frase, três adjetivos em sequência.
 
