@@ -15,7 +15,7 @@ export type Lamina = {
   texto: string;                // texto de apoio
   imagem: string;               // arquivo dentro da pasta da produção
   tom: 'escuro' | 'marca' | 'claro'; // força do degradê por cima da foto
-  topo?: number;                // posição do bloco de texto (px). Padrão: 560 (capa 520)
+  topo?: number;                // opcional: fixa o topo do bloco (px). Sem ele, o bloco fica ancorado embaixo, logo acima da assinatura
   chamada?: string;             // linha extra em destaque (ex.: "Arraste para o lado →")
 };
 export type PropsCarrossel = {pasta: string; identidade: Identidade; laminas: Lamina[]};
@@ -38,7 +38,7 @@ const useFontes = (pasta: string, id: Identidade) => {
 
 // "*trecho*" vira itálico em destaque; pontuação colada ao trecho fica na cor do texto
 const Titulo: React.FC<{txt: string; size: number; id: Identidade}> = ({txt, size, id}) => (
-  <div style={{fontFamily: familia('titulo'), fontWeight: Number(id.fontes.titulo.peso), fontSize: size, lineHeight: 1.25, color: id.cores.texto}}>
+  <div style={{fontFamily: familia('titulo'), fontWeight: Number(id.fontes.titulo.peso), fontSize: size, lineHeight: 1.25, color: id.cores.texto, textWrap: 'balance'} as React.CSSProperties}>
     {txt.split(' / ').map((linha, i) => (
       <div key={i}>
         {linha.split(/(\*[^*]+\*)/g).filter(Boolean).map((p, k) => {
@@ -60,7 +60,7 @@ const Titulo: React.FC<{txt: string; size: number; id: Identidade}> = ({txt, siz
 const degrade = (tom: Lamina['tom'], id: Identidade) => {
   const c = tom === 'escuro' ? id.cores.escuro : id.cores.marca;
   if (tom === 'claro')
-    return `linear-gradient(180deg, rgba(${c},0) 0%, rgba(${c},0) 34%, rgba(${c},0.40) 46%, rgba(${c},0.78) 60%, rgba(${c},0.84) 100%)`;
+    return `linear-gradient(180deg, rgba(${c},0) 0%, rgba(${c},0) 28%, rgba(${c},0.50) 40%, rgba(${c},0.82) 52%, rgba(${c},0.90) 100%)`;
   return `linear-gradient(180deg, rgba(${c},0.10) 0%, rgba(${c},0) 22%, rgba(${c},0.55) 42%, rgba(${c},0.84) 62%, rgba(${c},0.92) 100%)`;
 };
 
@@ -76,7 +76,8 @@ export const Carrossel: React.FC<PropsCarrossel> = ({pasta, identidade: id, lami
     <AbsoluteFill style={{background: '#000'}}>
       <Img src={arq(l.imagem)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
       <AbsoluteFill style={{background: degrade(l.tom, id)}} />
-      <div style={{position: 'absolute', left: 80, width: 920, top: l.topo ?? (capa ? 520 : 560), textAlign: 'center'}}>
+      {/* Bloco ancorado embaixo: termina acima do rodapé (ou do logo, na última lâmina) */}
+      <div style={{position: 'absolute', left: 80, width: 920, textAlign: 'center', textWrap: 'pretty', ...(l.topo ? {top: l.topo} : {bottom: ultima ? 1350 - 1080 : 1350 - 1210})} as React.CSSProperties}>
         <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 20, marginBottom: 34}}>
           <div style={{width: 50, height: 1.5, background: id.cores.destaque}} />
           <div style={{fontFamily: familia('rotulo'), fontWeight: Number(id.fontes.rotulo.peso), fontSize: 24, letterSpacing: '0.28em', paddingLeft: '0.28em', color: id.cores.destaque}}>{l.rotulo}</div>
