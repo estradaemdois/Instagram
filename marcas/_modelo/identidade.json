@@ -1,0 +1,11 @@
+{
+  "nome": "APOMETRIA BRASIL",
+  "logo": "logo.png",
+  "cores": { "escuro": "10,28,30", "marca": "20,70,74", "texto": "#FAF7F0", "destaque": "#C9A24A" },
+  "fontes": {
+    "titulo": { "arquivo": "lora-500.woff2", "peso": "500" },
+    "titulo_italico": { "arquivo": "lora-500-italico.woff2", "peso": "500", "estilo": "italic" },
+    "texto": { "arquivo": "figtree-400.ttf", "peso": "400" },
+    "rotulo": { "arquivo": "figtree-600.woff2", "peso": "600" }
+  }
+}

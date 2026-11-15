@@ -1,0 +1,86 @@
+{
+  "pasta": "producao/2026-11-14-apometria-alcoolismo",
+  "identidade": {
+    "nome": "APOMETRIA BRASIL",
+    "logo": "logo.png",
+    "cores": {
+      "escuro": "10,28,30",
+      "marca": "20,70,74",
+      "texto": "#FAF7F0",
+      "destaque": "#C9A24A"
+    },
+    "fontes": {
+      "titulo": {
+        "arquivo": "lora-500.woff2",
+        "peso": "500"
+      },
+      "titulo_italico": {
+        "arquivo": "lora-500-italico.woff2",
+        "peso": "500",
+        "estilo": "italic"
+      },
+      "texto": {
+        "arquivo": "figtree-400.ttf",
+        "peso": "400"
+      },
+      "rotulo": {
+        "arquivo": "figtree-600.woff2",
+        "peso": "600"
+      }
+    }
+  },
+  "laminas": [
+    {
+      "rotulo": "ESPIRITUALIDADE E ALCOOLISMO",
+      "titulo": "Quando a vontade / de beber / *não é só sua*.",
+      "texto": "Entenda como a visão espiritual explica os processos obsessivos no vício.",
+      "tom": "escuro",
+      "chamada": "Arraste para o lado  →",
+      "imagem": "s1.jpg"
+    },
+    {
+      "rotulo": "O QUE É OBSESSÃO",
+      "titulo": "Uma influência que / *se instala aos poucos*.",
+      "texto": "Na visão energética e espiritual, obsessão é a influência persistente de um espírito sobre uma pessoa. Ela só se firma onde há afinidade: pensamentos, emoções e hábitos parecidos.",
+      "tom": "escuro",
+      "imagem": "s2.jpg"
+    },
+    {
+      "rotulo": "COMO ACONTECE NO VÍCIO",
+      "titulo": "O desejo que / *continua depois da morte*.",
+      "texto": "Quem viveu dependente do álcool pode seguir preso a esse desejo depois de desencarnar. Sem o corpo, aproxima-se de quem bebe para sentir junto. Na visão espiritual, isso é chamado de vampirismo energético.",
+      "tom": "escuro",
+      "imagem": "s3.jpg"
+    },
+    {
+      "rotulo": "O CICLO",
+      "titulo": "Quanto mais se bebe, / *mais forte a ligação*.",
+      "texto": "A bebida abre espaço, o espírito reforça a vontade, a culpa e a tristeza baixam a vibração, e a sintonia aumenta. Por isso tanta gente diz: “eu não queria, mas não consegui parar”.",
+      "tom": "escuro",
+      "imagem": "s4.jpg"
+    },
+    {
+      "rotulo": "COMO A APOMETRIA ATUA",
+      "titulo": "Acolher, encaminhar / e *desfazer vínculos*.",
+      "texto": "Em sessão, a equipe trabalha no plano espiritual: identifica os espíritos ligados à pessoa, acolhe e encaminha esses irmãos para tratamento, desfaz os vínculos e limpa o campo energético.",
+      "tom": "marca",
+      "imagem": "s5.jpg"
+    },
+    {
+      "rotulo": "O QUE SUSTENTA A MUDANÇA",
+      "titulo": "O espiritual abre o caminho. / *A pessoa caminha*.",
+      "texto": "Novos hábitos, oração, o apoio de quem ama e seguir as recomendações do tratamento fazem parte do processo. A transformação se sustenta no dia a dia.",
+      "tom": "claro",
+      "topo": 820,
+      "imagem": "s6.jpg"
+    },
+    {
+      "rotulo": "LIVRAMENTO",
+      "titulo": "Livramento é processo. / *Um dia de cada vez*.",
+      "texto": "Conhece alguém que passa por isso? Compartilhe este conteúdo com carinho.",
+      "tom": "claro",
+      "topo": 680,
+      "imagem": "s7.jpg"
+    }
+  ]
+}

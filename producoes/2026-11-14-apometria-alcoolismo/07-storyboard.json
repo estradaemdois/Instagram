@@ -1,0 +1,145 @@
+{
+  "marca": "apometria-brasil",
+  "formato": "carrossel",
+  "observacao": "Exemplo de referência: carrossel aprovado em 14/11/2026, feito antes da fábrica existir.",
+  "imagens": [
+    {
+      "arquivo": "s1.jpg",
+      "url": "https://images.pexels.com/photos/5616274/pexels-photo-5616274.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 5616274",
+      "foco": [
+        0.5,
+        0.45
+      ],
+      "zoom": 1,
+      "brilho": 0.62,
+      "saturacao": 0.55
+    },
+    {
+      "arquivo": "s2.jpg",
+      "url": "https://images.pexels.com/photos/9040182/pexels-photo-9040182.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 9040182",
+      "foco": [
+        0.5,
+        0.4
+      ],
+      "zoom": 1,
+      "brilho": 0.55,
+      "saturacao": 0.35
+    },
+    {
+      "arquivo": "s3.jpg",
+      "url": "https://images.pexels.com/photos/17450454/pexels-photo-17450454.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 17450454",
+      "foco": [
+        0.12,
+        0.5
+      ],
+      "zoom": 1,
+      "brilho": 1.15,
+      "saturacao": 0.6
+    },
+    {
+      "arquivo": "s4.jpg",
+      "url": "https://images.pexels.com/photos/5389628/pexels-photo-5389628.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 5389628",
+      "foco": [
+        0.5,
+        0.5
+      ],
+      "zoom": 1,
+      "brilho": 1.06,
+      "saturacao": 0.35
+    },
+    {
+      "arquivo": "s5.jpg",
+      "url": "https://images.pexels.com/photos/32113366/pexels-photo-32113366.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 32113366",
+      "foco": [
+        0.5,
+        0.4
+      ],
+      "zoom": 1,
+      "brilho": 1.0,
+      "saturacao": 0.8
+    },
+    {
+      "arquivo": "s6.jpg",
+      "url": "https://images.pexels.com/photos/30669567/pexels-photo-30669567.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 30669567",
+      "foco": [
+        0.5,
+        0.634
+      ],
+      "zoom": 1.3,
+      "brilho": 1.2,
+      "saturacao": 0.9
+    },
+    {
+      "arquivo": "s7.jpg",
+      "url": "https://images.pexels.com/photos/32298479/pexels-photo-32298479.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 32298479",
+      "foco": [
+        0.5,
+        0.624
+      ],
+      "zoom": 1.149,
+      "brilho": 1.2,
+      "saturacao": 1.0
+    }
+  ],
+  "laminas": [
+    {
+      "rotulo": "ESPIRITUALIDADE E ALCOOLISMO",
+      "titulo": "Quando a vontade / de beber / *não é só sua*.",
+      "texto": "Entenda como a visão espiritual explica os processos obsessivos no vício.",
+      "tom": "escuro",
+      "chamada": "Arraste para o lado  →",
+      "imagem": "s1.jpg"
+    },
+    {
+      "rotulo": "O QUE É OBSESSÃO",
+      "titulo": "Uma influência que / *se instala aos poucos*.",
+      "texto": "Na visão energética e espiritual, obsessão é a influência persistente de um espírito sobre uma pessoa. Ela só se firma onde há afinidade: pensamentos, emoções e hábitos parecidos.",
+      "tom": "escuro",
+      "imagem": "s2.jpg"
+    },
+    {
+      "rotulo": "COMO ACONTECE NO VÍCIO",
+      "titulo": "O desejo que / *continua depois da morte*.",
+      "texto": "Quem viveu dependente do álcool pode seguir preso a esse desejo depois de desencarnar. Sem o corpo, aproxima-se de quem bebe para sentir junto. Na visão espiritual, isso é chamado de vampirismo energético.",
+      "tom": "escuro",
+      "imagem": "s3.jpg"
+    },
+    {
+      "rotulo": "O CICLO",
+      "titulo": "Quanto mais se bebe, / *mais forte a ligação*.",
+      "texto": "A bebida abre espaço, o espírito reforça a vontade, a culpa e a tristeza baixam a vibração, e a sintonia aumenta. Por isso tanta gente diz: “eu não queria, mas não consegui parar”.",
+      "tom": "escuro",
+      "imagem": "s4.jpg"
+    },
+    {
+      "rotulo": "COMO A APOMETRIA ATUA",
+      "titulo": "Acolher, encaminhar / e *desfazer vínculos*.",
+      "texto": "Em sessão, a equipe trabalha no plano espiritual: identifica os espíritos ligados à pessoa, acolhe e encaminha esses irmãos para tratamento, desfaz os vínculos e limpa o campo energético.",
+      "tom": "marca",
+      "imagem": "s5.jpg"
+    },
+    {
+      "rotulo": "O QUE SUSTENTA A MUDANÇA",
+      "titulo": "O espiritual abre o caminho. / *A pessoa caminha*.",
+      "texto": "Novos hábitos, oração, o apoio de quem ama e seguir as recomendações do tratamento fazem parte do processo. A transformação se sustenta no dia a dia.",
+      "tom": "claro",
+      "topo": 820,
+      "imagem": "s6.jpg"
+    },
+    {
+      "rotulo": "LIVRAMENTO",
+      "titulo": "Livramento é processo. / *Um dia de cada vez*.",
+      "texto": "Conhece alguém que passa por isso? Compartilhe este conteúdo com carinho.",
+      "tom": "claro",
+      "topo": 680,
+      "imagem": "s7.jpg"
+    }
+  ]
+}
