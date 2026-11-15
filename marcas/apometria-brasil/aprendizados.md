@@ -16,3 +16,9 @@ Os agentes leem este arquivo antes de criar.
 | 15/11/2026 | Carrossel pesadelos (teste) | **Reprovado**: linguagem genérica, "padrão de IA" | Sim: Pena/Lupa endurecidas (ver criterios.md, Naturalidade) |
 | 15/11/2026 | Carrossel pesadelos (teste) | Pesquisa rasa: precisa ir a fóruns, comentários e conteúdos de espiritualidade e apometria, não só títulos de artigos | Sim: Sonda só segue com falas reais; sem elas, para e avisa |
 | 15/11/2026 | Direção geral | Quer **vídeo**: narração automática, cenas geradas (Kling), cortes e motion graphics | Sim: fase de Reels com vídeo vira prioridade |
+| 15/11/2026 | Carrossel pesadelos (final) | Linguagem ainda genérica; **visual idêntico ao anterior**: não quer repetir o mesmo modelo | Sim: novo padrão visual com imagens geradas por IA |
+| 15/11/2026 | Direção geral | Juízes devem avaliar **se o assunto é interessante** (não só o texto) | Sim: critério "Interesse do tema" |
+| 15/11/2026 | Direção geral | Imagens/vídeos devem **representar fielmente** o processo descrito (astral → gerado por IA), fiéis ao texto/narração | Sim: juiz de fidelidade antes e depois de gerar |
+| 15/11/2026 | Direção geral | Edição profissional com som que cause sentimento (apreensão, medo → alívio); vídeos do terapeuta falando + representações | Sim: agentes de edição e som |
+| 15/11/2026 | Direção geral | Juiz para não gastar crédito à toa nas gerações | Sim: aprovação do comando visual antes de gerar |
+| 15/11/2026 | Direção geral | Pode usar imagens/vídeos que já existem na internet só quando o assunto for muito interessante e informativo | Sim, respeitando direitos de uso |
