@@ -14,3 +14,4 @@ brigas em casa sem motivo, pesadelos, sensação de ser observada, um familiar q
 
 ## Achados
 - 14/11/2026 · Alcoolismo: pouca conversa pública em fóruns; material disponível é majoritariamente doutrinário. Frase real recorrente: "eu não queria, mas não consegui parar".
+- 15/11/2026 · Pesadelos: a busca web traz quase só artigos médicos/psicológicos e de "proteção energética" (sal grosso, cristais, oração); não achei relatos reais (YouTube, Quora, fóruns) nem fonte apométrica sobre sono. Assunto muito associado a acordar às 3h e paralisia do sono. Neste ambiente a leitura de páginas inteiras estava bloqueada.
