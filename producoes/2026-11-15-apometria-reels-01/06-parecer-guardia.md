@@ -125,3 +125,71 @@ A cena 5 ("Mas dá medo de se desligar de vez, né? De esquecer ele?") está **s
 | Privacidade / pessoa real identificável | ✅ | Na cena 1, o rosto não é identificável. A "foto antiga dos dois" precisa ser gerada ou de banco, nunca de casal real reconhecível. |
 | Nada que sugira amarração ou fazer mal a alguém | ✅ | Os cordões só são desfeitos, "sem tesoura e sem corte brusco". Na cena 5 eles só são envolvidos pela luz. A outra silhueta nunca é presa nem atingida e, na cena 7, as duas seguem "inteiras". |
 | Sem venda ou crédito no visual | ✅ | A cena 9 tem só a assinatura da marca. |
+
+## Versão 3
+
+Data: 15/11/2026 · Roteiro conferido: `04-roteiro.md` (Versão 3), cenas 1 a 9 (narração, texto na tela, "O que se vê", clima/som), legenda e hashtags, palavra por palavra. A seção "O que mudou" e a tabela de ritmo são anotações internas e não vão ao ar.
+
+**Veredito: APROVADO**
+
+Nenhuma regra foi quebrada. As mudanças de ritmo e de tela não trouxeram termo proibido, promessa nova nem citação alterada.
+
+**Citações (aspas), conferidas com `marcas/apometria-brasil/pesquisa/2026-11-15-youtube-vinculo-ex.md`:**
+
+| Onde | Na peça (entre aspas) | Na pesquisa | Confere? |
+|---|---|---|---|
+| Cena 8 · Narração | "nem pensei nele hoje!" | "nem pensei nele hoje!" (182) | ✅ idêntica |
+| Cena 8 · Na tela | nem pensei nele *hoje!* (sem aspas) | mesma fala | ✅ mesmo texto |
+| Legenda, 3º parágrafo | "me sinto leve" | "me sinto leve" (21) | ✅ idêntica |
+| Legenda, 4º parágrafo | comenta "leve" | (não é citação, é a palavra que se pede para comentar) | ✅ não se aplica |
+
+Trechos sem aspas, que são paráfrase e estão liberados: "se desligar de vez" (cena 5, da objeção de 218 curtidas) e "aos poucos" (cena 6 e legenda, da fala de 414 curtidas).
+
+### Observações (não vetam, ficam como cuidado)
+- **Cena 8 · "Quando os cordões soltam, tem gente que diz:"**: a ligação com o processo ficou mais forte que na Versão 2 ("quando se solta"). Como na peça "os cordões" são o que a apometria solta (cena 6), quem assiste pode entender que a fala é de alguém atendido. Ela veio de comentários de uma meditação de "divórcio energético", que também fala de soltar vínculos de energia. Por isso a frase não chega a ser informação inventada, e "tem gente que diz" é relato, não promessa. Passa. O limite: não pode virar "quem faz apometria diz", "depois da sessão" nem "você vai dizer". Fica o registro para o juiz de fidelidade.
+- **Legenda · "Tem gente que diz só: 'me sinto leve'."**: o mesmo ponto. A frase vem logo depois de "No corte de vínculos, esses cordões são soltos…". Passa pelo mesmo motivo.
+- **Cena 1 e legenda · "ainda sente ele por perto?"**: agora fala direto com quem assiste ("[você] sente"), mas em forma de pergunta, que é o que a regra 8 recomenda. A situação também não é sensível. Passa.
+- **Português · "sente ele" na legenda escrita**: o pronome "ele" como complemento é coloquial (a norma culta seria "o sente"). Na fala, tudo bem. Na legenda escrita, é coerente com o tom de amiga ("pra", "tá") e é comum no Brasil, então não veta. Se quiserem a legenda mais polida: *"Terminou faz tempo e ainda parece que ele tá por perto?"*.
+- **Legenda · "comenta 'leve'"**: o mesmo aviso da Versão 2 (a Meta pode tratar como isca de engajamento e diminuir o alcance). Não é proibido, e o "se fizer sentido" suaviza.
+- **Cena 7 · "E os dois ficam livres. Ninguém sai machucado."**: igual à Versão 2. Vem depois de "Na apometria…" e não tem "vai", "de vez" nem "sempre". Passa.
+- **Visual**: a foto do casal desfocada, com os dois de costas e gerada ou de banco, resolve a privacidade. A cena 4 já proíbe correntes e tentáculos e a cena 6 já proíbe mãos escuras ou deformadas. Manter isso no comando visual.
+
+### Checklist de todas as regras conferidas
+
+**Regras da marca (`marcas/apometria-brasil/regras.md`)**
+
+| # | Regra | Resultado | Onde conferi |
+|---|---|---|---|
+| 1 | Sem "doutrina espírita", "espiritismo", "espíritas" e afins | ✅ | Cenas 1-9, telas, legenda e hashtags. Aparecem só "Na visão espiritual" (cena 3), "equipe espiritual" (cena 6) e "#espiritualidade". Nenhum tem "espírita" ou "espiritismo". |
+| 2 | Sem livros, autores ou médiuns | ✅ | Nenhum nome citado. "Equipe espiritual" não nomeia médium. |
+| 3 | Sem crédito de imagens na legenda | ✅ | A legenda não tem crédito. A nota "gerada ou de banco" fica só no roteiro, não vai à legenda. |
+| 4 | Sem AA, ajuda médica/psicológica, CAPS, remédios | ✅ | Nenhuma menção. |
+| 5 | Sem promessa de cura, resultado ou prazo | ✅ | Sem "vai", "garantido", "de vez" (fora a objeção da cena 5, que é medo do público), número de sessões ou prazo. "Aos poucos" descreve o modo, não um prazo. Ver as observações das cenas 7 e 8. |
+| 6 | Sem venda (preço, promoção, agende, vagas, link na bio, urgência) | ✅ | "À distância" informa. As chamadas são salvar, compartilhar e comentar. Nenhuma oferta. |
+| 7 | Sem medo ou culpa como gancho | ✅ | O gancho é pergunta de identificação ("ainda sente ele por perto?"). O "medo" da cena 5 é a objeção do público, apresentada para ser desfeita. A cena 9 acolhe. |
+| 8 | Sem afirmar condição pessoal do leitor | ✅ | Cena 1 e legenda são perguntas; cenas 2 e 4 usam "a gente"; cena 8 e legenda usam "tem gente que". |
+| 9 | Até 5 hashtags; legenda até 2.200 caracteres | ✅ | 5 hashtags (#apometria #cortedevinculos #fimderelacionamento #espiritualidade #apometriabrasil). Legenda com cerca de 500 caracteres. |
+| Obr. | Conceito espiritual apresentado como visão | ✅ | Cena 3: "Na visão espiritual…"; cena 6: "Na apometria, …"; legenda: "A apometria vê assim:". |
+| Obr. | Linguagem acolhedora e sem julgamento | ✅ | "Tudo bem ainda sentir."; ninguém é culpado por ainda sentir a pessoa. |
+| Obr. | Pontuação colada na palavra-chave em destaque | ✅ | *perto?* · *pensa.* · *desligar.* · *viveram.* · *aos poucos.* · *livres.* · *hoje!* · *terminou.*, todas sem espaço solto. Em "os *cordões* continuam." o ponto está colado em "continuam". |
+
+**Regras gerais (`docs/criterios.md`, seção 2)**
+
+| # | Regra | Resultado | Observação |
+|---|---|---|---|
+| 1 | Sem promessa de cura, resultado garantido ou prazo | ✅ | Igual à regra 5 da marca. |
+| 2 | Sem afirmar condição pessoal do leitor | ✅ | Igual à regra 8 da marca. |
+| 3 | Sem medo, culpa ou ameaça como gancho | ✅ | Igual à regra 7 da marca. |
+| 4 | Sem informação inventada (citações só da pesquisa, com fonte) | ✅ | As duas aspas são idênticas à pesquisa (tabela acima). Nenhum número, estudo ou "pesquisas mostram" na peça (os números de palavras e curtidas ficam só nas anotações internas). |
+| 5 | Até 5 hashtags; legenda até 2.200 caracteres | ✅ | 5 hashtags; cerca de 500 caracteres. |
+| 6 | Português do Brasil correto | ✅ | Ortografia, concordância e crase ok ("à distância"). "sente ele", "pra" e "tá" são coloquiais, aceitáveis no tom da marca (ver a observação). |
+
+**Imagem e som (coluna "O que se vê" e clima)**
+
+| Ponto | Resultado | Observação |
+|---|---|---|
+| Nada que gere medo ou terror | ✅ | O escuro das cenas 1 a 4 é melancólico. A cena 4 proíbe por escrito correntes, tentáculos e "algo vivo", e a cena 6 proíbe mãos escuras ou deformadas. |
+| Privacidade / pessoa real identificável | ✅ | Rosto da mulher não identificável. A foto do casal está desfocada, com os dois de costas, e é gerada ou de banco. |
+| Nada que sugira amarração ou fazer mal a alguém | ✅ | Os cordões só são desfeitos, "sem tesoura e sem corte brusco". A outra silhueta nunca é presa nem atingida e saiu do plano real da cena 6. Na cena 7, as duas seguem "inteiras". |
+| Não sugerir resultado "depois da sessão" | ✅ | A cena 8 usa "luz do dia", sem marcar tempo depois do atendimento. |
+| Sem venda ou crédito no visual | ✅ | A cena 9 tem só a assinatura da marca. |

@@ -82,3 +82,33 @@ Todas as correções visuais da Versão 1 entraram. O rosto não aparece na cena
 5. **Legenda (para ficar coerente com a narração):** onde está "laços de energia" e "esses laços são soltos", usar "cordões de energia" e "esses cordões são soltos".
 6. **Visual:** na cena 6, plano real, trocar "em direção à silhueta distante" por "para fora do quadro"; nas cenas 1 e 5, a foto do casal deve ficar desfocada ou sem rostos; na cena 8, trocar "de manhã" por "luz do dia".
 7. **Registro (não muda a peça):** no "O que mudou", corrigir que "a gente ainda sente a pessoa" não é uma fala da pesquisa. Isso evita que a frase vá parar no kit como se fosse vocabulário do público.
+
+## Versão 3 · 15/11/2026
+
+Conferi as 7 mudanças da Versão 2 uma a uma, e todas entraram. Recontei a narração palavra por palavra: 9 · 8 · 13 · 13 · 19 · 16 · 8 · 12 · 12 = **110 palavras**. As durações somam **47 s**, e nenhuma cena passa de 2,4 palavras por segundo. A tabela da Pena está certa. Na leitura em voz alta, a narração respira e soa como uma amiga falando. Na narração, o elemento tem um nome só (cordões), e as duas telas que antes dependiam do som agora se entendem sozinhas.
+
+### Notas
+
+| # | Critério | Peso | Nota | Justificativa | Instrução de melhoria |
+|---|---|---|---|---|---|
+| 1 | Gancho | 25% | 9 | São 9 palavras, em forma de pergunta, sobre uma sensação. A fala e a tela ("ainda sente ele *perto?*") dizem a mesma coisa, e a pergunta chega antes de 2 s. A cena 9 retoma o gancho ("Tudo bem ainda sentir"). | — |
+| 2 | Identificação | 20% | 9 | Usa só palavras do público: "se desligar" (218 curtidas), "aos poucos" (414), "nem pensei nele hoje!" (182) e "me sinto leve" (na legenda). O registro sobre a cena 4 foi corrigido. | — |
+| 3 | Progressão | 20% | 9 | Cada cena tem uma ideia só e deixa a próxima engatada. O nome "cordões" se repete do começo ao fim, e o ritmo cabe no tempo. Ponto menor: "Ninguém sai machucado" (cena 7) responde a um medo, o de fazer mal ao ex, que a peça não chegou a dizer. Isso não atrapalha a sequência. | — |
+| 4 | Valor | 15% | 8,5 | Ensina o essencial com clareza: o cordão que fica, por que se sente a pessoa, quem desfaz e como, e que não apaga o que vocês viveram. A fala ainda não explica "à distância" de quê, mas a imagem resolve: ela aparece sozinha no sofá, sem ninguém por perto. | Opcional: deixar como está, porque a imagem explica. Só se sobrar tempo, usar "faz isso à distância, com ela em casa". |
+| 5 | Naturalidade | 10% | 9 | Na leitura em voz alta, soa como gente falando: "e pensa", "né?", "Tudo bem ainda sentir". A frase está em voz ativa, sem intercalação e sem clichê de IA. | — |
+| 6 | Fechamento | 10% | 9 | O fechamento acolhe sem dar lição de moral, pede para compartilhar de um jeito coerente com o tema e a tela se entende sem som. | — |
+
+### Média ponderada
+(9 × 0,25) + (9 × 0,20) + (9 × 0,20) + (8,5 × 0,15) + (9 × 0,10) + (9 × 0,10)
+= 2,25 + 1,80 + 1,80 + 1,275 + 0,90 + 0,90 = **8,93**
+
+### Veredito: **APROVADO**
+A média é 8,93, acima de 8,5. Nenhum critério ficou abaixo de 7, e a Naturalidade, com 9, passa no mínimo de 8.
+
+### Representação visual (fora da média): **9,5**
+Todos os ajustes entraram. A foto do casal aparece desfocada e sem rosto, no plano real não há mais silhueta, a cena 8 não marca o tempo e os avisos sobre os cordões (que não podem parecer correntes) e sobre as mãos de luz estão escritos na própria cena. A sequência dos cordões (presos → puxando → envolvidos pela luz → desfeitos aos poucos → recolhidos em cada peito) mostra o processo com fidelidade ao que a narração diz.
+
+### Polimentos opcionais (não reprovam)
+1. **Duração:** a peça tem 47 s, e o termômetro pedia de 30 a 45 s. Se quiserem caber em 45 s, a cena 7 pode perder "Ninguém sai machucado." (−3 palavras, cerca de 1,5 s), que é a frase mais dispensável. A tela da cena 7 continua igual.
+2. **Legenda · "comenta 'leve'":** fica a observação da Guardiã sobre "isca de engajamento". Como alternativa: "conta nos comentários como você se sente".
+3. **Cena 6 · "à distância":** se a imagem final não deixar claro que ela está sozinha, colocar "com ela em casa" na fala.

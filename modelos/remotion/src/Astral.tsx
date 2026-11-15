@@ -2,7 +2,7 @@ import React from 'react';
 import {AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig, random, Easing} from 'remotion';
 
 // Cenas do astral desenhadas em código (motion graphics). Substituíveis por vídeo gerado (Kling) no futuro.
-export type EstadoAstral = 'peso' | 'ligados' | 'luz' | 'leve' | 'distancia';
+export type EstadoAstral = 'peso' | 'ligados' | 'luz' | 'leve' | 'distancia' | 'envolve';
 type Cor = {escuro: string; marca: string; destaque: string; texto: string};
 
 const W = 1080, H = 1920;
@@ -112,6 +112,19 @@ export const CenaAstral: React.FC<{estado: EstadoAstral; dur: number; cores: Cor
         })}
         {[0, 1, 2, 3, 4].map((i) => <Cordao key={i} x1={A.x + 20} y1={A.y - 10} x2={1300} y2={300 + i * 260} i={i} f={f} cor={cinza} espessura={3} opac={0.7} />)}
         <Silhueta x={A.x} y={A.y} s={1.0} brilho={0.7} cor="#D8E0E1" aura={interpolate(p, [0, 1], [0.2, 0.7])} corAura={cores.destaque} />
+      </>
+    );
+  } else if (estado === 'envolve') {
+    // luz dourada chega pela lateral e envolve os cordões, sem soltar ainda
+    const luz = interpolate(p, [0, 0.7], [0, 1], {...clamp, easing: Easing.out(Easing.cubic)});
+    conteudo = (
+      <>
+        <ellipse cx={interpolate(luz, [0, 1], [1400, 820])} cy={700} rx={520} ry={760} fill={cores.destaque} opacity={0.25 * luz} filter="url(#blurG)" />
+        <Particulas f={f} n={50} cor={cores.destaque} opac={0.4 * luz} seed="e" />
+        {[0, 1, 2, 3].map((i) => <Cordao key={'g' + i} x1={360} y1={1000} x2={880} y2={760 + i * 8} i={i} f={f} cor={cores.destaque} espessura={7} opac={0.35 * luz} />)}
+        {[0, 1, 2, 3].map((i) => <Cordao key={i} x1={360} y1={1000} x2={880} y2={760 + i * 8} i={i} f={f} cor={cinza} espessura={3} />)}
+        <Silhueta x={360} y={1060} s={1.0} brilho={0.65} cor="#C8D2D4" aura={luz * 0.4} corAura={cores.destaque} />
+        <Silhueta x={900} y={820} s={0.6} brilho={0.4} cor="#AEB8BA" />
       </>
     );
   } else if (estado === 'luz') {
