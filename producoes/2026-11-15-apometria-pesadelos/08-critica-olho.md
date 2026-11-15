@@ -21,3 +21,23 @@ Data: 15/11/2026 · Imagens avaliadas: `final/lamina-1.jpg` a `final/lamina-8.jp
 **Veredito: AJUSTAR** (lâminas 2, 4, 5, 6, 7 e 8).
 - Moldura: lâminas 4 (palavra sozinha), 5 (contraste do rótulo), 6, 7 e 8 (bloco sobre a assinatura, degradê, logo da lâmina 8).
 - Lente: lâmina 2 (sombra na parede), lâmina 4 (braço da luminária colado no "?"), lâmina 8 (luminária e vaso atrás do texto, brilho estourado).
+
+## Rodada 2
+Data: 15/11/2026 · Imagens refeitas: texto ancorado embaixo, acima da assinatura. A Lente trocou as fotos 2, 4, 5 e 8. Abri as 8 lâminas uma por uma de novo.
+
+| Lâm. | Situação | O que está errado | O que fazer | Quem corrige |
+|---|---|---|---|---|
+| 1 | OK | Agora o bloco fica todo na parte escura, abaixo da janela. O rótulo saiu de cima do vidro cinza. A chamada "Arraste para o lado →" tem folga até a assinatura. | — | — |
+| 2 | OK | A sombra na parede sumiu: o novo recorte mostra só a pessoa de cabeça baixa, à esquerda, e a janela com luzes desfocadas, à direita. Não tem mais leitura de vulto. Título e texto ficam abaixo da cabeça, sobre o casaco escuro. Há ~50 px de folga entre a última linha e a assinatura. O ombro da pessoa encosta na borda esquerda, mas isso não atrapalha. | — | — |
+| 3 | OK | Igual à Rodada 1, com o bloco mais baixo e folga até o rodapé. | — | — |
+| 4 | OK | Agora a luminária está acima do rótulo, à direita, com a luz acesa visível: ela lê como abajur e dá a "primeira luz" que a pauta pede. Nada encosta no título. A última linha virou "de novo." (duas palavras). É curta, mas não é palavra sozinha. | Opcional: se a Moldura tiver como, distribuir melhor as linhas para a última não ficar tão curta. | — |
+| 5 | OK | O rótulo saiu da travessa da janela e agora fica sobre o verde-petróleo escuro, onde dá para ler. Título e texto também ficam sobre o verde. | — | — |
+| 6 | AJUSTAR | A sobreposição com a assinatura foi resolvida. Mas, com o bloco mais alto, o **rótulo e o título passam no meio dos vasos de planta**, no centro da lâmina (entre ~52% e ~65% da altura). "MEDO DE FALAR NO ASSUNTO" atravessa as folhas e a borda clara do vaso branco, e as letras douradas finas ficam cortadas pelas folhas. Em "Mas falar disso", "falar" fica sobre o vaso branco e "disso" sobre o vaso de metal, que continuam claros embaixo do degradê. No celular, o rótulo é o texto mais difícil de ler de toda a sequência, e o título perde contraste nessas palavras. O texto de apoio, mais embaixo, está bom. | Moldura: começar a parte sólida do degradê ~120 px mais alto nesta lâmina, para os vasos ficarem cobertos pelo verde. Ou Lente: recortar a foto (por exemplo, `foco` y ~0.3 com `zoom` ~1.15) para as plantas subirem e ficarem acima do rótulo, deixando lençol e prateleira atrás do texto. | Moldura (ou Lente) |
+| 7 | OK | O texto não encosta mais na assinatura (~60 px de folga). Rótulo, título e texto ficam todos sobre o verde do degradê, com contraste bom. O dourado do rótulo fica um pouco suave, mas dá para ler. | — | — |
+| 8 | AJUSTAR | A foto nova resolveu a luminária: agora é uma costela-de-adão à esquerda, uma cama desfeita clara e uma janela com persiana, uma manhã calma e sem nada atrás do título. O logo e "APOMETRIA BRASIL" ficam abaixo da chamada, sem cruzar texto, e o tamanho do logo está dentro do kit. **Sobrou um ponto:** o rótulo "PARA A PRÓXIMA NOITE" (a ~45% da altura) cai exatamente na transição do degradê, sobre o travesseiro e o edredom brancos. O dourado fino fica lavado e é o rótulo mais apagado depois do da lâmina 6. No celular, dá para ler só de perto. | Moldura: descer o bloco inteiro ~60 px (há espaço livre embaixo da assinatura) ou começar o verde sólido ~80 px mais alto, para o rótulo ficar sobre o verde, como na lâmina 7. | Moldura |
+
+**Sequência de tons:** continua certa: escuro (1 a 3) → primeira luz (4) → transição (5) → claro (6 a 8). A lâmina 8 está calma e clara, como pedido. Nenhuma foto tem vulto, rosto em destaque ou clima de terror.
+
+**Veredito: AJUSTAR** (lâminas 6 e 8; as duas são ajustes de contraste do rótulo e do título na faixa de transição do degradê. Nada mais está cortado ou sobreposto).
+- Moldura: lâmina 6 (degradê mais alto ou foto recortada) e lâmina 8 (rótulo sobre o verde).
+- Esta foi a **2ª rodada do Olho**, o máximo previsto em `docs/criterios.md`. Se a correção não for feita e conferida agora, a peça vai para a responsável com estas duas observações.

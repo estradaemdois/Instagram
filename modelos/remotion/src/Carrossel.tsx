@@ -60,7 +60,7 @@ const Titulo: React.FC<{txt: string; size: number; id: Identidade}> = ({txt, siz
 const degrade = (tom: Lamina['tom'], id: Identidade) => {
   const c = tom === 'escuro' ? id.cores.escuro : id.cores.marca;
   if (tom === 'claro')
-    return `linear-gradient(180deg, rgba(${c},0) 0%, rgba(${c},0) 28%, rgba(${c},0.50) 40%, rgba(${c},0.82) 52%, rgba(${c},0.90) 100%)`;
+    return `linear-gradient(180deg, rgba(${c},0) 0%, rgba(${c},0) 20%, rgba(${c},0.55) 31%, rgba(${c},0.86) 42%, rgba(${c},0.92) 100%)`;
   return `linear-gradient(180deg, rgba(${c},0.10) 0%, rgba(${c},0) 22%, rgba(${c},0.55) 42%, rgba(${c},0.84) 62%, rgba(${c},0.92) 100%)`;
 };
 
