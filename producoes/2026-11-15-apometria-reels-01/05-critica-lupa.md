@@ -43,3 +43,42 @@ Ponto forte da peça: os cordões opacos (cena 3), o puxão para trás (cena 4),
 8. **Visual (para quem faz a cena):** cena 5, manter os cordões presos no plano do astral; cena 1, rosto não identificável; cena 3, pontuação na tela.
 
 Conferir depois de mexer: com as trocas a narração sobe para cerca de 125 palavras. Cabe em 45 s; se passar, encurtar a cena 2 ("Dá aperto no peito." pode ficar só na imagem da mão no peito).
+
+## Versão 2 · 15/11/2026
+
+Todas as 8 mudanças da Versão 1 foram feitas, e bem feitas. As marcas de IA saíram, a objeção agora usa a palavra real e a cena 8 fecha o gancho da cena 2 ("não quer pensar nele… e pensa" → "nem pensei nele hoje!"). O que segura a peça agora é menor, mas concreto: **ritmo** (a narração não cabe em 45 s com voz calma), **quatro nomes para a mesma coisa** e duas telas que não se entendem sem som.
+
+**Contagem de palavras (narração, cena a cena):** 11 · 8 · 17 · 13 · 22 · 18 · 8 · 16 · 12 = **125 palavras** (o roteiro diz "cerca de 120"). Em 45 s, isso dá 2,8 palavras por segundo. Voz calma de amiga, com os "…", fica entre 2,2 e 2,5 por segundo. Os pontos críticos são a **cena 5** (22 palavras em 7 s = 3,1/s) e a **cena 8** (16 palavras em 5 s, com duas citações = 3,2/s). Do jeito que está, a narração vai sair corrida ou passar de 50 s, e as cenas ficam fora do tempo.
+
+### Notas
+
+| # | Critério | Peso | Nota | Justificativa | Instrução de melhoria |
+|---|---|---|---|---|---|
+| 1 | Gancho | 25% | 8,5 | A pergunta agora fala da sensação ("ainda parece que ele tá por perto?") e conversa com a promessa da peça. Mas o primeiro 1,5 s ainda é "Terminou faz tempo…" com respiro, e a tela "ele ainda tá *perto?*", vista **sem som** (como muita gente vê Reels), parece falar de um ex que mora perto ou que está vigiando. | Tela da cena 1: "ainda sente ele *perto?*", que puxa o lado da sensação e já anuncia a cena 4. Na narração, encurtar o respiro depois de "Terminou faz tempo" para a pergunta chegar antes de 2 s. |
+| 2 | Identificação | 20% | 8,5 | Tem "se desligar" (objeção de 218 curtidas), "nem pensei nele hoje!" (182) e "me sinto leve", tudo da pesquisa de ex. Mas a frase mais curtida do alívio, "saísse **aos poucos**" (414), não aparece, e "a gente ainda sente a pessoa" (cena 4) **não está na pesquisa**: veio do título do roteiro, e não de uma fala real, ao contrário do que diz o "O que mudou". | Cena 6: trocar "um a um" por "aos poucos", que é a palavra do público e combina com a imagem. Cena 4 pode ficar como está, mas não deve ser registrada como fala real. |
+| 3 | Progressão | 20% | 8,5 | Agora há uma ideia por cena, e a sequência sensação → cordões → puxão → medo → como desfaz → livres → alívio → acolhimento anda bem. Dois problemas: (a) o mesmo elemento muda de nome quatro vezes ("ligação de energia" e "cordões" na cena 3, "vínculos" na cena 5, "laços" na cena 6), e quem ouve uma vez só pode achar que são coisas diferentes; (b) o ritmo de 125 palavras em 45 s (ver contagem acima). | Usar um nome só na narração, **cordões** (é o que se vê). "Corte de vínculos" fica só como nome do trabalho. Cortar a narração para no máximo 110 palavras (ver mudanças 1 e 2). |
+| 4 | Valor | 15% | 8 | Ensina o essencial: o cordão que fica, por que se sente a pessoa, quem desfaz, que não apaga a história e que os dois saem livres. Mas "isso é feito à distância" fica solto: à distância de quem? Quem não conhece apometria pode entender "longe do ex", e não "sem ninguém ir até você", que é o que o termômetro quer dizer e o que a imagem mostra (ela sozinha no sofá). | Cena 6 com voz ativa e o sentido claro: "Na apometria, a equipe espiritual faz isso à distância, com ela em casa: solta os cordões aos poucos, sem arrancar." Se ficar longa, tirar "com ela em casa" e deixar a imagem mostrar. |
+| 5 | Naturalidade | 10% | 8,5 | Lida em voz alta, soa como amiga falando: "e pensa", "né?", "tá", "Tudo bem ainda sentir". Não sobrou clichê de IA. Restam dois pontos com cara de texto escrito: a voz passiva "isso é feito à distância:" e a frase intercalada "Tem gente que, quando se solta, diz:". Além disso, no Brasil "se solta" também quer dizer "se desinibir", o que dá um duplo sentido. | Cena 6: voz ativa (ver Valor). Cena 8: "Quando os cordões soltam, tem gente que diz: 'nem pensei nele hoje!'" |
+| 6 | Fechamento | 10% | 8,5 | "Tudo bem ainda sentir." acolhe sem moral e o pedido de compartilhar é coerente com o tema. Mas a tela "manda pra *ela.*" não diz quem é "ela" para quem vê sem som, e o "Salva…" fica sem motivo. | Tela da cena 9: "manda pra quem *terminou.*" Narração: "Tudo bem ainda sentir. Salva… e manda pra aquela amiga que terminou." pode ficar. |
+
+### Média ponderada
+(8,5 × 0,25) + (8,5 × 0,20) + (8,5 × 0,20) + (8 × 0,15) + (8,5 × 0,10) + (8,5 × 0,10)
+= 2,125 + 1,70 + 1,70 + 1,20 + 0,85 + 0,85 = **8,43**
+
+### Veredito: **REPROVADO**
+A média é 8,43, abaixo de 8,5. Nenhum critério ficou abaixo de 7 e a Naturalidade, com 8,5, passa. A distância para a aprovação é pequena, e as mudanças abaixo são cirúrgicas: não reescrevem a peça. **Esta é a 2ª volta.** Se a Versão 3 for reprovada, o Maestro leva a melhor versão para a responsável decidir.
+
+### Representação visual (fora da média): **9**
+Todas as correções visuais da Versão 1 entraram. O rosto não aparece na cena 1, os cordões continuam presos na cena 5, a cena 6 mostra para onde eles vão e a cena 8 tem o celular virado para baixo, que é um bom detalhe para "nem pensei nele hoje". Os dois planos da cena 5 (a foto inteira e os cordões envolvidos pela luz) traduzem bem "não apaga o que vocês viveram". O que ainda tira ponto:
+- **Cena 6, plano REAL:** "somem no escuro, em direção à **silhueta distante**". No plano real não há silhueta: ela só existe no astral. Trocar por "somem no escuro, para fora do quadro".
+- **Cenas 1 e 5, "foto antiga dos dois":** se a foto mostra os rostos do casal, isso briga com o kit (sem rosto em destaque). Pedir a foto desfocada, ou os dois de costas ou de perfil.
+- **Cena 8:** a mulher abrindo a janela "de manhã" depois da cena 6 sugere que foi "na manhã seguinte à sessão". Como as falas não vieram de atendimento de apometria (ver o parecer da Guardiã), é melhor não marcar o tempo. "Luz do dia" basta.
+
+### Mudanças (para a Pena)
+1. **Ritmo, de 125 para no máximo 110 palavras.** **Cena 3**: trocar "Na visão espiritual, a relação acaba, mas a ligação de energia pode ficar. Uns cordões continuam ali." por "Na visão espiritual, a relação acaba… mas uns cordões de energia continuam ali." (13 palavras; tira o "ligação" duplicado). **Cena 8**: trocar "Tem gente que, quando se solta, diz: 'nem pensei nele hoje!' Ou só: 'me sinto leve'." por "Quando os cordões soltam, tem gente que diz: 'nem pensei nele hoje!'" (o "leve" continua na legenda). **Cena 5**: subir para 8 s ou manter as 22 palavras e aceitar 46 s no total. Depois de mexer, recontar e conferir cada cena com, no máximo, 2,5 palavras por segundo.
+2. **Cena 6 · "Na apometria, isso é feito à distância: a equipe espiritual solta os laços um a um, sem arrancar."** → "Na apometria, a equipe espiritual faz isso à distância: solta os cordões aos poucos, sem arrancar." Fica em voz ativa, com um nome só (cordões) e com a palavra real "aos poucos" (414 curtidas). Na tela, pode ficar "feito à *distância.*" ou "*aos poucos.*".
+3. **Cena 1 · tela "ele ainda tá *perto?*"** → "ainda sente ele *perto?*". Encurtar o "…" depois de "Terminou faz tempo".
+4. **Cena 9 · tela "manda pra *ela.*"** → "manda pra quem *terminou.*"
+5. **Legenda (para ficar coerente com a narração):** onde está "laços de energia" e "esses laços são soltos", usar "cordões de energia" e "esses cordões são soltos".
+6. **Visual:** na cena 6, plano real, trocar "em direção à silhueta distante" por "para fora do quadro"; nas cenas 1 e 5, a foto do casal deve ficar desfocada ou sem rostos; na cena 8, trocar "de manhã" por "luz do dia".
+7. **Registro (não muda a peça):** no "O que mudou", corrigir que "a gente ainda sente a pessoa" não é uma fala da pesquisa. Isso evita que a frase vá parar no kit como se fosse vocabulário do público.
