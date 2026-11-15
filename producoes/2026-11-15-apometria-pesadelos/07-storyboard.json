@@ -1,0 +1,165 @@
+{
+  "marca": "apometria-brasil",
+  "formato": "carrossel",
+  "imagens": [
+    {
+      "arquivo": "s1.jpg",
+      "url": "https://images.pexels.com/photos/14526240/pexels-photo-14526240.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 14526240",
+      "foco": [
+        0.5,
+        0.45
+      ],
+      "zoom": 1.0,
+      "brilho": 0.7,
+      "saturacao": 0.5
+    },
+    {
+      "arquivo": "s2.jpg",
+      "url": "https://images.pexels.com/photos/6951891/pexels-photo-6951891.jpeg?auto=compress&cs=tinysrgb&w=2400",
+      "fonte": "Pexels 6951891",
+      "foco": [
+        0.42,
+        0.5
+      ],
+      "zoom": 1.0,
+      "brilho": 0.65,
+      "saturacao": 0.45
+    },
+    {
+      "arquivo": "s3.jpg",
+      "url": "https://images.pexels.com/photos/5628406/pexels-photo-5628406.jpeg?auto=compress&cs=tinysrgb&w=2400",
+      "fonte": "Pexels 5628406",
+      "foco": [
+        0.5,
+        0.5
+      ],
+      "zoom": 1.0,
+      "brilho": 0.6,
+      "saturacao": 0.45
+    },
+    {
+      "arquivo": "s4.jpg",
+      "url": "https://images.pexels.com/photos/10343928/pexels-photo-10343928.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 10343928",
+      "foco": [
+        0.6,
+        0.5
+      ],
+      "zoom": 1.0,
+      "brilho": 0.75,
+      "saturacao": 0.6
+    },
+    {
+      "arquivo": "s5.jpg",
+      "url": "https://images.pexels.com/photos/14688211/pexels-photo-14688211.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 14688211",
+      "foco": [
+        0.5,
+        0.45
+      ],
+      "zoom": 1.0,
+      "brilho": 0.9,
+      "saturacao": 0.7
+    },
+    {
+      "arquivo": "s6.jpg",
+      "url": "https://images.pexels.com/photos/5858236/pexels-photo-5858236.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 5858236",
+      "foco": [
+        0.45,
+        0.45
+      ],
+      "zoom": 1.0,
+      "brilho": 1.1,
+      "saturacao": 0.85
+    },
+    {
+      "arquivo": "s7.jpg",
+      "url": "https://images.pexels.com/photos/4740586/pexels-photo-4740586.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "fonte": "Pexels 4740586",
+      "foco": [
+        0.5,
+        0.4
+      ],
+      "zoom": 1.0,
+      "brilho": 1.1,
+      "saturacao": 0.8
+    },
+    {
+      "arquivo": "s8.jpg",
+      "url": "https://images.pexels.com/photos/545034/pexels-photo-545034.jpeg?auto=compress&cs=tinysrgb&w=2400",
+      "fonte": "Pexels 545034",
+      "foco": [
+        0.62,
+        0.5
+      ],
+      "zoom": 1.0,
+      "brilho": 1.15,
+      "saturacao": 0.85
+    }
+  ],
+  "laminas": [
+    {
+      "rotulo": "ESPIRITUALIDADE E SONO",
+      "titulo": "O mesmo pesadelo, / *quase toda noite*?",
+      "texto": "Por que ele volta, na visão espiritual.",
+      "imagem": "s1.jpg",
+      "tom": "escuro",
+      "chamada": "Arraste para o lado →"
+    },
+    {
+      "rotulo": "DEPOIS DO PESADELO",
+      "titulo": "Acordar tremendo / e *não querer dormir de novo*.",
+      "texto": "Três, quatro da manhã, o olho abre no escuro e o coração dispara. O sonho foi tão real que leva um tempo para entender onde a gente está. E era o mesmo sonho de ontem. O dia seguinte já começa moído.",
+      "imagem": "s2.jpg",
+      "tom": "escuro"
+    },
+    {
+      "rotulo": "O QUE ACONTECE NO SONO",
+      "titulo": "Por que parece / *tão real*?",
+      "texto": "Na visão espiritual, quando o corpo dorme, a parte espiritual se solta um pouco, mas continua presa a ele, e vive o que sonha. Por isso tem sonho que a gente lembra como coisa que aconteceu de verdade.",
+      "imagem": "s3.jpg",
+      "tom": "escuro"
+    },
+    {
+      "rotulo": "POR QUE SE REPETE",
+      "titulo": "Por que sempre / *o mesmo* sonho?",
+      "texto": "Para a apometria, às vezes fica um vínculo: uma ligação energética que puxa a pessoa de volta para o mesmo ponto toda vez que ela dorme. Enquanto ele continua ali, o sonho tende a voltar, e a pessoa acorda tremendo de novo.",
+      "imagem": "s4.jpg",
+      "tom": "escuro"
+    },
+    {
+      "rotulo": "COMO A APOMETRIA OLHA",
+      "titulo": "Achar o que / *puxa de volta*.",
+      "texto": "Primeiro, o caso é estudado, à distância, para ver de onde vem essa ligação. Depois vem o corte do vínculo e a limpeza energética, da pessoa e, se precisar, da casa.",
+      "imagem": "s5.jpg",
+      "tom": "marca"
+    },
+    {
+      "rotulo": "MEDO DE FALAR NO ASSUNTO",
+      "titulo": "Mas falar disso / não *atrai*?",
+      "texto": "Tem gente que evita até ler sobre isso, com medo de chamar coisa ruim. Para a apometria, o que aproxima ou afasta é o estado em que a gente está (agitação, mágoa, medo), não entender o assunto. E saber o que acontece de noite tira o susto.",
+      "imagem": "s6.jpg",
+      "tom": "claro",
+      "topo": 820
+    },
+    {
+      "rotulo": "ANTES DE APAGAR A LUZ",
+      "titulo": "O que vai junto / *para o travesseiro*?",
+      "texto": "Deitar ainda respondendo mensagem é levar o dia inteiro para a cama. Se der, larga o celular um pouco antes e reza, ou conversa do seu jeito com aquilo em que você acredita. E, se já faz tratamento, vale seguir o que foi combinado.",
+      "imagem": "s7.jpg",
+      "tom": "claro",
+      "topo": 820
+    },
+    {
+      "rotulo": "PARA A PRÓXIMA NOITE",
+      "titulo": "Que deitar volte / a ser *só descansar*.",
+      "texto": "Pode ser que o sonho ainda apareça amanhã. Mas agora dá para entender o que está acontecendo, e apagar a luz fica menos pesado.",
+      "imagem": "s8.jpg",
+      "tom": "claro",
+      "topo": 820,
+      "chamada": "Salve para ler antes de dormir. Se fez sentido, comente PAZ."
+    }
+  ]
+}
