@@ -47,3 +47,51 @@ Observação (não é veto): na lâmina 5, "O que estava parado / pode voltar a 
 - ✅ Sem "karma", "escassez", "maldição", "devorador" ou "oferta".
 - ✅ Sem promessa de prosperidade ou de ganho financeiro, nem prazo.
 - ❌ Efeito do cuidado espiritual afirmado como certo (lâmina 4). É o mesmo item da tabela.
+
+## Versão 2
+Data: 23/11/2026 · Roteiro conferido: `04-roteiro.md` (Versão 2: 5 lâminas com rótulo, título, texto, chamada e linhas "Imagem:", legenda e hashtags). A seção "O que mudou" é nota interna e não vai ao ar; foi lida só para conferir as correções.
+
+**Veredito: APROVADO**
+
+Os dois itens vetados na Versão 1 foram corrigidos exatamente no ponto apontado:
+- Lâmina 4: agora diz "O cuidado espiritual pode aliviar o peso, e aí fica mais leve fazer a parte prática." Não há mais garantia, e a ambiguidade de "sem ele" sumiu.
+- Legenda: agora diz "e ele também pode segurar o movimento."
+
+Também conferi todos os trechos novos, palavra por palavra (lâminas 1, 2, 3 e 5, rótulo da lâmina 4, frase das janelas e imagens). Nenhum deles quebra regra.
+
+Observações (não são veto, apenas recomendação):
+1. **Lâmina 3:** "Quando ela emperra, vem o que muita gente repete: os orçamentos não fecham." Passa porque vem logo depois de "Na visão espiritual, prosperidade é energia que circula", o que deixa a frase dentro da visão. Mesmo assim, é a frase da peça que mais liga a energia a um resultado financeiro concreto. Se a Pena mexer na lâmina por outro motivo, "pode vir o que muita gente repete" deixa a frase mais segura. Ela não pode virar algo como "por isso os orçamentos não fecham" nem ganhar uma frase dizendo que o tratamento faz os orçamentos fecharem.
+2. **Ressalvas que não podem sair:** "Uma coisa não substitui a outra" (lâmina 4) e "Não de um dia para o outro, nem do mesmo jeito para todo mundo" (lâmina 5). São elas que mantêm a peça fora da regra 5 no tema dinheiro.
+
+### Checklist
+
+**Regras da marca (`regras.md`)**
+- ✅ 1. Sem "doutrina espírita", "espiritismo", "para os espíritas" nem termos parecidos. Usa "na visão espiritual" (lâminas 1 e 3). "Espiritualidade" (rótulo da lâmina 1 e hashtag) e "cuidado espiritual" (lâmina 4) não remetem à doutrina.
+- ✅ 2. Nenhum livro, autor ou médium citado em lâminas, legenda ou hashtags.
+- ✅ 3. Sem crédito de imagem na legenda.
+- ✅ 4. Sem AA, ajuda médica ou psicológica, CAPS ou remédios. "Tratamento" (lâmina 3) se refere à apometria e está no vocabulário que a própria regra 4 admite. A parte prática é "sentando com as contas na mesa" e "abrir as janelas".
+- ✅ 5. Sem promessa de cura, resultado ou prazo. Lâmina 4: "pode aliviar", "Não funciona assim", "Uma coisa não substitui a outra". Lâmina 5: "pode voltar a *andar*" com ressalva de tempo. Lâmina 2: "tudo pode andar mais devagar". Legenda: "pode segurar". "Abrir as janelas da casa também ajuda" é um gesto prático e não promete resultado financeiro.
+- ✅ 6. Sem venda: nada de preço, promoção, "agende", vagas, link na bio ou urgência. "O tratamento é à distância: a pessoa fica em casa" explica como funciona, sem convite a contratar. As chamadas são salvar, comentar FLUIR e enviar.
+- ✅ 7. Sem medo ou culpa como gancho. A capa é uma pergunta neutra. "Casa carregada" aparece sem ameaça e com "pode". A lâmina 4 diz "sem se culpar". As imagens escuras (lâminas 1 e 2) não ameaçam ("Sem correntes"), e "névoa cinzenta" mostra cansaço, não ataque.
+- ✅ 8. Nenhuma condição pessoal do leitor é afirmada. Tudo está em terceira pessoa ou em pergunta: "Muita gente sente…" (lâm. 1), "tem família em que…", "Tem gente exausta…" (lâm. 2), "o que muita gente repete" (lâm. 3), "a pessoa fica em casa" (lâm. 3), "Muita gente descreve…" (legenda).
+- ✅ 9. 5 hashtags (limite: 5). Legenda com cerca de 590 caracteres (limite: 2.200).
+
+**Obrigatórios da marca**
+- ✅ Conceito espiritual como visão, não como fato: "Na visão espiritual" nas lâminas 1 e 3, e "pode" em todas as afirmações de efeito (lâminas 2, 4 e 5 e legenda). A lâmina 3 está ok (ver observação 1).
+- ✅ Linguagem acolhedora e sem julgamento: "às vezes é só isso", "sem se culpar", "cada um no seu tempo".
+- ✅ Pontuação colada na palavra-chave: "*não anda*?", "*não aparece no extrato*.", "*movimento*.", "*vem*?", "*andar*.", "*FLUIR*.".
+
+**Regras gerais (`criterios.md`, seção 2)**
+- ✅ 1. Nenhuma promessa de cura, resultado garantido ou prazo.
+- ✅ 2. Nenhuma condição pessoal do leitor é afirmada.
+- ✅ 3. Sem medo, culpa ou ameaça.
+- ✅ 4. Nada inventado. A única citação entre aspas, "sinto como se a vida financeira estivesse parada" (legenda), está **idêntica** à fala em `marcas/apometria-brasil/pesquisa/2026-11-23-prosperidade.md`. "Nunca sobra nada", "exausta", "os orçamentos não fecham" e "fazendo conta de cabeça" aparecem **sem aspas**, como paráfrase de falas reais ("não sobra quase nada…", "Já estava exausta", "fazemos muitos orçamentos mas nenhum fecha"), então não precisam ser idênticas. Não há números, estudos nem "pesquisas mostram".
+- ✅ 5. Hashtags e tamanho da legenda dentro do limite.
+- ✅ 6. Português correto: crase em "à distância" e "à noite" certa. "Some a isso" está no imperativo correto de "somar", "família em que" está correto e a concordância está ok.
+
+**Pontos sensíveis do tema dinheiro (pedido do Maestro)**
+- ✅ Nada sugere que o espiritual resolve dívidas: "Não funciona assim… Uma coisa não substitui a outra" (lâmina 4), e a parte prática segue com a pessoa ("sentando com as contas na mesa").
+- ✅ Sem "karma", "escassez", "maldição", "devorador", "inimigo" ou "oferta".
+- ✅ Sem promessa de prosperidade ou de ganho financeiro, nem prazo. O fechamento é uma cena modesta ("deitar à noite sem ficar fazendo conta de cabeça"), não um ganho.
+- ✅ Sem culpa: "sem se culpar" e "às vezes é só isso" tiram do leitor a responsabilidade espiritual pela crise.
+- ✅ Imagens: nenhuma traz dinheiro, ouro acumulado ou símbolo de riqueza prometida. A luz dourada que volta a correr representa movimento, não ganho.
