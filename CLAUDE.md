@@ -8,7 +8,8 @@ A responsável (Andressa) não é desenvolvedora. Explique em linguagem simples 
 Nunca peça senhas, tokens ou chaves pelo chat. Se aparecer um segredo no chat, avise que ficou exposto.
 
 ## Como trabalhar aqui
-- Pedido de post/carrossel/Reels para uma marca → use a skill **produzir** (o Maestro) e siga as etapas. Não escreva a peça sem passar pelos agentes e juízes.
+- ⛔ **A fábrica de vários agentes (Maestro, Sonda, Lupa etc.) foi CANCELADA pela responsável em 23/11/2026.** Não usar a skill `produzir` nem os agentes de `.claude/agents/` (ficam só como arquivo).
+- **Modo de trabalho atual (o de antes):** o Claude escreve direto seguindo o kit da marca, usa fotos reais do Pexels (escuro → claro em temas difíceis), monta no modelo `modelos/remotion` (composição `Carrossel`, igual ao carrossel do alcoolismo de 14/11/2026) e mostra para a responsável aprovar.
 - Antes de criar qualquer coisa para uma marca, leia o kit em `marcas/<marca>/` (principalmente `regras.md` e `aprendizados.md`).
 - Toda correção da responsável vira uma linha em `marcas/<marca>/aprendizados.md` (e em `regras.md`, se for proibição).
 - Critérios dos juízes: `docs/criterios.md`. Formatos dos arquivos: `docs/formatos.md`. Arquitetura: `docs/arquitetura.md`.

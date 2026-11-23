@@ -1,48 +1,105 @@
 {
  "marca": "apometria-brasil",
- "formato": "carrossel-cena",
+ "formato": "carrossel",
+ "imagens": [
+  {
+   "arquivo": "s1.jpg",
+   "url": "https://images.pexels.com/photos/7640436/pexels-photo-7640436.jpeg?auto=compress&cs=tinysrgb&w=1600",
+   "fonte": "Pexels 7640436",
+   "foco": [
+    0.5,
+    0.62
+   ],
+   "zoom": 1.25,
+   "brilho": 0.75,
+   "saturacao": 0.55
+  },
+  {
+   "arquivo": "s2.jpg",
+   "url": "https://images.pexels.com/photos/8515596/pexels-photo-8515596.jpeg?auto=compress&cs=tinysrgb&w=1600",
+   "fonte": "Pexels 8515596",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "zoom": 1.0,
+   "brilho": 0.55,
+   "saturacao": 0.5
+  },
+  {
+   "arquivo": "s3.jpg",
+   "url": "https://images.pexels.com/photos/18820283/pexels-photo-18820283.jpeg?auto=compress&cs=tinysrgb&w=1600",
+   "fonte": "Pexels 18820283",
+   "foco": [
+    0.6,
+    0.5
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 0.8
+  },
+  {
+   "arquivo": "s4.jpg",
+   "url": "https://images.pexels.com/photos/6598909/pexels-photo-6598909.jpeg?auto=compress&cs=tinysrgb&w=1600",
+   "fonte": "Pexels 6598909",
+   "foco": [
+    0.5,
+    0.62
+   ],
+   "zoom": 1.25,
+   "brilho": 1.0,
+   "saturacao": 0.9
+  },
+  {
+   "arquivo": "s5.jpg",
+   "url": "https://images.pexels.com/photos/192455/pexels-photo-192455.jpeg?auto=compress&cs=tinysrgb&w=1600",
+   "fonte": "Pexels 192455",
+   "foco": [
+    0.5,
+    0.78
+   ],
+   "zoom": 1.6,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  }
+ ],
  "laminas": [
   {
    "rotulo": "ESPIRITUALIDADE E PROSPERIDADE",
    "titulo": "Fazendo de tudo / e o dinheiro *não anda*?",
    "texto": "Muita gente sente a vida financeira parada, mesmo se esforçando. Na visão espiritual, pode ter mais coisa nessa história.",
-   "cena": "parado",
-   "posicao": "topo",
-   "tema": "escuro",
+   "imagem": "s1.jpg",
+   "tom": "escuro",
    "chamada": "Arraste para o lado →"
   },
   {
    "rotulo": "O QUE PODE SEGURAR",
    "titulo": "Tem coisa que / *não aparece no extrato*.",
    "texto": "Crise e desemprego são reais, e às vezes é só isso. Mas tem família em que nunca sobra nada, e a história se repete. Tem gente exausta, que acorda pensando na dívida. E se a casa está carregada, tudo pode andar mais devagar.",
-   "cena": "fios",
-   "posicao": "topo",
-   "tema": "escuro"
+   "imagem": "s2.jpg",
+   "tom": "escuro"
   },
   {
    "rotulo": "COMO A APOMETRIA VÊ",
    "titulo": "Prosperidade / é *movimento*.",
    "texto": "Na visão espiritual, quando esse movimento emperra, pode vir o que muita gente repete: os orçamentos não fecham. A apometria olha cada caso atrás do que está segurando e ajuda a soltar, como no corte de um vínculo com alguém. O atendimento é à distância, com a pessoa em casa.",
-   "cena": "nos",
-   "posicao": "base",
-   "tema": "escuro"
+   "imagem": "s3.jpg",
+   "tom": "marca"
   },
   {
    "rotulo": "O QUE AJUDA",
    "titulo": "Então é só tratar / que o dinheiro *vem*?",
    "texto": "Não funciona assim. O cuidado espiritual pode aliviar o peso, e aí fica mais leve fazer a parte prática. Uma coisa não substitui a outra. Dá para começar sentando com as contas na mesa, sem se culpar. E vale abrir as janelas para a casa respirar.",
-   "cena": "amanhecer",
-   "posicao": "topo",
-   "tema": "claro"
+   "imagem": "s4.jpg",
+   "tom": "claro"
   },
   {
    "rotulo": "CADA UM NO SEU TEMPO",
    "titulo": "O que estava parado / pode voltar a *andar*.",
    "texto": "Não de um dia para o outro, nem do mesmo jeito para todo mundo. Às vezes começa assim: deitar à noite sem ficar fazendo conta de cabeça.",
-   "cena": "livre",
-   "posicao": "topo",
-   "tema": "claro",
-   "chamada": "Salve para reler quando o mês apertar. Se fez sentido, comente *FLUIR*."
+   "imagem": "s5.jpg",
+   "tom": "claro",
+   "chamada": "Salve para reler quando o mês apertar. Se fez sentido, comente FLUIR."
   }
  ]
 }

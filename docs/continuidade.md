@@ -1,5 +1,8 @@
 # Continuidade · Fábrica de Conteúdo (atualizado 23/11/2026)
 
+> ⛔ **23/11/2026: a responsável CANCELOU o sistema de vários agentes.** Voltar ao modo direto (o Claude escreve seguindo o kit, fotos reais do Pexels, modelo `Carrossel` igual ao do alcoolismo). O resto deste documento é histórico.
+
+
 **Para retomar numa sessão nova, peça:**
 > "Leia `docs/continuidade.md` e continue a partir dele."
 
