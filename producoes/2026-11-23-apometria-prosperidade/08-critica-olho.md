@@ -17,3 +17,19 @@ Data: 23/11/2026 · Imagens avaliadas: `final/lamina-1.jpg` a `final/lamina-5.jp
 **Observação geral para a responsável (não é ajuste de rodada):** o kit (`marca.md`, "Estética das imagens") diz "fotos reais, nunca desenho ou ilustração", e a pauta pediu estilo "cinematográfico, quase fotográfico". As cenas desta peça são ilustrações planas feitas em código, com figuras simples. Estão serenas, sem terror e na paleta do kit, mas é uma exceção à regra da marca, e quem decide se vale é a Andressa. Se for aprovada, convém registrar a exceção em `aprendizados.md`.
 
 **Veredito: AJUSTAR.**
+
+## Rodada 2
+
+Data: 23/11/2026 · Imagens refeitas `final/lamina-1.jpg` a `final/lamina-5.jpg`, abertas uma a uma. A questão "ilustração x foto real" ficou para a responsável e não conta como ajuste.
+
+**O que foi resolvido:** "história.", "devagar." e "FLUIR." deixaram de ficar sozinhas. Na lâmina 2, a família está sem capuz, translúcida e não assusta mais; os fios engrossados aparecem no celular; a casa tem contorno visível. Na lâmina 3, a aura agora é fechada e a base da figura se esfuma. Na lâmina 4, as janelas estão abertas com cortina e a assinatura tem o logo escurecido. Na lâmina 5, a faixa reta virou colina curva e o rio passa longe da assinatura. A série continua coerente, escuro → claro, sem nada de terror.
+
+| Lâmina | Situação | O que está errado | O que fazer | Quem corrige |
+|---|---|---|---|---|
+| 1 | AJUSTAR | O brilho em volta da silhueta, no terço de baixo à esquerda, está **cortado em retângulo**: aparece uma coluna mais clara de borda reta (mais ou menos de 30% a 43% da largura, da linha do morro até os pés da figura). Parece defeito de renderização. O resto está bom: texto equilibrado, mulher mais perto da margem. | Deixar o brilho redondo e difuso, sem borda: gradiente radial em área maior, ou tirar o corte (`overflow`/caixa do elemento) que recorta o desfoque. | Moldura |
+| 2 | AJUSTAR | O mesmo retângulo claro cortado aparece atrás da silhueta (em volta da névoa dos ombros, no terço de baixo à esquerda). O resto passou: família, fios e casa estão legíveis. | Mesma correção da lâmina 1 (é o mesmo componente da figura). | Moldura |
+| 3 | AJUSTAR | (a) A linha do horizonte desceu e agora fica **colada ao rótulo** "COMO A APOMETRIA VÊ", poucos pixels acima dele, no meio da lâmina: parece um sublinhado errado e aperta o rótulo. (b) "em casa." continua sobrando sozinha na última linha do texto, logo acima do rodapé. (c) Os dois nós de cima e da direita da aura viraram rosetas marrons com miolo, que parecem engrenagens ou parafusos presos no contorno. Só o nó da esquerda, perto da luz, lê como fio embolado. | (a) Subir a linha do horizonte para logo abaixo dos pés da figura, com pelo menos ~40 px de folga até o rótulo, ou apagá-la nas laterais. (b) Equilibrar as quebras (`text-wrap: balance` ou caixa um pouco mais estreita) para a última linha ter ao menos meia largura. (c) Desenhar os dois nós como o da esquerda: um pequeno emaranhado do próprio fio dourado, mais fosco. | (a)(b) Moldura · (c) Lente |
+| 4 | OK | Nada a corrigir. As janelas abertas com cortina conversam com o texto e a assinatura agora está completa e legível. | — | — |
+| 5 | OK | Nada a corrigir. A chamada está em duas frases equilibradas, a colina tem borda curva e a assinatura está em grama lisa, longe do rio. | — | — |
+
+**Veredito: AJUSTAR** (lâminas 1, 2 e 3; ajustes pequenos, a maioria de posição ou recorte). Pelos critérios, esta é a **2ª e última volta** do Olho: depois da correção, a peça vai para a responsável com estas observações e com a questão "ilustração x foto real".

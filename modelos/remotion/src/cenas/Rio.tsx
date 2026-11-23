@@ -39,8 +39,8 @@ export const Rio: React.FC<{cena: CenaRio}> = ({cena}) => {
   const defs = (
     <defs>
       <filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b" /><feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge></filter>
-      <filter id="bl"><feGaussianBlur stdDeviation="30" /></filter>
-      <filter id="bl2"><feGaussianBlur stdDeviation="8" /></filter>
+      <filter id="bl" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="30" /></filter>
+      <filter id="bl2" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="8" /></filter>
       <linearGradient id="rioEsc" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stopColor="#5E5132" stopOpacity="0.8" /><stop offset="1" stopColor="#C9A24A" stopOpacity="0.2" /></linearGradient>
       <linearGradient id="rioClaro" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stopColor="#E8C877" /><stop offset="1" stopColor="#F6E7B8" stopOpacity="0.8" /></linearGradient>
       <radialGradient id="esfera"><stop offset="0" stopColor="#FFF8E6" /><stop offset="0.5" stopColor="#E9CF8C" stopOpacity="0.8" /><stop offset="1" stopColor="#C9A24A" stopOpacity="0" /></radialGradient>
@@ -92,7 +92,7 @@ export const Rio: React.FC<{cena: CenaRio}> = ({cena}) => {
         {defs}
         <linearGradient id="ceuPet" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#1C5F63" /><stop offset="0.45" stopColor="#14464A" /><stop offset="1" stopColor="#0A1C1E" /></linearGradient>
         <rect width={W} height={H} fill="url(#ceuPet)" />
-        <path d={`M 0 640 C 300 634 700 646 1080 638`} stroke="#C9A24A" strokeWidth={2} opacity={0.35} fill="none" />
+        <path d={`M 0 560 C 150 556 260 562 350 560 M 730 560 C 850 557 960 562 1080 559`} stroke="#C9A24A" strokeWidth={2} opacity={0.35} fill="none" />
         <Brilhos n={50} cor="#E9CF8C" area={[200, 60, 680, 380]} seed="n" max={2.2} op={0.5} />
         <ellipse cx={cx} cy={cy + 40} rx={170} ry={230} fill="#C9A24A" opacity={0.18} filter="url(#bl)" />
         {/* contorno de luz (aura) com fio dourado */}
@@ -102,7 +102,7 @@ export const Rio: React.FC<{cena: CenaRio}> = ({cena}) => {
         <rect x={0} y={cy + 150} width={W} height={150} fill="url(#nevoa)" />
         {/* nós: fio dourado embolado em 3 pontos (nuca e cintura presos; ombro se soltando) */}
         {[[cx + 10, cy - 214], [cx + 160, cy + 120]].map(([x, y], k) => (
-          <g key={k}>{[0, 1, 2, 3].map((j) => <ellipse key={j} cx={x} cy={y} rx={16} ry={7} transform={`rotate(${j * 45} ${x} ${y})`} fill="none" stroke="#5E4B22" strokeWidth={5} />)}<circle cx={x} cy={y} r={5} fill="#3A2E14" /></g>
+          <g key={k}>{[0, 1].map((j) => <ellipse key={j} cx={x} cy={y} rx={15} ry={6} transform={`rotate(${j * 70 + 20} ${x} ${y})`} fill="none" stroke="#6E5A2C" strokeWidth={4} />)}</g>
         ))}
         <g>{[0, 1].map((j) => <ellipse key={j} cx={cx - 158} cy={cy - 40} rx={15} ry={6} transform={`rotate(${j * 70} ${cx - 158} ${cy - 40})`} fill="none" stroke="#B8954A" strokeWidth={4} />)}</g>
         <path d={`M ${cx - 158} ${cy - 40} C ${cx - 190} ${cy - 80} ${cx - 200} ${cy - 130} ${cx - 210} ${cy - 175}`} stroke="#F2DFA6" strokeWidth={3} fill="none" filter="url(#gl)" />

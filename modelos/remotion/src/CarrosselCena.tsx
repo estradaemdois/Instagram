@@ -48,7 +48,7 @@ export const CarrosselCena: React.FC<PropsCarrosselCena> = ({pasta, identidade: 
     <div style={{textAlign: 'center', textShadow: sombra}}>
       <div style={{fontFamily: familia('rotulo'), fontWeight: 600, fontSize: 24, letterSpacing: '0.28em', paddingLeft: '0.28em', color: corDest, marginBottom: 26}}>{l.rotulo}</div>
       <Titulo txt={l.titulo} cor={corTexto} dest={corDest} size={i === 0 ? 82 : 70} />
-      <div style={{fontFamily: familia('texto'), fontWeight: 400, fontSize: 35, lineHeight: 1.45, color: corTexto, opacity: 0.95, marginTop: 28, textWrap: 'pretty'} as React.CSSProperties}>{l.texto}</div>
+      <div style={{fontFamily: familia('texto'), fontWeight: 400, fontSize: 35, lineHeight: 1.45, color: corTexto, opacity: 0.95, marginTop: 28, textWrap: 'pretty'} as React.CSSProperties}>{l.texto.replace(/ (\S+)$/, '\u00a0$1')}</div>
       {l.chamada && <div style={{fontFamily: familia('rotulo'), fontWeight: 600, fontSize: 28, letterSpacing: '0.04em', color: corDest, marginTop: 30, textWrap: 'balance'} as React.CSSProperties}>{l.chamada.split(/(\*[^*]+\*)/g).filter(Boolean).map((p, k) => p.startsWith('*') ? <span key={k} style={{letterSpacing: '0.12em'}}>{p.slice(1, -1)}</span> : <span key={k}>{p}</span>)}</div>}
     </div>
   );
