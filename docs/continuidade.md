@@ -7,7 +7,7 @@ Branch de trabalho: `claude/nifty-albattani-owiail` (ainda não está no `main`)
 
 
 ## ⏭️ Próximo passo imediato (23/11/2026)
-**Carrossel "Prosperidade" (`producoes/2026-11-23-apometria-prosperidade/`)**: roteiro v3 APROVADO (Lupa 8,83 + Guardiã) e comandos visuais aprovados pelo Crivo em `07-prompts-gemini.md`. **Falta gerar as 5 imagens.**
+**Carrossel "Prosperidade" (`producoes/2026-11-23-apometria-prosperidade/`)**: roteiro v3 APROVADO (Lupa 8,83 + Guardiã) e comandos visuais aprovados pelo Crivo em `07-prompts-gemini.md`. **Falta gerar as 5 imagens.** ✅ A responsável já autorizou o **Kling** (23/11): usar a skill `kling-ai:kling-ai-generate-image` (text_to_image, 4:5, 2K, 1 imagem por lâmina), seguindo as regras de cobrança do plugin (mostrar resumo e pedir o "pode gerar" antes). Gemini API fica como alternativa.
 1. Conferir se a chave existe: `env | grep -c GEMINI_API_KEY` (não imprimir o valor).
 2. Gerar as 5 imagens pela API do Gemini (modelo de imagem do Gemini; formato vertical 4:5), usando "ESTILO DA SÉRIE" + COMANDO de cada lâmina; salvar em `imagens/s1.jpg`…`s5.jpg` recortadas para 1080x1350.
 3. Olho confere cada imagem contra "Conferir na imagem"; refazer só a que falhar.
