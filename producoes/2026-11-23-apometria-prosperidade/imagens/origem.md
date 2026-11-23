@@ -13,3 +13,8 @@ Saldo do vidIQ: 57 créditos (22 por imagem), suficiente para só 2 imagens.
 
 Originais em `originais/`. Recorte 1080x1350.
 Recomendação: refazer 1, 4 e 5 no Kling (sessão nova) usando s2.jpg como referência de personagem e rio, para a série ficar igual.
+
+## Montagem (23/11/2026)
+- Modelo novo `CarrosselCena` (imagem inteira, texto no espaço vazio da cena, véu suave só atrás do texto). Lâmina 3 com texto embaixo.
+- Ajustes do Olho: lâmina 1 clareada (a mulher sumia); lâmina 4 refeita com a foto inteira embaixo e céu estendido em cima (o texto cobria a cabeça); lâmina 5 com chamada e assinatura embaixo sobre véu escuro (estavam ilegíveis no mato).
+- Hashtags: entrou #explorer (regra de todas as contas) e saiu #limpezaenergetica, para ficar em 5.

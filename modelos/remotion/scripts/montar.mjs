@@ -3,6 +3,7 @@
 // Uso (dentro de modelos/remotion): node scripts/montar.mjs ../../producoes/<pasta> [--so 1,3]
 //   --so: renderiza só algumas lâminas (números a partir de 1), para revisão rápida.
 // Resultado: <producao>/final/lamina-N.jpg
+// "modelo" no storyboard escolhe a composição: "Carrossel" (padrão, faixa verde) ou "CarrosselCena" (imagem inteira, texto na cena).
 import {readFileSync, writeFileSync, mkdirSync, cpSync, existsSync} from 'node:fs';
 import {join, resolve, basename} from 'node:path';
 import {execFileSync} from 'node:child_process';
@@ -34,7 +35,7 @@ mkdirSync(join(prod, 'final'), {recursive: true});
 sb.laminas.forEach((_, i) => {
   if (so && !so.includes(i + 1)) return;
   const png = join('out', `${slug}-${i + 1}.png`);
-  execFileSync('npx', ['remotion', 'still', 'src/index.ts', 'Carrossel', png, `--frame=${i}`, `--props=${arqProps}`], {stdio: 'inherit'});
+  execFileSync('npx', ['remotion', 'still', 'src/index.ts', sb.modelo ?? 'Carrossel', png, `--frame=${i}`, `--props=${arqProps}`], {stdio: 'inherit'});
   execFileSync('python3', ['-I', '-c', `from PIL import Image;Image.open(r'${png}').convert('RGB').save(r'${join(prod, 'final', `lamina-${i + 1}.jpg`)}',quality=92)`]);
   console.log(`lâmina ${i + 1} pronta`);
 });

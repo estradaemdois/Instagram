@@ -3,6 +3,7 @@ import {Composition} from 'remotion';
 import {Carrossel, PropsCarrossel} from './Carrossel';
 import exemplo from './exemplo-carrossel.json';
 import {ReelFabrica, PropsReel} from './ReelFabrica';
+import {CarrosselCena, PropsCena} from './CarrosselCena';
 
 // Uma lâmina por quadro (frame). Post único = carrossel de 1 lâmina.
 export const Root: React.FC = () => (
@@ -15,6 +16,16 @@ export const Root: React.FC = () => (
     height={1350}
     durationInFrames={1}
     defaultProps={exemplo as unknown as PropsCarrossel}
+    calculateMetadata={({props}) => ({durationInFrames: Math.max(1, props.laminas.length)})}
+  />
+  <Composition
+    id="CarrosselCena"
+    component={CarrosselCena}
+    fps={30}
+    width={1080}
+    height={1350}
+    durationInFrames={1}
+    defaultProps={exemplo as unknown as PropsCena}
     calculateMetadata={({props}) => ({durationInFrames: Math.max(1, props.laminas.length)})}
   />
   <Composition

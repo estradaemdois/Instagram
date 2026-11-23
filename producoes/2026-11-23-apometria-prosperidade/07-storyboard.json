@@ -1,0 +1,39 @@
+{
+  "marca": "apometria-brasil",
+  "modelo": "CarrosselCena",
+  "observacao": "Visual novo (23/11/2026): imagem inteira e texto no espaço vazio da cena. Origem das imagens em imagens/origem.md.",
+  "laminas": [
+    {
+      "rotulo": "ESPIRITUALIDADE E PROSPERIDADE",
+      "titulo": "Fazendo de tudo / e o dinheiro *não anda*?",
+      "texto": "Muita gente sente a vida financeira parada, mesmo se esforçando. Na visão espiritual, pode ter mais coisa nessa história.",
+      "chamada": "Arraste para o lado →",
+      "imagem": "s1.jpg", "tom": "escuro", "posicao": "topo", "veu": 0.6
+    },
+    {
+      "rotulo": "O QUE PODE SEGURAR",
+      "titulo": "Tem coisa que / *não aparece no extrato*.",
+      "texto": "Crise e desemprego são reais, e às vezes é só isso. Mas tem família em que nunca sobra nada, e a história se repete. Tem gente exausta, que acorda pensando na dívida. E se a casa está carregada, tudo pode andar mais devagar.",
+      "imagem": "s2.jpg", "tom": "escuro", "posicao": "topo", "veu": 0.5
+    },
+    {
+      "rotulo": "COMO A APOMETRIA VÊ",
+      "titulo": "Prosperidade / é *movimento*.",
+      "texto": "Na visão espiritual, quando esse movimento emperra, pode vir o que muita gente repete: os orçamentos não fecham. A apometria olha cada caso atrás do que está segurando e ajuda a soltar, como no corte de um vínculo com alguém. O atendimento é à distância, com a pessoa em casa.",
+      "imagem": "s3.jpg", "tom": "marca", "posicao": "base", "veu": 0.45
+    },
+    {
+      "rotulo": "O QUE AJUDA",
+      "titulo": "Então é só tratar / que o dinheiro *vem*?",
+      "texto": "Não funciona assim. O cuidado espiritual pode aliviar o peso, e aí fica mais leve fazer a parte prática. Uma coisa não substitui a outra. Dá para começar sentando com as contas na mesa, sem se culpar. E vale abrir as janelas para a casa respirar.",
+      "imagem": "s4.jpg", "tom": "claro", "posicao": "topo", "claro": true, "veu": 0.75
+    },
+    {
+      "rotulo": "CADA UM NO SEU TEMPO",
+      "titulo": "O que estava parado / pode voltar a *andar*.",
+      "texto": "Não de um dia para o outro, nem do mesmo jeito para todo mundo. Às vezes começa assim: deitar à noite sem ficar fazendo conta de cabeça.",
+      "chamada": "Salve para reler quando o mês apertar. Se fez sentido, comente *FLUIR*.",
+      "imagem": "s5.jpg", "tom": "claro", "posicao": "topo", "claro": true, "veu": 0.7
+    }
+  ]
+}
