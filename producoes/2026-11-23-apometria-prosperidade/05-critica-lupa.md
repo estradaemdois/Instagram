@@ -64,3 +64,32 @@ Teste da leitura em voz alta: as lâminas 1, 2, 4 e 5 passam como conversa. A l�
 2. **Lâm. 2, texto (polimento):** "Some a isso uma casa carregada" deve soar falado (por exemplo, "E se a casa anda carregada…"). Isso também quebra a sequência "Tem… Tem… Some".
 3. **Lâm. 1, texto (polimento):** "mesmo correndo atrás. Na visão espiritual, pode ter mais coisa por trás." Desfazer o eco "atrás / por trás".
 4. **Lâm. 4, texto (polimento):** "E abrir as janelas da casa também ajuda." Repete o rótulo "O QUE AJUDA" e não diz ajuda a quê. Dizer o efeito em meia frase (deixar o ar e a energia da casa circularem) ou trocar o verbo.
+
+---
+
+## Versão 3
+
+Data: 23/11/2026 · Lupa · Arquivo julgado: `04-roteiro.md` (Versão 3)
+Teste da leitura em voz alta: as cinco lâminas passam como conversa. A lâmina 3 voltou a ensinar o "como" e agora liga as causas da lâm. 2 à objeção da lâm. 4.
+
+| # | Critério | Peso | Nota | Justificativa | Instrução de melhoria |
+|---|---|---|---|---|---|
+| 1 | Gancho | 25% | 9 | O título continua curto e acolhedor, e o apoio está limpo, sem eco ("mesmo se esforçando… mais coisa nessa história"). | (nota ≥ 9) |
+| 2 | Identificação | 20% | 9 | As falas reais estão nas lâminas ("parada", "nunca sobra nada", "exausta", "acorda pensando na dívida", "os orçamentos não fecham") e todas soam como o público fala. | (nota ≥ 9) |
+| 3 | Progressão | 20% | 9 | Cada lâmina deixa uma ponta para a próxima: tudo anda devagar → o movimento emperra → a apometria ajuda a soltar → "Então é só tratar?" → pode voltar a andar. A capa promete e o resto entrega. | (nota ≥ 9) |
+| 4 | Valor | 15% | 8,5 | O mecanismo voltou ("olha cada caso atrás do que está segurando e ajuda a soltar"), a objeção está bem desfeita e o "à distância" está explicado. Mas o corte de vínculo perdeu a explicação da V2 ("soltar um laço de energia") e ficou como termo técnico. | Opcional: trocar "como no corte de um vínculo com alguém" por algo como "como soltar um laço de energia com alguém". |
+| 5 | Naturalidade | 10% | 8 | Passa na leitura em voz alta. Ainda há rigidez em dois trechos da lâm. 3: "olha cada caso atrás do que está segurando" (o natural seria "procura, em cada caso, o que está segurando") e "pode vir o que muita gente repete". Além disso, "história" aparece na lâm. 1 e logo de novo na lâm. 2. | Polimentos opcionais abaixo. |
+| 6 | Fechamento | 10% | 9 | Mantido: a cena concreta e serena ("deitar à noite sem ficar fazendo conta de cabeça") e a chamada leve estão certas. | (nota ≥ 9) |
+
+**Média ponderada:**
+(9 × 0,25) + (9 × 0,20) + (9 × 0,20) + (8,5 × 0,15) + (8 × 0,10) + (9 × 0,10)
+= 2,25 + 1,80 + 1,80 + 1,275 + 0,80 + 0,90 = **8,825** (arredondando, 8,83)
+
+**Veredito: APROVADO.** A média ficou acima de 8,5, nenhum critério está abaixo de 7 e a Naturalidade é 8.
+
+**Nota extra (fora da média) · Representação visual: 9.** Igual à V2. Na lâm. 3, o nó que se solta agora ilustra exatamente o "ajuda a soltar" do texto. A única ressalva continua sendo a diferença entre o texto noturno ("deitar à noite") e a imagem de manhã na lâm. 5, que é aceitável como símbolo.
+
+**Polimentos opcionais (não impedem a aprovação; a Pena aplica só se a Guardiã também pedir revisão):**
+1. **Lâm. 3:** "A apometria olha cada caso atrás do que está segurando" pode virar "A apometria procura, em cada caso, o que está segurando".
+2. **Lâm. 3:** o texto tem cerca de 50 palavras, um pouco acima do limite de ~45. Dá para enxugar em "pode vir o que muita gente repete" (por exemplo, "é quando, como muita gente diz, os orçamentos não fecham").
+3. **Lâm. 1:** "mais coisa nessa história" repete a palavra "história", que aparece logo depois na lâm. 2 ("a história se repete"). Trocar uma das duas.

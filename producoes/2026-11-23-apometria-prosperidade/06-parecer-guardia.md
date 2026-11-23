@@ -95,3 +95,52 @@ Observações (não são veto, apenas recomendação):
 - ✅ Sem promessa de prosperidade ou de ganho financeiro, nem prazo. O fechamento é uma cena modesta ("deitar à noite sem ficar fazendo conta de cabeça"), não um ganho.
 - ✅ Sem culpa: "sem se culpar" e "às vezes é só isso" tiram do leitor a responsabilidade espiritual pela crise.
 - ✅ Imagens: nenhuma traz dinheiro, ouro acumulado ou símbolo de riqueza prometida. A luz dourada que volta a correr representa movimento, não ganho.
+
+## Versão 3
+Data: 23/11/2026 · Roteiro conferido: `04-roteiro.md` (Versão 3: 5 lâminas com rótulo, título, texto, chamada e linhas "Imagem:", legenda e hashtags). A seção "O que mudou" é nota interna e não vai ao ar.
+
+**Veredito: APROVADO**
+
+Mudou o texto das lâminas 1, 2, 3 e 4. A lâmina 5, a legenda, as hashtags e todas as linhas "Imagem:" estão iguais à Versão 2, que já tinha sido aprovada. Conferi os trechos novos palavra por palavra:
+- **Lâmina 1:** "Muita gente sente a vida financeira parada, mesmo se esforçando. Na visão espiritual, pode ter mais coisa nessa história." Está em terceira pessoa, marcada como visão e com "pode".
+- **Lâmina 2:** "E se a casa está carregada, tudo pode andar mais devagar." É uma condição hipotética, com "pode", e não acusa o leitor nem ameaça.
+- **Lâmina 3:** "Na visão espiritual, quando esse movimento emperra, pode vir o que muita gente repete: os orçamentos não fecham." A recomendação da Versão 2 foi aplicada. A frase "A apometria olha cada caso atrás do que está segurando e ajuda a soltar, como no corte de um vínculo com alguém." descreve o que a prática faz no plano energético e não promete resultado financeiro. "O atendimento é à distância, com a pessoa em casa." explica como funciona, sem chamar para contratar.
+- **Lâmina 4:** "E vale abrir as janelas para a casa respirar." É um gesto prático e não promete nada. As ressalvas "Não funciona assim" e "Uma coisa não substitui a outra" continuam lá.
+
+Observações (não são veto):
+1. **Lâmina 3, "ajuda a soltar":** é o efeito da prática descrito como uma ajuda, sem garantia, e está aceitável. Se alguém mexer na frase depois, ela não pode virar "e o dinheiro volta a fluir" nem "e os orçamentos voltam a fechar". Isso seria promessa de resultado (regra 5).
+2. **Lâmina 3, "atendimento":** a palavra é aceitável aqui porque aparece sem preço, sem "agende" e sem chamada. Se vier junto de qualquer convite ("chame no direct", "link na bio"), passa a ser venda (regra 6).
+3. **"olha cada caso atrás do que está segurando":** não quebra regra. A clareza da frase é assunto da Lupa.
+
+### Checklist
+
+**Regras da marca (`regras.md`)**
+- ✅ 1. Sem "doutrina espírita", "espiritismo", "para os espíritas" nem termos parecidos. Usa "na visão espiritual" (lâminas 1 e 3). "Espiritualidade" e "cuidado espiritual" não remetem à doutrina.
+- ✅ 2. Nenhum livro, autor ou médium citado em lâminas, legenda ou hashtags.
+- ✅ 3. Sem crédito de imagem na legenda.
+- ✅ 4. Sem AA, ajuda médica ou psicológica, CAPS ou remédios. "Atendimento" (lâmina 3) se refere à apometria. A parte prática é "sentando com as contas na mesa" e "abrir as janelas".
+- ✅ 5. Sem promessa de cura, resultado ou prazo. Lâmina 1: "pode ter". Lâmina 2: "pode andar". Lâmina 3: "pode vir" e "ajuda a soltar", sem nada financeiro. Lâmina 4: "pode aliviar", "Não funciona assim", "Uma coisa não substitui a outra". Lâmina 5: "pode voltar a *andar*" com a ressalva de tempo. Legenda: "pode segurar".
+- ✅ 6. Sem venda: nada de preço, promoção, "agende", vagas, link na bio ou urgência. "O atendimento é à distância" é informativo. As chamadas são salvar, comentar FLUIR e enviar.
+- ✅ 7. Sem medo ou culpa como gancho. "Se a casa está carregada" é hipótese, sem ameaça. "Sem se culpar" continua na lâmina 4, e as imagens não ameaçam ("Sem correntes").
+- ✅ 8. Nenhuma condição pessoal do leitor é afirmada: "Muita gente sente…", "tem família em que…", "Tem gente exausta…", "o que muita gente repete", "a pessoa em casa", "Muita gente descreve…". A lâmina 2 fala de "a casa" em geral, não de "a sua casa".
+- ✅ 9. 5 hashtags (limite: 5). Legenda igual à da Versão 2, com cerca de 590 caracteres (limite: 2.200).
+
+**Obrigatórios da marca**
+- ✅ Conceito espiritual como visão, não como fato: "Na visão espiritual" nas lâminas 1 e 3, e "pode" em todas as afirmações de efeito.
+- ✅ Linguagem acolhedora e sem julgamento: "às vezes é só isso", "sem se culpar", "cada um no seu tempo".
+- ✅ Pontuação colada na palavra-chave: "*não anda*?", "*não aparece no extrato*.", "*movimento*.", "*vem*?", "*andar*.", "*FLUIR*.".
+
+**Regras gerais (`criterios.md`, seção 2)**
+- ✅ 1. Nenhuma promessa de cura, resultado garantido ou prazo.
+- ✅ 2. Nenhuma condição pessoal do leitor é afirmada.
+- ✅ 3. Sem medo, culpa ou ameaça.
+- ✅ 4. Nada inventado. A única citação entre aspas continua **idêntica** à pesquisa: "sinto como se a vida financeira estivesse parada". As outras falas aparecem sem aspas, como paráfrase. Não há números nem estudos.
+- ✅ 5. Hashtags e tamanho da legenda dentro do limite.
+- ✅ 6. Português correto: crase certa em "à distância" e "à noite", "E se a casa está carregada" está correto e a concordância está ok.
+
+**Pontos sensíveis do tema dinheiro (pedido do Maestro)**
+- ✅ Nada sugere que o espiritual resolve dívidas: "Não funciona assim… Uma coisa não substitui a outra", e nenhuma frase diz que o tratamento faz os orçamentos fecharem.
+- ✅ Sem "karma", "escassez", "maldição", "devorador", "inimigo" ou "oferta".
+- ✅ Sem promessa de prosperidade ou de ganho financeiro, nem prazo.
+- ✅ Sem culpa: "sem se culpar" e "às vezes é só isso" continuam na peça.
+- ✅ Imagens iguais às da Versão 2, sem símbolo de riqueza prometida.
