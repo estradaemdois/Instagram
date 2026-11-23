@@ -16,18 +16,6 @@
   },
   {
    "arquivo": "s2.jpg",
-   "url": "https://images.pexels.com/photos/8515596/pexels-photo-8515596.jpeg?auto=compress&cs=tinysrgb&w=1600",
-   "fonte": "Pexels 8515596",
-   "foco": [
-    0.5,
-    0.5
-   ],
-   "zoom": 1.0,
-   "brilho": 0.55,
-   "saturacao": 0.5
-  },
-  {
-   "arquivo": "s3.jpg",
    "url": "https://images.pexels.com/photos/18820283/pexels-photo-18820283.jpeg?auto=compress&cs=tinysrgb&w=1600",
    "fonte": "Pexels 18820283",
    "foco": [
@@ -39,7 +27,31 @@
    "saturacao": 0.8
   },
   {
+   "arquivo": "s3.jpg",
+   "url": "https://images.pexels.com/photos/8515596/pexels-photo-8515596.jpeg?auto=compress&cs=tinysrgb&w=1600",
+   "fonte": "Pexels 8515596",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "zoom": 1.0,
+   "brilho": 0.55,
+   "saturacao": 0.5
+  },
+  {
    "arquivo": "s4.jpg",
+   "url": "https://images.pexels.com/photos/9223091/pexels-photo-9223091.jpeg?auto=compress&cs=tinysrgb&w=1600",
+   "fonte": "Pexels 9223091",
+   "foco": [
+    0.45,
+    0.68
+   ],
+   "zoom": 1.35,
+   "brilho": 0.8,
+   "saturacao": 0.3
+  },
+  {
+   "arquivo": "s5.jpg",
    "url": "https://images.pexels.com/photos/6598909/pexels-photo-6598909.jpeg?auto=compress&cs=tinysrgb&w=1600",
    "fonte": "Pexels 6598909",
    "foco": [
@@ -49,57 +61,45 @@
    "zoom": 1.25,
    "brilho": 1.0,
    "saturacao": 0.9
-  },
-  {
-   "arquivo": "s5.jpg",
-   "url": "https://images.pexels.com/photos/192455/pexels-photo-192455.jpeg?auto=compress&cs=tinysrgb&w=1600",
-   "fonte": "Pexels 192455",
-   "foco": [
-    0.5,
-    0.78
-   ],
-   "zoom": 1.6,
-   "brilho": 1.0,
-   "saturacao": 1.0
   }
  ],
  "laminas": [
   {
    "rotulo": "ESPIRITUALIDADE E PROSPERIDADE",
-   "titulo": "Fazendo de tudo / e o dinheiro *não anda*?",
-   "texto": "Muita gente sente a vida financeira parada, mesmo se esforçando. Na visão espiritual, pode ter mais coisa nessa história.",
-   "imagem": "s1.jpg",
+   "titulo": "Quando o dinheiro / *não flui*.",
+   "texto": "Entenda o que, na visão energética e espiritual, pode estar travando a vida financeira.",
    "tom": "escuro",
-   "chamada": "Arraste para o lado →"
+   "chamada": "Arraste para o lado  →",
+   "imagem": "s1.jpg"
   },
   {
-   "rotulo": "O QUE PODE SEGURAR",
-   "titulo": "Tem coisa que / *não aparece no extrato*.",
-   "texto": "Crise e desemprego são reais, e às vezes é só isso. Mas tem família em que nunca sobra nada, e a história se repete. Tem gente exausta, que acorda pensando na dívida. E se a casa está carregada, tudo pode andar mais devagar.",
-   "imagem": "s2.jpg",
-   "tom": "escuro"
+   "rotulo": "O QUE É PROSPERIDADE",
+   "titulo": "Prosperidade é / *energia em movimento*.",
+   "texto": "Na visão energética e espiritual, o dinheiro acompanha o fluxo da nossa energia. Quando ela circula, as oportunidades aparecem. Quando fica presa, tudo parece andar mais devagar.",
+   "tom": "escuro",
+   "imagem": "s2.jpg"
   },
   {
-   "rotulo": "COMO A APOMETRIA VÊ",
-   "titulo": "Prosperidade / é *movimento*.",
-   "texto": "Na visão espiritual, quando esse movimento emperra, pode vir o que muita gente repete: os orçamentos não fecham. A apometria olha cada caso atrás do que está segurando e ajuda a soltar, como no corte de um vínculo com alguém. O atendimento é à distância, com a pessoa em casa.",
-   "imagem": "s3.jpg",
-   "tom": "marca"
+   "rotulo": "POSSÍVEIS CAUSAS",
+   "titulo": "O que pode / *travar esse fluxo*.",
+   "texto": "Padrões de escassez que se repetem na família, vínculos com pessoas e situações do passado, energias acumuladas na casa e no trabalho, e sentimentos como medo, culpa e mágoa, que baixam a vibração.",
+   "tom": "escuro",
+   "imagem": "s3.jpg"
   },
   {
-   "rotulo": "O QUE AJUDA",
-   "titulo": "Então é só tratar / que o dinheiro *vem*?",
-   "texto": "Não funciona assim. O cuidado espiritual pode aliviar o peso, e aí fica mais leve fazer a parte prática. Uma coisa não substitui a outra. Dá para começar sentando com as contas na mesa, sem se culpar. E vale abrir as janelas para a casa respirar.",
-   "imagem": "s4.jpg",
-   "tom": "claro"
+   "rotulo": "AS INFLUÊNCIAS",
+   "titulo": "Nem tudo que pesa / *é seu*.",
+   "texto": "Energias de ambientes, de pessoas próximas e até de espíritos em sintonia com a escassez podem se somar ao que você já sente, reforçando o desânimo e a sensação de que nada dá certo.",
+   "tom": "escuro",
+   "imagem": "s4.jpg"
   },
   {
-   "rotulo": "CADA UM NO SEU TEMPO",
-   "titulo": "O que estava parado / pode voltar a *andar*.",
-   "texto": "Não de um dia para o outro, nem do mesmo jeito para todo mundo. Às vezes começa assim: deitar à noite sem ficar fazendo conta de cabeça.",
-   "imagem": "s5.jpg",
+   "rotulo": "COMO A APOMETRIA ATUA",
+   "titulo": "Para a energia / *voltar a circular*.",
+   "texto": "A apometria identifica e trata essas interferências à distância: corta vínculos, faz a limpeza energética da pessoa e do lar e ajuda a reequilibrar o campo. Com novos hábitos, abre-se espaço para a mudança.",
    "tom": "claro",
-   "chamada": "Salve para reler quando o mês apertar. Se fez sentido, comente FLUIR."
+   "chamada": "Salve e compartilhe com quem precisa.",
+   "imagem": "s5.jpg"
   }
  ]
 }
