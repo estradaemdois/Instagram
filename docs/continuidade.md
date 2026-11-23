@@ -1,11 +1,34 @@
-# Continuidade · Fábrica de Conteúdo (atualizado 15/11/2026)
+# Continuidade · Fábrica de Conteúdo (atualizado 23/11/2026)
 
 **Para retomar numa sessão nova, peça:**
 > "Leia `docs/continuidade.md` e continue a partir dele."
 
 Branch de trabalho: `claude/nifty-albattani-owiail` (ainda não está no `main`).
 
-## Onde estamos
+
+## ⏭️ Próximo passo imediato (23/11/2026)
+**Carrossel "Prosperidade" (`producoes/2026-11-23-apometria-prosperidade/`)**: roteiro v3 APROVADO (Lupa 8,83 + Guardiã) e comandos visuais aprovados pelo Crivo em `07-prompts-gemini.md`. **Falta gerar as 5 imagens.**
+1. Conferir se a chave existe: `env | grep -c GEMINI_API_KEY` (não imprimir o valor).
+2. Gerar as 5 imagens pela API do Gemini (modelo de imagem do Gemini; formato vertical 4:5), usando "ESTILO DA SÉRIE" + COMANDO de cada lâmina; salvar em `imagens/s1.jpg`…`s5.jpg` recortadas para 1080x1350.
+3. Olho confere cada imagem contra "Conferir na imagem"; refazer só a que falhar.
+4. Moldura monta com o modelo de carrossel. A responsável quer **visual novo** (imagem ocupando a lâmina inteira, texto no espaço vazio da cena; a lâmina 3 tem o texto embaixo). Ajustar o degradê para não virar "faixa verde" igual aos anteriores.
+5. Enviar as lâminas e a legenda (está em `04-roteiro.md`).
+
+Se não houver `GEMINI_API_KEY`: a responsável pode autorizar o Kling (conector `kling-ai` já aparece, precisa de autorização em claude.ai/customize/connectors) ou gerar no Gemini do navegador e mandar as imagens.
+
+## Produções até agora
+| Pasta | Formato | Situação |
+|---|---|---|
+| `2026-11-14-apometria-alcoolismo` | Carrossel 7 | Aprovado, rascunho no estúdio |
+| `2026-11-15-apometria-pesadelos` | Carrossel 8 | Pronto, mas reprovado no visual/linguagem; não publicar |
+| `2026-11-15-apometria-reels-01` | Reels 47 s | Pronto (narração vidIQ, cenas do astral em motion graphics); aguardando opinião |
+| `2026-11-23-apometria-prosperidade` | Carrossel 5 | Texto aprovado; faltam imagens (Gemini) |
+
+## Ferramentas (decisão de 23/11)
+- **vidIQ: só pesquisa** (comentários, outliers, palavras-chave). ~40 créditos restantes no ciclo até 15/12.
+- **Criação de imagens/vídeos: Gemini** (via `GEMINI_API_KEY`) ou Kling (após autorização).
+
+## Onde estamos (histórico de 15/11)
 1. Fábrica montada (Fase 1): 9 agentes + Maestro (`.claude/agents/`, `.claude/skills/produzir/`), critérios (`docs/criterios.md`), kit da Apometria (`marcas/apometria-brasil/`), modelo de carrossel (`modelos/remotion/`).
 2. Produção de teste "pesadelos recorrentes" (`producoes/2026-11-15-apometria-pesadelos/`): concluída, 8 lâminas. **A responsável não gostou**: linguagem ainda genérica e **visual idêntico ao carrossel anterior**. Não publicar.
 3. vidIQ conectado e funcionando (comentários do YouTube, outliers de Instagram/TikTok, palavras-chave). Plano com **150 créditos/mês, 5 por busca**: usar com moderação. Primeira pesquisa salva em `marcas/apometria-brasil/pesquisa/`.
