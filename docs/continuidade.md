@@ -7,6 +7,8 @@ Branch de trabalho: `claude/nifty-albattani-owiail` (ainda não está no `main`)
 
 
 ## ⏭️ Próximo passo imediato (23/11/2026)
+**Atualização (23/11, sessão do Kling):** o Kling não abriu na sessão. Lâminas 2 e 3 geradas no vidIQ e aprovadas pelo Olho; 1, 4 e 5 são fotos do Pexels provisórias (ver `producoes/2026-11-23-apometria-prosperidade/imagens/origem.md`). vidIQ ficou com ~13 créditos até 15/12. Próximo: refazer 1, 4 e 5 no Kling numa sessão nova, usando `imagens/s2.jpg` como referência, e depois Moldura.
+
 **Carrossel "Prosperidade" (`producoes/2026-11-23-apometria-prosperidade/`)**: roteiro v3 APROVADO (Lupa 8,83 + Guardiã) e comandos visuais aprovados pelo Crivo em `07-prompts-gemini.md`. **Falta gerar as 5 imagens.** ✅ A responsável já autorizou o **Kling** (23/11): usar a skill `kling-ai:kling-ai-generate-image` (text_to_image, 4:5, 2K, 1 imagem por lâmina), seguindo as regras de cobrança do plugin (mostrar resumo e pedir o "pode gerar" antes). Gemini API fica como alternativa.
 1. Conferir se a chave existe: `env | grep -c GEMINI_API_KEY` (não imprimir o valor).
 2. Gerar as 5 imagens pela API do Gemini (modelo de imagem do Gemini; formato vertical 4:5), usando "ESTILO DA SÉRIE" + COMANDO de cada lâmina; salvar em `imagens/s1.jpg`…`s5.jpg` recortadas para 1080x1350.
@@ -22,7 +24,7 @@ Se não houver `GEMINI_API_KEY`: a responsável pode autorizar o Kling (conector
 | `2026-11-14-apometria-alcoolismo` | Carrossel 7 | Aprovado, rascunho no estúdio |
 | `2026-11-15-apometria-pesadelos` | Carrossel 8 | Pronto, mas reprovado no visual/linguagem; não publicar |
 | `2026-11-15-apometria-reels-01` | Reels 47 s | Pronto (narração vidIQ, cenas do astral em motion graphics); aguardando opinião |
-| `2026-11-23-apometria-prosperidade` | Carrossel 5 | Texto aprovado; faltam imagens (Gemini) |
+| `2026-11-23-apometria-prosperidade` | Carrossel 5 | Texto aprovado; lâminas 2 e 3 prontas (vidIQ), 1/4/5 provisórias (Pexels) |
 
 ## Ferramentas (decisão de 23/11)
 - **vidIQ: só pesquisa** (comentários, outliers, palavras-chave). ~40 créditos restantes no ciclo até 15/12.
