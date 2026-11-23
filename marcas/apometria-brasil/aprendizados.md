@@ -22,3 +22,4 @@ Os agentes leem este arquivo antes de criar.
 | 15/11/2026 | Direção geral | Edição profissional com som que cause sentimento (apreensão, medo → alívio); vídeos do terapeuta falando + representações | Sim: agentes de edição e som |
 | 15/11/2026 | Direção geral | Juiz para não gastar crédito à toa nas gerações | Sim: aprovação do comando visual antes de gerar |
 | 15/11/2026 | Direção geral | Pode usar imagens/vídeos que já existem na internet só quando o assunto for muito interessante e informativo | Sim, respeitando direitos de uso |
+| 23/11/2026 | Direção geral | **vidIQ só para pesquisa**; criação de imagens e vídeos no **Gemini** (no navegador dela) | Sim: agentes entregam comandos para o Gemini; ela gera e salva no Drive |
