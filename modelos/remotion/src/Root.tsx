@@ -75,7 +75,7 @@ export const Root: React.FC = () => (
     height={1920}
     durationInFrames={300}
     defaultProps={{pasta: 'x', fontes: {titulo: 'x', texto: 'x', texto_forte: 'x'}, assinatura: {nome: 'x', foto: 'x'}, video: 'v.mp4', formato: 'reel', duracao: 10, titulo: 'x'} as unknown as PropsVideoAB}
-    calculateMetadata={({props}) => ({durationInFrames: Math.round(props.duracao * 30), height: props.formato === 'feed' ? 1350 : 1920})}
+    calculateMetadata={({props}) => ({durationInFrames: Math.round(((props.duracao_video ?? props.duracao) + (props.telas?.length ?? 0) * (props.duracao_tela ?? 5)) * 30), height: props.formato === 'feed' ? 1350 : 1920})}
   />
   </>
 );
