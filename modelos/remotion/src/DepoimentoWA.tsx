@@ -22,7 +22,7 @@ export const DepoimentoWA: React.FC<PropsWA> = ({pasta, fontes, assinatura, avis
   useFontes(pasta, fontes);
   const d = itens[useCurrentFrame()];
   const arq = (a: string) => staticFile(`${pasta}/${a}`);
-  const Rotulo = () => <div style={{display: 'inline-block', background: 'rgba(0,160,170,0.8)', padding: '7px 16px', fontFamily: 'WA-texto', fontWeight: 600, fontSize: 26, letterSpacing: '0.08em'}}>DEPOIMENTO REAL</div>;
+  const Rotulo = () => <div style={{display: 'inline-block', background: 'rgba(0,160,170,0.8)', padding: '7px 16px', fontFamily: 'WA-texto', fontWeight: 600, fontSize: 26, letterSpacing: '0.08em'}}>DEPOIMENTO</div>;
   const Assin = ({t = 1}: {t?: number}) => (
     <div style={{display: 'flex', alignItems: 'center', gap: 14}}>
       <Img src={arq(assinatura.foto)} style={{width: 62 * t, height: 62 * t, borderRadius: '50%', objectFit: 'cover', border: '3px solid rgba(255,255,255,0.9)'}} />

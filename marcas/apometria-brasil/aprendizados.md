@@ -38,3 +38,4 @@ Os agentes leem este arquivo antes de criar.
 - 24/11/2026 · Reels informativos: ~25 s = vídeo do Gemini com título (10 s) + 3 telas explicativas (5 s cada) sobre quadros do próprio vídeo. A explicação vai no vídeo, não só na legenda.
 - 24/11/2026 · Vídeo do implante astral precisa ser mais místico e mostrar o artefato drenando a energia e fazendo mal à pessoa (não só pontos de luz).
 - 24/11/2026 · Depoimentos: NÃO recortar o print do WhatsApp — manter a moldura original do app (cabeçalho, horários, barra de mensagem), que demonstra veracidade. Comentário vai no story seguinte ou ao lado do print.
+- 24/11/2026 · Depoimentos: rótulo só "DEPOIMENTO" (não "depoimento real"); sem "cada pessoa tem o seu processo"; borrar nomes de clientes dentro das mensagens; formato atual = print e comentário na mesma imagem.

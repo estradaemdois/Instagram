@@ -1,13 +1,13 @@
 # Depoimentos (stories) · Paulo Rodrigues · Apometria
 
-Modelo atual: composição `DepoimentoWA` — o **print original do WhatsApp inteiro** (moldura do app à mostra, é o que dá veracidade). Opção A: story do print + story do comentário. Opção B: print e comentário juntos.
+Modelo: composição `DepoimentoWA`, modo `junto` (decisão de 24/11): **print original do WhatsApp inteiro** (moldura do app à mostra, é o que dá veracidade) à esquerda; à direita "Muita gente pergunta", a objeção e um comentário curto que a responde com base no que a pessoa disse. Rótulo "DEPOIMENTO". Assinatura Paulo Rodrigues · Apometria. Aviso: "Relato compartilhado com autorização."
 
-Modelo antigo (recortado, descartado em 24/11): `DepoimentoAB` (1080x1920). Cada story: recorte só do trecho do relato (sem nomes, sem dados), objeção entre aspas e um comentário curto que responde a ela com base no que a pessoa disse, assinatura e aviso "Relato individual, compartilhado com autorização".
+Nomes dos clientes **dentro das mensagens** são borrados (além do cabeçalho, que já vem borrado). Antes de publicar: autorização por escrito do cliente. Não usar o da Thais. Frequência: a cada 2 dias.
 
-Antes de publicar cada um: autorização por escrito do cliente (ver LEIA-ME do pacote original). Não usar o da Thais. Frequência pedida: a cada 2 dias.
-
-| Exemplo | Print | Objeção |
+| # | Print | Objeção |
 |---|---|---|
-| 1 | relatorios.png (2ª mensagem) | Dá para perceber alguma mudança? |
-| 2 | maria-equipe.png (última mensagem dela) | Uma sessão resolve tudo? |
-| 3 | sandra1.png (mensagem de 14/07) | Como saber o que foi feito à distância? |
+| 1 | relatorios.png | Dá para perceber alguma mudança? |
+| 2 | maria-equipe.png (nome borrado) | Uma sessão resolve tudo? |
+| 3 | sandra1.png (nome borrado) | Como saber o que foi feito à distância? |
+| 4 | raquel1.png (nome borrado) | Dá para confiar num trabalho espiritual? |
+| 5 | cibele.png (nomes borrados) | A apometria também cuida da casa? |
