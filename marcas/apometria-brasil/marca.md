@@ -4,12 +4,12 @@
 
 ## Design system atual (feed do perfil)
 - **Imagem:** cinematográfica, ocupando a lâmina inteira; pessoas emocionadas (olhos fechados, sorriso, olhar para cima, close no rosto), elementos místicos (pêndulo, céu estrelado, névoa, luz dourada, nebulosa). Clima de sonho, nada de terror.
-- **Tratamento de cor:** lilás/roxo em cima, azul profundo/petróleo embaixo, toques de turquesa e de luz dourada.
+- **Tratamento de cor (ajustado em 24/11):** só um toque leve de lilás no alto; base em azul profundo/petróleo, toques de turquesa e de luz dourada. Nada de roxo forte.
 - **Brilhos:** estrelinhas brancas de 4 pontas espalhadas pela imagem.
 - **Título:** serifada fina e elegante, branca, grande, alinhada à esquerda (Cormorant Garamond 500).
 - **Texto de apoio:** sem serifa limpa, branca (Montserrat 500/600).
 - **Rótulo:** caixinha turquesa translúcida com texto branco ("Apometria para Ansiedade:").
-- **Chamada:** botão lilás arredondado ("Clique aqui em SAIBA MAIS").
+- **Chamada:** botão turquesa arredondado (o lilás ficou roxo demais).
 - **Logo:** ~~símbolo no canto~~ → **assinatura do Paulo (foto + "Paulo Rodrigues · Apometria") no rodapé de TODAS as lâminas**; o símbolo da Apometria Brasil não é mais usado (24/11/2026).
 - **Frases e depoimentos:** fundo de céu lilás/roxo; depoimento em cartão branco com nome, 5 estrelas douradas e texto.
 - **Assinatura:** foto do Paulo + "Paulo Rodrigues · Apometria", em todas as lâminas.
