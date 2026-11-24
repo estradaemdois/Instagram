@@ -34,3 +34,4 @@ Os agentes leem este arquivo antes de criar.
 - 24/11/2026 · Nada de "comente com coração" ou chamadas informais com emoji nos stories: linguagem séria e respeitosa ("Se quiser compartilhar, responda esta story", "Envie sua dúvida por mensagem").
 - 24/11/2026 · Escrever "este story" (masculino), nunca "esta story".
 - 24/11/2026 · Não falar do Paulo em terceira pessoa ("o Paulo responde", "Pergunte ao Paulo"): usar primeira pessoa ("vou responder") ou frases neutras.
+- 24/11/2026 · Vídeos gerados no Gemini (comandos em `producoes/2026-11-24-prompts-gemini.md`) aprovados para uso: viram Reels (1080x1920) ou capa de carrossel em vídeo (1080x1350) no modelo `VideoAB`, com o mesmo visual das fotos e texto desde o primeiro quadro.

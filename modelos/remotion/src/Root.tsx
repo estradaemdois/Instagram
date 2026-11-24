@@ -6,6 +6,7 @@ import {ReelFabrica, PropsReel} from './ReelFabrica';
 import {CarrosselCena, PropsCarrosselCena} from './CarrosselCena';
 import {CarrosselAB, PropsAB} from './CarrosselAB';
 import {StoryAB, PropsStoryAB} from './StoryAB';
+import {VideoAB, PropsVideoAB} from './VideoAB';
 
 // Uma lâmina por quadro (frame). Post único = carrossel de 1 lâmina.
 export const Root: React.FC = () => (
@@ -65,6 +66,16 @@ export const Root: React.FC = () => (
     durationInFrames={1}
     defaultProps={{pasta: exemplo.pasta, fontes: {titulo: 'x', texto: 'x', texto_forte: 'x'}, assinatura: {nome: 'x', foto: 'x'}, stories: [{imagem: 's1.jpg', rotulo: 'x', titulo: 'x'}]} as unknown as PropsStoryAB}
     calculateMetadata={({props}) => ({durationInFrames: Math.max(1, props.stories.length)})}
+  />
+  <Composition
+    id="VideoAB"
+    component={VideoAB}
+    fps={30}
+    width={1080}
+    height={1920}
+    durationInFrames={300}
+    defaultProps={{pasta: 'x', fontes: {titulo: 'x', texto: 'x', texto_forte: 'x'}, assinatura: {nome: 'x', foto: 'x'}, video: 'v.mp4', formato: 'reel', duracao: 10, titulo: 'x'} as unknown as PropsVideoAB}
+    calculateMetadata={({props}) => ({durationInFrames: Math.round(props.duracao * 30), height: props.formato === 'feed' ? 1350 : 1920})}
   />
   </>
 );
