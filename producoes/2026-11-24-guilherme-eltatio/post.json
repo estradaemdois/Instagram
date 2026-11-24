@@ -89,12 +89,16 @@
      ]
     },
     {
-     "foto": "IMG_0063.jpg",
-     "etiqueta": "El Tatio · Atacama",
+     "foto": "IMG_0049.jpg",
+     "layout": "curiosidade",
+     "rotulo": "Onde fica",
+     "etiqueta": "El Tatio · Antofagasta · Chile",
+     "tamanho": 38,
      "foco": [
       0.5,
-      0.55
-     ]
+      0.5
+     ],
+     "curiosidade": "Nos Andes do norte do Chile, Região de Antofagasta, perto da fronteira com a Bolívia: cerca de 80–90 km ao norte de San Pedro de Atacama e 100 km a leste de Calama, a cerca de 4.300 m de altitude."
     },
     {
      "layout": "pronto",
@@ -111,10 +115,10 @@
     {
      "foto": "IMG_9984.jpg",
      "layout": "curiosidade",
-     "curiosidade": "Os cones e crostas claras são sínter silicoso: a sílica dissolvida na água quente precipita ao esfriar. Esses depósitos também vedam os condutos.",
+     "curiosidade": "O sínter de El Tatio é opala (sílica amorfa). A água chega com 147 a 285 mg/L de sílica, que precipita com o resfriamento e a evaporação rápidos na altitude. Há depósitos com cerca de 7.400 anos.",
      "rotulo": "Sínter silicoso",
-     "etiqueta": "Fonte: NPS Yellowstone",
-     "tamanho": 40,
+     "etiqueta": "Fontes: Univ. Auckland · USGS",
+     "tamanho": 38,
      "foco": [
       0.5,
       0.55
@@ -163,7 +167,7 @@
     {
      "foto": "IMG_9989.jpg",
      "layout": "curiosidade",
-     "curiosidade": "Munoz-Saez, C. et al. (2015, 2018), Journal of Volcanology and Geothermal Research · UC Berkeley/USGS · NPS Yellowstone · IPS/Tierramérica · La Tercera.",
+     "curiosidade": "Munoz-Saez et al. (2015, 2018), J. Volcanology and Geothermal Research (UC Berkeley/USGS) · Wilmeth et al. (2020), Sedimentary Geology · Univ. de Auckland · NPS Yellowstone · IPS · La Tercera.",
      "rotulo": "Referências",
      "etiqueta": "El Tatio · Atacama",
      "tamanho": 34,

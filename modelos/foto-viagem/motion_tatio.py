@@ -54,7 +54,7 @@ def ciclo(saida):
     def quadro(i):
         t = i / FPS
         img = Image.new("RGB", (W, H), MATA); d = ImageDraw.Draw(img)
-        cab(d, 1, 3, "O sistema", "Água de origem meteórica infiltra por falhas a leste, desce, é aquecida por calor magmático e volta à superfície no campo de gêiseres.")
+        cab(d, 1, 3, "O sistema", "Em El Tatio, água de origem meteórica infiltra a leste, em maior altitude, desce por falhas, é aquecida por calor magmático e volta à superfície no campo.")
         # relevo: planície dos gêiseres à esquerda, cordilheira à direita
         sup = [(0, 640), (380, 640), (560, 600), (760, 520), (900, 470), (W, 450)]
         d.polygon(sup + [(W, 1260), (0, 1260)], fill=(92, 74, 62))
@@ -95,7 +95,7 @@ def ciclo(saida):
         mono = f(K["fontes"]["mono"], 22)
         def rot(txt, x, y, cor=PAPEL): M.espaco(d, (x, y), txt, mono, cor, 3)
         rot("CAMPO DE GÊISERES", 40, 670)
-        rot("RECARGA · 15–20 KM A LESTE", 560, 420, AGUA)
+        rot("RECARGA · A LESTE, MAIS ALTO", 520, 420, AGUA)
         rot("FALHAS", 900, 640)
         rot("RESERVATÓRIO >200 °C", 160, 1040, SINAL)
         rot("CALOR MAGMÁTICO", 420, 1190, VAPOR)
@@ -112,7 +112,7 @@ def erupcao(saida):
     def quadro(i):
         t = i / FPS
         img = Image.new("RGB", (W, H), MATA); d = ImageDraw.Draw(img)
-        cab(d, 2, 3, "A erupção", "A água acima pressiona a água abaixo, que passa do ponto de ebulição sem ferver. Quando a pressão cai, ela vira vapor de uma vez.")
+        cab(d, 2, 3, "A erupção", "Mecanismo geral dos gêiseres: a água acima pressiona a de baixo, que passa do ponto de ebulição sem ferver. Quando a pressão cai, vira vapor de uma vez.")
         estratos(d, 0, TOP, W, BOT, seed=21)
         # conduto com estreitamento
         cond = [(CX - 26, TOP), (CX - 22, 760), (CX - 10, 800), (CX - 34, 860), (CX - 70, 960), (CX - 110, 1100), (CX - 90, 1200),
