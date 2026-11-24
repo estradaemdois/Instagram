@@ -91,7 +91,7 @@ export const Carrossel: React.FC<PropsCarrossel> = ({pasta, identidade: id, lami
       </div>
       {ultima ? (
         id.assinatura ? (
-          <div style={{position: 'absolute', left: 0, width: 1080, top: 1100, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 22}}>
+          <div style={{position: 'absolute', left: 0, width: 1080, top: 1135, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 22}}>
             <Img src={arq(id.assinatura.foto)} style={{width: 108, height: 108, borderRadius: '50%', objectFit: 'cover', border: `3px solid ${id.cores.destaque}`}} />
             <div style={{textAlign: 'left'}}>
               {id.assinatura.cargo && <div style={{fontFamily: familia('rotulo'), fontWeight: Number(id.fontes.rotulo.peso), fontSize: 22, letterSpacing: '0.25em', color: id.cores.destaque}}>{id.assinatura.cargo.toUpperCase()}</div>}
