@@ -32,3 +32,5 @@ Os agentes leem este arquivo antes de criar.
 - 24/11/2026 · Foto da moça sentada (lâmina 4 da prosperidade) "nada a ver" com o texto: preferir imagens que ilustrem a ideia do texto (ex.: névoa, ambiente), não retrato genérico de pessoa triste.
 - 24/11/2026 · Stories SEM figurinhas (enquete, quiz, caixinha, link): o sistema tem que ser 100% automático. Chamadas por escrito: "responda esta story", "mande no direct", "veja o post de hoje".
 - 24/11/2026 · Nada de "comente com coração" ou chamadas informais com emoji nos stories: linguagem séria e respeitosa ("Se quiser compartilhar, responda esta story", "Envie sua dúvida por mensagem").
+- 24/11/2026 · Escrever "este story" (masculino), nunca "esta story".
+- 24/11/2026 · Não falar do Paulo em terceira pessoa ("o Paulo responde", "Pergunte ao Paulo"): usar primeira pessoa ("vou responder") ou frases neutras.

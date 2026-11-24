@@ -4,7 +4,7 @@ Publicados pelo estúdio, sem ação no celular. O engajamento vem de respostas 
 
 | # | Horário sugerido | Tema | Chamada |
 |---|---|---|---|
-| 1 | manhã (10h) | Reflexão: o dinheiro entra e vai embora? | Se quiser compartilhar, responda esta story |
+| 1 | manhã (10h) | Reflexão: o dinheiro entra e vai embora? | Se quiser compartilhar, responda este story |
 | 2 | logo após o post | Novo post (prévia da capa) | O post completo já está no perfil |
 | 3 | tarde (15h) | Você sabia? Prosperidade é energia em movimento | Veja as possíveis causas no post de hoje |
-| 4 | noite (21h) | Pergunte ao Paulo: o que mais trava sua vida financeira? | Envie sua resposta por mensagem |
+| 4 | noite (21h) | Tire sua dúvida: o que mais trava sua vida financeira? | Envie sua resposta por mensagem |
