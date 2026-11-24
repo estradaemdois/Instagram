@@ -10,9 +10,9 @@
 - **Texto de apoio:** sem serifa limpa, branca (Montserrat 500/600).
 - **Rótulo:** caixinha turquesa translúcida com texto branco ("Apometria para Ansiedade:").
 - **Chamada:** botão lilás arredondado ("Clique aqui em SAIBA MAIS").
-- **Logo:** símbolo branco no canto inferior direito de toda lâmina.
+- **Logo:** ~~símbolo no canto~~ → **assinatura do Paulo (foto + "Paulo Rodrigues · Apometria") no rodapé de TODAS as lâminas**; o símbolo da Apometria Brasil não é mais usado (24/11/2026).
 - **Frases e depoimentos:** fundo de céu lilás/roxo; depoimento em cartão branco com nome, 5 estrelas douradas e texto.
-- **Assinatura:** foto do Paulo + "Paulo Rodrigues · Apometria" (na última lâmina).
+- **Assinatura:** foto do Paulo + "Paulo Rodrigues · Apometria", em todas as lâminas.
 - **Reels:** o Paulo de jaleco no consultório (mesa radiônica, quadro abstrato), título em serifada bold branca no alto.
 
 

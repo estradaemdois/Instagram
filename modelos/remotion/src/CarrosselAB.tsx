@@ -3,7 +3,8 @@ import {AbsoluteFill, Img, staticFile, useCurrentFrame, continueRender, delayRen
 
 // Estilo do feed @apometria_brasil (análise de 24/11/2026): imagem cinematográfica na lâmina inteira,
 // tratamento lilás/turquesa, brilhos brancos, título em serifada fina branca à esquerda,
-// rótulo em caixinha turquesa translúcida, símbolo do logo no canto inferior direito.
+// rótulo em caixinha turquesa translúcida. Assinatura do Paulo (foto + nome) em todas as lâminas;
+// sem assinatura, usa o símbolo do logo no canto inferior direito.
 export type LaminaAB = {imagem: string; rotulo?: string; titulo: string; texto?: string; chamada?: string; assinatura?: boolean};
 export type PropsAB = {
   pasta: string;
@@ -50,7 +51,7 @@ export const CarrosselAB: React.FC<PropsAB> = ({pasta, fontes, logo, assinatura,
           <Brilho key={k} x={60 + random(`bx${i}-${k}`) * 960} y={60 + random(`by${i}-${k}`) * 700} s={0.35 + random(`bs${i}-${k}`) * 0.9} o={0.55 + random(`bo${i}-${k}`) * 0.45} />
         ))}
       </svg>
-      <div style={{position: 'absolute', left: 70, right: 120, bottom: l.assinatura ? 230 : 140, color: '#FFFFFF', textShadow: '0 2px 18px rgba(0,0,0,0.45)'}}>
+      <div style={{position: 'absolute', left: 70, right: 120, bottom: assinatura ? 210 : 140, color: '#FFFFFF', textShadow: '0 2px 18px rgba(0,0,0,0.45)'}}>
         {l.rotulo && (
           <div style={{display: 'inline-block', background: 'rgba(0,160,170,0.72)', padding: '6px 14px', fontFamily: 'AB-texto', fontWeight: 500, fontSize: capa ? 34 : 28, lineHeight: 1.15, marginBottom: 14, textShadow: 'none'}}>{l.rotulo}</div>
         )}
@@ -62,7 +63,7 @@ export const CarrosselAB: React.FC<PropsAB> = ({pasta, fontes, logo, assinatura,
           <div style={{display: 'inline-block', marginTop: 28, background: 'rgba(185,166,240,0.85)', color: '#FFFFFF', borderRadius: 14, padding: '12px 26px', fontFamily: 'AB-texto', fontWeight: 600, fontSize: 28, textShadow: 'none'}}>{l.chamada}</div>
         )}
       </div>
-      {l.assinatura && assinatura && (
+      {assinatura && (
         <div style={{position: 'absolute', left: 70, bottom: 70, display: 'flex', alignItems: 'center', gap: 18}}>
           <Img src={arq(assinatura.foto)} style={{width: 96, height: 96, borderRadius: '50%', objectFit: 'cover', border: '3px solid rgba(255,255,255,0.9)'}} />
           <div style={{color: '#FFFFFF'}}>
@@ -71,7 +72,7 @@ export const CarrosselAB: React.FC<PropsAB> = ({pasta, fontes, logo, assinatura,
           </div>
         </div>
       )}
-      <Img src={arq(logo)} style={{position: 'absolute', right: 56, bottom: 56, height: 78, width: 'auto', opacity: 0.95}} />
+      {!assinatura && <Img src={arq(logo)} style={{position: 'absolute', right: 56, bottom: 56, height: 78, width: 'auto', opacity: 0.95}} />}
     </AbsoluteFill>
   );
 };
