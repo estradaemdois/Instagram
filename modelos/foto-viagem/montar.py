@@ -134,18 +134,23 @@ def capa(img, k, l):
     espaco(d, (56, 56), l.get("capitulo", "").upper(), mono, papel, 3)
     coord = l.get("coordenadas", "")
     espaco(d, (W - 56 - largura_esp(d, coord, mono, 3), 56), coord, mono, papel, 3)
-    # título gigante (ajusta o tamanho para caber)
-    titulo = l["titulo"].upper()
+    # título gigante (ajusta o tamanho para caber); " / " quebra a linha
+    linhas = [t.strip() for t in l["titulo"].upper().split(" / ")]
     tam = 330
     while True:
         ft = fonte(k["fontes"]["titulo"], tam)
-        if largura_esp(d, titulo, ft, 4) <= W - 112 or tam < 120:
+        if max(largura_esp(d, t, ft, 4) for t in linhas) <= W - 112 or tam < 100:
             break
         tam -= 6
-    bb = d.textbbox((0, 0), titulo, font=ft)
-    alt = bb[3] - bb[1]
+    bb = d.textbbox((0, 0), "A", font=ft)
+    alt_l = bb[3] - bb[1]
+    gap = int(alt_l * 0.12)
+    alt = alt_l * len(linhas) + gap * (len(linhas) - 1)
     base = H - 150 if not topo else 250 + alt
-    espaco(d, (52, base - alt - bb[1]), titulo, ft, papel, 4)
+    y = base - alt - bb[1]
+    for t in linhas:
+        espaco(d, (52, y), t, ft, papel, 4)
+        y += alt_l + gap
     # frase em itálico acima do título
     if l.get("frase"):
         fi = fonte(k["fontes"]["italico"], 50)
@@ -192,7 +197,7 @@ def curiosidade(img, k, l, i, total):
 
 
 def abrir(pasta, nome):
-    for sub in ("bruto", "diversos", "videos", ""):
+    for sub in ("bruto", "diversos", "videos", "motion", ""):
         c = os.path.join(pasta, sub, nome)
         if os.path.exists(c):
             return c
@@ -274,6 +279,10 @@ def montar_post(pasta, k, post):
     total = len(post["laminas"])
     for i, l in enumerate(post["laminas"], 1):
         lay = l.get("layout", "foto")
+        if lay == "pronto":  # arquivo já pronto (ex.: motion graphics)
+            import shutil
+            src = abrir(pasta, l["arquivo"]); ext = os.path.splitext(src)[1]
+            shutil.copy(src, os.path.join(saida, f"{i:02d}{ext}")); print("ok", src); continue
         if lay == "video":
             print("ok", video(pasta, k, l, i, total, saida)); continue
         foto = Image.open(abrir(pasta, l["foto"]))

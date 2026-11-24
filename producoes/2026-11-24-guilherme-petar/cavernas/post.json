@@ -1,0 +1,113 @@
+{
+ "posts": [
+  {
+   "nome": "post",
+   "laminas": [
+    {
+     "foto": "DJI_20261120103153_0034_D.JPG",
+     "layout": "capa",
+     "capitulo": "Diário de campo · Petar",
+     "coordenadas": "24°32′S 48°41′O",
+     "titulo": "Como nasce / uma caverna",
+     "frase": "rocha antiga, chuva e muita paciência",
+     "local": "Petar · Vale do Ribeira · SP",
+     "foco": [
+      0.5,
+      0.42
+     ],
+     "ajuste": {
+      "brilho": 1.12
+     }
+    },
+    {
+     "layout": "pronto",
+     "arquivo": "m1.mp4"
+    },
+    {
+     "layout": "pronto",
+     "arquivo": "m2.mp4"
+    },
+    {
+     "foto": "DJI_20261120111359_0057_D.JPG",
+     "layout": "curiosidade",
+     "curiosidade": "Resultado: salões inteiros escavados pela água dentro da montanha, ligados por rios subterrâneos.",
+     "rotulo": "Milhões de anos depois",
+     "etiqueta": "Petar · Vale do Ribeira",
+     "tamanho": 42,
+     "foco": [
+      0.5,
+      0.42
+     ],
+     "ajuste": {
+      "brilho": 1.08
+     }
+    },
+    {
+     "layout": "pronto",
+     "arquivo": "m3.mp4"
+    },
+    {
+     "foto": "IMG-20261123-WA1666.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "Estalactites crescem frações de milímetro por ano. Uma formação de 1 metro pode ter milhares de anos.",
+     "rotulo": "Você sabia?",
+     "etiqueta": "Petar · Vale do Ribeira",
+     "tamanho": 42,
+     "foco": [
+      0.5,
+      0.4
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1783.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "A entrada do Morro Preto tem 25 m. A da Casa de Pedra, também no PETAR, quase 200 m: segundo o governo de SP, a maior abertura vertical de caverna do mundo.",
+     "rotulo": "Portais gigantes",
+     "etiqueta": "Petar · Vale do Ribeira",
+     "tamanho": 40,
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1862.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "Nos rios dessas cavernas vive o bagre-cego de Iporanga: sem cor e quase sem olhos. Foi o primeiro peixe de caverna descrito no Brasil, em 1907.",
+     "rotulo": "Morador do escuro",
+     "etiqueta": "Petar · Vale do Ribeira",
+     "tamanho": 40,
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "layout": "pronto",
+     "arquivo": "m4.mp4"
+    },
+    {
+     "foto": "DJI_20261120112157_0061_D.JPG",
+     "layout": "curiosidade",
+     "curiosidade": "Não toque nas formações. O óleo da pele mancha a calcita e pode interromper um crescimento de milhares de anos.",
+     "rotulo": "Regra de ouro",
+     "etiqueta": "Petar · Vale do Ribeira",
+     "tamanho": 42,
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "DJI_20261120114457_0078_D.JPG",
+     "layout": "frase",
+     "frase": "Agora volta pra primeira foto e olha de novo.",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    }
+   ]
+  }
+ ]
+}
