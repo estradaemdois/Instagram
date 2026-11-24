@@ -1,0 +1,115 @@
+{
+ "imagens": [
+  {
+   "arquivo": "s1.jpg",
+   "url": "https://images.pexels.com/photos/34115589/pexels-photo-34115589.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 34115589",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  },
+  {
+   "arquivo": "s2.jpg",
+   "url": "https://images.pexels.com/photos/5696529/pexels-photo-5696529.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 5696529",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  },
+  {
+   "arquivo": "s3.jpg",
+   "url": "https://images.pexels.com/photos/8348550/pexels-photo-8348550.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 8348550",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  },
+  {
+   "arquivo": "s4.jpg",
+   "url": "https://images.pexels.com/photos/29038866/pexels-photo-29038866.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 29038866",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  },
+  {
+   "arquivo": "s5.jpg",
+   "url": "https://images.pexels.com/photos/10164349/pexels-photo-10164349.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 10164349",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  },
+  {
+   "arquivo": "s6.jpg",
+   "url": "https://images.pexels.com/photos/10610250/pexels-photo-10610250.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 10610250",
+   "foco": [
+    0.55,
+    0.5
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  }
+ ],
+ "laminas": [
+  {
+   "imagem": "s1.jpg",
+   "rotulo": "Magia e espiritualidade",
+   "titulo": "Um trabalho de magia / perde a força sozinho?",
+   "texto": "Uma das perguntas mais feitas sobre o tema, respondida na visão energética e espiritual."
+  },
+  {
+   "imagem": "s2.jpg",
+   "rotulo": "O que é",
+   "titulo": "Intenção / com direção",
+   "texto": "Na visão espiritual, um trabalho de magia é uma intenção concentrada, reforçada por elementos materiais e, muitas vezes, pela ação de espíritos que aceitam executá-la. É energia enviada com um alvo."
+  },
+  {
+   "imagem": "s3.jpg",
+   "rotulo": "Como chega",
+   "titulo": "Só entra onde / encontra sintonia",
+   "texto": "Essa energia procura uma brecha: mágoas, medos, brigas em casa, desânimo. Quem mantém a vibração mais elevada tende a absorver muito menos do que foi enviado."
+  },
+  {
+   "imagem": "s4.jpg",
+   "rotulo": "Perde a força?",
+   "titulo": "Depende de / quem o sustenta",
+   "texto": "Parte da energia se dissipa com o tempo. Mas, quando há espíritos comprometidos com o trabalho, ou quando ele é renovado por quem o fez, pode continuar atuando até ser desfeito."
+  },
+  {
+   "imagem": "s5.jpg",
+   "rotulo": "O que se relata",
+   "titulo": "Quando tudo / trava ao mesmo tempo",
+   "texto": "Quem passou por isso costuma descrever brigas sem motivo, objetos que quebram, cheiros estranhos em casa e portas que se fecham todas de uma vez. Coincidências acontecem; o que chama atenção é o padrão."
+  },
+  {
+   "imagem": "s6.jpg",
+   "rotulo": "A melhor proteção",
+   "titulo": "Vibração / também protege",
+   "texto": "Oração, perdão, um lar em harmonia e o cuidado com os próprios pensamentos reduzem as brechas. Nos casos persistentes, o trabalho espiritual desfaz a ligação e encaminha os espíritos envolvidos.",
+   "chamada": "Salve para consultar depois"
+  }
+ ]
+}

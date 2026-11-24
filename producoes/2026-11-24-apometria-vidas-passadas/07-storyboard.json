@@ -1,0 +1,24 @@
+{
+ "imagens": [
+  {
+   "arquivo": "s1.jpg",
+   "url": "https://images.pexels.com/photos/19391327/pexels-photo-19391327.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 19391327",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  }
+ ],
+ "laminas": [
+  {
+   "imagem": "s1.jpg",
+   "rotulo": "Vidas passadas",
+   "titulo": "Medos que não / nasceram nesta vida",
+   "texto": "Pavor de água sem nunca ter se afogado. Na visão espiritual, algumas marcas atravessam encarnações."
+  }
+ ]
+}

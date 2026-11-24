@@ -1,0 +1,24 @@
+{
+ "imagens": [
+  {
+   "arquivo": "s1.jpg",
+   "url": "https://images.pexels.com/photos/15536924/pexels-photo-15536924.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 15536924",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  }
+ ],
+ "laminas": [
+  {
+   "imagem": "s1.jpg",
+   "rotulo": "Entidades das trevas",
+   "titulo": "Quem são os / espíritos da sombra?",
+   "texto": "Não são seres eternos do mal. São consciências que ainda escolhem a sombra, e só alcançam quem vibra na mesma frequência."
+  }
+ ]
+}

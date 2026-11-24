@@ -1,0 +1,115 @@
+{
+ "imagens": [
+  {
+   "arquivo": "s1.jpg",
+   "url": "https://images.pexels.com/photos/9717855/pexels-photo-9717855.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 9717855",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  },
+  {
+   "arquivo": "s2.jpg",
+   "url": "https://images.pexels.com/photos/2710282/pexels-photo-2710282.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 2710282",
+   "foco": [
+    0.5,
+    0.4
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  },
+  {
+   "arquivo": "s3.jpg",
+   "url": "https://images.pexels.com/photos/5566169/pexels-photo-5566169.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 5566169",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  },
+  {
+   "arquivo": "s4.jpg",
+   "url": "https://images.pexels.com/photos/18864289/pexels-photo-18864289.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 18864289",
+   "foco": [
+    0.5,
+    0.45
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  },
+  {
+   "arquivo": "s5.jpg",
+   "url": "https://images.pexels.com/photos/6943432/pexels-photo-6943432.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 6943432",
+   "foco": [
+    0.5,
+    0.5
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  },
+  {
+   "arquivo": "s6.jpg",
+   "url": "https://images.pexels.com/photos/4057333/pexels-photo-4057333.jpeg?auto=compress&w=2400",
+   "fonte": "Pexels 4057333",
+   "foco": [
+    0.45,
+    0.5
+   ],
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0
+  }
+ ],
+ "laminas": [
+  {
+   "imagem": "s1.jpg",
+   "rotulo": "Espiritualidade e energia",
+   "titulo": "Chips e implantes / astrais: o que são?",
+   "texto": "Um dos temas mais comentados na espiritualidade hoje, explicado com calma."
+  },
+  {
+   "imagem": "s2.jpg",
+   "rotulo": "O conceito",
+   "titulo": "Estruturas no / campo de energia",
+   "texto": "Na visão espiritual, implantes astrais são estruturas colocadas no corpo energético de uma pessoa por espíritos ainda ligados a intenções negativas. Não estão no corpo físico, e sim no campo de energia que o envolve."
+  },
+  {
+   "imagem": "s3.jpg",
+   "rotulo": "Para que serviriam",
+   "titulo": "Influenciar / sem ser visto",
+   "texto": "Eles funcionariam como pontos de ligação: captam energia, reforçam pensamentos repetitivos e mantêm a pessoa em sintonia com quem os colocou."
+  },
+  {
+   "imagem": "s4.jpg",
+   "rotulo": "Como se instalam",
+   "titulo": "Pela porta / da afinidade",
+   "texto": "Nada se fixa sem uma abertura. Raiva e mágoa guardadas por muito tempo, medo constante, vícios ou trabalhos de magia podem criar a sintonia que permite essa ligação."
+  },
+  {
+   "imagem": "s5.jpg",
+   "rotulo": "O que se relata",
+   "titulo": "Sinais que / costumam aparecer",
+   "texto": "Quem passa por isso costuma descrever cansaço que não melhora com descanso, sono fora do comum, pensamentos que não parecem seus e dores que se repetem no mesmo ponto. São sinais que, sozinhos, não confirmam nada."
+  },
+  {
+   "imagem": "s6.jpg",
+   "rotulo": "Como são tratados",
+   "titulo": "Retirar e / fechar a porta",
+   "texto": "Nos atendimentos espirituais, os implantes são identificados e retirados do campo energético. O que sustenta o equilíbrio depois é mudar a sintonia: oração, pensamentos mais leves e hábitos que elevam a vibração.",
+   "chamada": "Salve para consultar depois"
+  }
+ ]
+}
