@@ -197,7 +197,7 @@ def curiosidade(img, k, l, i, total):
 
 
 def abrir(pasta, nome):
-    for sub in ("bruto", "diversos", "videos", "motion", ""):
+    for sub in ("bruto", "jpg", "diversos", "videos", "motion", ""):
         c = os.path.join(pasta, sub, nome)
         if os.path.exists(c):
             return c

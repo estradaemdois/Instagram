@@ -1,0 +1,178 @@
+{
+ "posts": [
+  {
+   "nome": "post",
+   "laminas": [
+    {
+     "foto": "IMG_9943.jpg",
+     "layout": "capa",
+     "capitulo": "Lugares que parecem mentira · 02",
+     "coordenadas": "22°20′S 68°01′O",
+     "titulo": "El Tatio",
+     "frase": "onde a Terra solta vapor",
+     "local": "Gêiseres · Atacama · Chile",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "IMG_9931.jpg",
+     "etiqueta": "El Tatio · Atacama",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "IMG_9946.jpg",
+     "etiqueta": "El Tatio · Atacama",
+     "foco": [
+      0.5,
+      0.6
+     ]
+    },
+    {
+     "foto": "IMG_9958.jpg",
+     "etiqueta": "El Tatio · Atacama",
+     "foco": [
+      0.5,
+      0.6
+     ]
+    },
+    {
+     "foto": "IMG_9990.jpg",
+     "etiqueta": "El Tatio · Atacama",
+     "foco": [
+      0.5,
+      0.6
+     ]
+    },
+    {
+     "foto": "IMG_9992.jpg",
+     "etiqueta": "El Tatio · Atacama",
+     "foco": [
+      0.5,
+      0.6
+     ]
+    },
+    {
+     "foto": "IMG_9973.jpg",
+     "etiqueta": "El Tatio · Atacama",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "IMG_0046.jpg",
+     "etiqueta": "El Tatio · Atacama",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "IMG_9979.jpg",
+     "etiqueta": "El Tatio · Atacama",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "IMG_0067.jpg",
+     "etiqueta": "El Tatio · Atacama",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "IMG_0063.jpg",
+     "etiqueta": "El Tatio · Atacama",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "layout": "pronto",
+     "arquivo": "t1-ciclo.mp4"
+    },
+    {
+     "layout": "pronto",
+     "arquivo": "t2-erupcao.mp4"
+    },
+    {
+     "layout": "pronto",
+     "arquivo": "t3-jefe.mp4"
+    },
+    {
+     "foto": "IMG_9984.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "Os cones e crostas claras são sínter silicoso: a sílica dissolvida na água quente precipita ao esfriar. Esses depósitos também vedam os condutos.",
+     "rotulo": "Sínter silicoso",
+     "etiqueta": "Fonte: NPS Yellowstone",
+     "tamanho": 40,
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "IMG_9981.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "As colunas são maiores ao amanhecer: com o ar perto ou abaixo de 0 °C, o vapor condensa rapidamente e forma nuvens visíveis.",
+     "rotulo": "Por que ao amanhecer",
+     "etiqueta": "El Tatio · Atacama",
+     "tamanho": 40,
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "IMG_9988.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "As águas cloretadas de El Tatio são ricas em arsênio, boro, lítio e césio. A recarga é antiga: a ausência de trítio indica infiltração anterior a 1950.",
+     "rotulo": "Química da água",
+     "etiqueta": "Fonte: Munoz-Saez et al. 2018",
+     "tamanho": 38,
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "IMG_0083.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "Desde 2006, o campo é administrado pelas comunidades atacamenhas de Toconce e Caspana. Em 2009, um poço de exploração geotérmica liberou uma coluna de vapor de cerca de 60 m e a prospecção foi paralisada.",
+     "rotulo": "Território e conservação",
+     "etiqueta": "Fontes: IPS · La Tercera",
+     "tamanho": 36,
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "layout": "pronto",
+     "arquivo": "t4-numeros.mp4"
+    },
+    {
+     "foto": "IMG_9989.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "Munoz-Saez, C. et al. (2015, 2018), Journal of Volcanology and Geothermal Research · UC Berkeley/USGS · NPS Yellowstone · IPS/Tierramérica · La Tercera.",
+     "rotulo": "Referências",
+     "etiqueta": "El Tatio · Atacama",
+     "tamanho": 34,
+     "foco": [
+      0.5,
+      0.5
+     ]
+    }
+   ]
+  }
+ ]
+}
