@@ -1,7 +1,7 @@
 {
  "posts": [
   {
-   "nome": "1-carrossel",
+   "nome": "1-carrossel-solo",
    "laminas": [
     {
      "foto": "DJI_20261120114216_0067_D.JPG",
@@ -10,15 +10,15 @@
       0.36,
       0.56
      ],
-     "capitulo": "Lugares que parecem mentira · 01",
-     "coordenadas": "24°32′S 48°41′O",
-     "titulo": "Petar",
-     "frase": "onde o GPS termina",
-     "local": "Vale do Ribeira · SP",
      "zoom": 1.25,
      "ajuste": {
       "brilho": 1.1
-     }
+     },
+     "capitulo": "Lugares que parecem mentira · 01",
+     "coordenadas": "24°32′S 48°41′O",
+     "titulo": "Petar",
+     "frase": "um mundo debaixo do mundo",
+     "local": "Vale do Ribeira · SP"
     },
     {
      "foto": "DJI_20261120103153_0034_D.JPG",
@@ -30,14 +30,6 @@
      "ajuste": {
       "brilho": 1.12
      }
-    },
-    {
-     "foto": "DJI_20261120114908_0085_D.JPG",
-     "etiqueta": "Petar · 20.11.26",
-     "foco": [
-      0.5,
-      0.55
-     ]
     },
     {
      "foto": "DJI_20261120114944_0089_D.JPG",
@@ -56,23 +48,29 @@
      ]
     },
     {
-     "foto": "DJI_20261120122142_0120_D.JPG",
+     "foto": "DJI_20261120111213_0050_D.JPG",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
-      0.64
-     ]
+      0.45
+     ],
+     "ajuste": {
+      "brilho": 1.1
+     }
     },
     {
-     "foto": "DJI_20261120122709_0129_D.JPG",
+     "foto": "DJI_20261120102150_0030_D.JPG",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
-      0.5
-     ]
+      0.4
+     ],
+     "ajuste": {
+      "brilho": 1.12
+     }
     },
     {
-     "foto": "DJI_20261120133211_0156_D.JPG",
+     "foto": "DJI_20261120165934_0191_D.JPG",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
@@ -80,11 +78,19 @@
      ]
     },
     {
-     "foto": "DJI_20261121141214_0261_D.JPG",
+     "foto": "DJI_20261120133109_0151_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.6
+     ]
+    },
+    {
+     "foto": "DJI_20261121131656_0232_D.JPG",
      "etiqueta": "Petar · 21.11.26",
      "foco": [
       0.5,
-      0.45
+      0.5
      ]
     },
     {
@@ -94,24 +100,19 @@
       0.5,
       0.55
      ]
-    }
-   ]
-  },
-  {
-   "nome": "2-foto",
-   "laminas": [
+    },
     {
-     "foto": "DJI_20261120121956_0108_D.JPG",
+     "foto": "DJI_20261120133211_0156_D.JPG",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
-      0.5
+      0.55
      ]
     }
    ]
   },
   {
-   "nome": "3-frase",
+   "nome": "2-frase",
    "laminas": [
     {
      "foto": "DJI_20261120111359_0057_D.JPG",
@@ -120,7 +121,93 @@
       0.5,
       0.4
      ],
-     "frase": "Tem lugar que só começa depois que o sinal acaba."
+     "frase": "O planeta guarda as melhores partes do lado de dentro."
+    }
+   ]
+  },
+  {
+   "nome": "3-carrossel-grupo",
+   "laminas": [
+    {
+     "foto": "dd8674ac-220f-42b0-a57f-92dda6851411.jpg",
+     "layout": "capa",
+     "foco": [
+      0.5,
+      0.6
+     ],
+     "capitulo": "Lugares que parecem mentira · 01",
+     "coordenadas": "24°32′S 48°41′O",
+     "titulo": "A tropa",
+     "frase": "ninguém sai igual de uma caverna",
+     "local": "Petar · Vale do Ribeira · SP",
+     "posicao": "topo"
+    },
+    {
+     "foto": "WhatsApp Image 2026-11-23 at 09.21.13.jpeg",
+     "etiqueta": "Petar · 21.11.26",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "DJI_20261120114457_0078_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "DJI_20261120121655_0102_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "ajuste": {
+      "brilho": 1.1
+     }
+    },
+    {
+     "foto": "DJI_20261120121956_0108_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "DJI_20261120165904_0185_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "DJI_20261120092533_0008_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "DJI_20261121141226_0264_D.JPG",
+     "etiqueta": "Petar · 21.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "DJI_20261120170137_0197_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.4
+     ]
     }
    ]
   }

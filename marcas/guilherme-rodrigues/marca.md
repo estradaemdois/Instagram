@@ -8,9 +8,10 @@ Cada lugar vira um **capítulo** numerado (Capítulo 01 = Petar). O perfil funci
 ## Grade: cada lugar ocupa uma linha de 3 posts
 | Esquerda | Meio | Direita |
 |---|---|---|
-| **Capa do capítulo** (carrossel): foto forte + nome do lugar gigante | **Foto limpa**: só a etiqueta pequena | **Frase**: foto escurecida + frase em itálico |
+| **Carrossel solo**: só o Guilherme sozinho (sem casal) + paisagens fortes intercaladas. Capa com o nome do lugar gigante | **Frase**: foto de paisagem escurecida + frase em itálico (ou foto limpa) | **Carrossel do grupo**: fotos do grupo grande + paisagens. Capa com título próprio (ex.: "A TROPA"), texto no alto se o grupo estiver embaixo |
 
-Como o Instagram põe o post mais novo à esquerda, **publique na ordem: frase → foto → carrossel**. Assim a linha fica certinha. Reels entram fora desse ritmo (ou como o post do meio, com capa no layout "foto").
+Como o Instagram põe o post mais novo à esquerda, **publique na ordem: grupo → frase → solo**.
+Reels entram fora desse ritmo.
 
 ## Cores
 | Nome | Cor | Uso |
@@ -36,4 +37,8 @@ Sempre 1080x1350 (4:5). Fotos verticais 9:16 são recortadas escolhendo o ponto 
 `python3 modelos/foto-viagem/montar.py producoes/<pasta>` lê o `post.json` da pasta e grava em `final/`. Layouts: `capa`, `foto`, `frase`, `limpa`.
 
 ## Voz das legendas
-Primeira pessoa, frases curtas, tom de quem descobriu um segredo. Estrutura: gancho de 1 linha → o que tem lá (concreto) → sensação → 📍 local → pergunta ou pedido de salvar → hashtags.
+Primeira pessoa, tom de quem descobriu um segredo e quer contar. Temas: lugares inacreditáveis, trilha, natureza, a sensação de estar lá.
+- Gancho com imagem forte e específica do lugar ("Existe um mundo debaixo do mundo").
+- Detalhes concretos que só quem foi sabe (cor da água, luz entrando na rocha, rio cor de chá) e 1 curiosidade real do lugar.
+- Pergunta que gere comentário (número da foto preferida, marcar quem estava, quem levaria).
+- Proibido: frases genéricas de viagem e o clichê "onde o GPS termina".

@@ -125,7 +125,8 @@ def quebrar(d, texto, f, larg):
 
 
 def capa(img, k, l):
-    img = degrade(img, 0.38, 0.92)
+    topo = l.get("posicao") == "topo"
+    img = degrade(img, 0.38, 0.92, topo=topo)
     d = ImageDraw.Draw(img)
     papel, sinal = rgb(k["cores"]["papel"]), rgb(k["cores"]["sinal"])
     mono = fonte(k["fontes"]["mono"], 24)
@@ -143,12 +144,12 @@ def capa(img, k, l):
         tam -= 6
     bb = d.textbbox((0, 0), titulo, font=ft)
     alt = bb[3] - bb[1]
-    base = H - 150
+    base = H - 150 if not topo else 250 + alt
     espaco(d, (52, base - alt - bb[1]), titulo, ft, papel, 4)
     # frase em itálico acima do título
     if l.get("frase"):
         fi = fonte(k["fontes"]["italico"], 50)
-        y = base - alt - 34 - 60
+        y = base - alt - 34 - 60 if not topo else 118
         d.text((58, y), l["frase"], font=fi, fill=papel)
     # linha + local
     d.rectangle((58, base + 34, 58 + 70, base + 38), fill=sinal)
