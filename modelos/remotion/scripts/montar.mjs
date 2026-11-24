@@ -19,6 +19,7 @@ const pub = join('public', 'producao', slug);
 mkdirSync(pub, {recursive: true});
 for (const f of Object.values(identidade.fontes)) cpSync(join(kit, 'fontes', f.arquivo), join(pub, f.arquivo));
 cpSync(join(kit, identidade.logo), join(pub, identidade.logo));
+if (identidade.assinatura?.foto) cpSync(join(kit, identidade.assinatura.foto), join(pub, identidade.assinatura.foto));
 for (const l of sb.laminas) {
   const img = join(prod, 'imagens', l.imagem);
   if (!existsSync(img)) throw new Error(`Imagem não encontrada: ${img} (rode preparar-imagens.py antes)`);
