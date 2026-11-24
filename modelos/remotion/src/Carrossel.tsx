@@ -94,8 +94,8 @@ export const Carrossel: React.FC<PropsCarrossel> = ({pasta, identidade: id, lami
           <div style={{position: 'absolute', left: 0, width: 1080, top: 1135, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 22}}>
             <Img src={arq(id.assinatura.foto)} style={{width: 108, height: 108, borderRadius: '50%', objectFit: 'cover', border: `3px solid ${id.cores.destaque}`}} />
             <div style={{textAlign: 'left'}}>
-              {id.assinatura.cargo && <div style={{fontFamily: familia('rotulo'), fontWeight: Number(id.fontes.rotulo.peso), fontSize: 22, letterSpacing: '0.25em', color: id.cores.destaque}}>{id.assinatura.cargo.toUpperCase()}</div>}
               <div style={{fontFamily: familia('titulo'), fontWeight: 500, fontSize: 46, color: id.cores.texto, lineHeight: 1.1}}>{id.assinatura.nome}</div>
+              {id.assinatura.cargo && <div style={{fontFamily: familia('rotulo'), fontWeight: Number(id.fontes.rotulo.peso), fontSize: 22, letterSpacing: '0.3em', color: id.cores.destaque, marginTop: 6}}>{id.assinatura.cargo.toUpperCase()}</div>}
             </div>
           </div>
         ) : (
@@ -108,7 +108,7 @@ export const Carrossel: React.FC<PropsCarrossel> = ({pasta, identidade: id, lami
         <div style={{position: 'absolute', left: 80, right: 80, top: 1250, display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontFamily: familia('rotulo'), fontWeight: Number(id.fontes.rotulo.peso), fontSize: 22, letterSpacing: '0.25em', color: id.cores.texto, opacity: 0.75}}>
           <div style={{display: 'flex', alignItems: 'center', gap: 14}}>
             {id.assinatura
-              ? <><Img src={arq(id.assinatura.foto)} style={{width: 48, height: 48, borderRadius: '50%', objectFit: 'cover', border: `2px solid ${id.cores.destaque}`}} /><span style={{letterSpacing: '0.12em'}}>{[id.assinatura.cargo, id.assinatura.nome].filter(Boolean).join(' ').toUpperCase()}</span></>
+              ? <><Img src={arq(id.assinatura.foto)} style={{width: 48, height: 48, borderRadius: '50%', objectFit: 'cover', border: `2px solid ${id.cores.destaque}`}} /><span style={{letterSpacing: '0.12em'}}>{[id.assinatura.nome, id.assinatura.cargo].filter(Boolean).join(' · ').toUpperCase()}</span></>
               : <><Img src={arq(id.logo)} style={{height: 40, width: 'auto'}} />{id.nome}</>}
           </div>
           <div>{i + 1}/{total}</div>

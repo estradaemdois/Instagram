@@ -27,7 +27,7 @@ Chamadas permitidas: salvar, compartilhar, comentar uma palavra. Nada de "agende
 | Apoio | Petróleo-médio `#1C5F63`, Areia `#F4EFE6`, Linho `#E1D9C7`, Sálvia `#C6D4CF` |
 | Títulos | Lora 500 (itálico dourado na palavra-chave) |
 | Textos | Figtree 400 · Rótulos e assinatura: Figtree 600, caixa alta, espaçada |
-| Assinatura | **Foto redonda do Paulo + "Terapeuta Paulo Rodrigues"** (desde 24/11/2026; foto: `paulo.jpg`, do perfil @apometria_brasil) |
+| Assinatura | **Foto redonda do Paulo + "Paulo Rodrigues · Apometria"** (desde 24/11/2026; foto: `paulo.jpg`, do perfil @apometria_brasil) |
 
 Valores prontos para o modelo: `identidade.json`. Logo: `logo.png` (fundo transparente). É pequeno: não usar acima de ~150 px de altura.
 
