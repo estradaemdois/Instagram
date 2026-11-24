@@ -31,9 +31,9 @@ export const StoryAB: React.FC<PropsStoryAB> = ({pasta, fontes, assinatura, stor
   const s = stories[i];
   const arq = (a: string) => staticFile(`${pasta}/${a}`);
   return (
-    <AbsoluteFill style={{background: '#1B1530'}}>
+    <AbsoluteFill style={{background: '#0C2430'}}>
       <Img src={arq(s.imagem)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
-      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(14,24,48,0.85) 0%, rgba(60,45,120,0.55) 30%, rgba(60,50,120,0.25) 55%, rgba(20,40,70,0.45) 78%, rgba(14,24,48,0.85) 100%)'}} />
+      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(8,28,38,0.85) 0%, rgba(20,55,75,0.50) 30%, rgba(20,55,75,0.22) 55%, rgba(12,45,60,0.45) 78%, rgba(8,28,38,0.88) 100%)'}} />
       <svg width={1080} height={1920} style={{position: 'absolute', inset: 0}}>
         <defs><filter id="st-blur" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="6" /></filter></defs>
         {Array.from({length: 14}).map((_, k) => (
@@ -46,11 +46,11 @@ export const StoryAB: React.FC<PropsStoryAB> = ({pasta, fontes, assinatura, stor
         {s.texto && <div style={{fontFamily: 'ST-texto', fontWeight: 500, fontSize: 38, lineHeight: 1.4, marginTop: 26, opacity: 0.95, textWrap: 'pretty'} as React.CSSProperties}>{s.texto}</div>}
       </div>
       {s.previa && (
-        <div style={{position: 'absolute', left: 330, top: 820, width: 420, height: 525, transform: 'rotate(-3deg)', borderRadius: 22, overflow: 'hidden', boxShadow: '0 24px 60px rgba(0,0,0,0.55)', border: '4px solid rgba(255,255,255,0.9)'}}>
+        <div style={{position: 'absolute', left: 340, top: 790, width: 400, height: 500, transform: 'rotate(-3deg)', borderRadius: 22, overflow: 'hidden', boxShadow: '0 24px 60px rgba(0,0,0,0.55)', border: '4px solid rgba(255,255,255,0.9)'}}>
           <Img src={arq(s.previa)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
         </div>
       )}
-      {s.dica && <div style={{position: 'absolute', left: 0, width: 1080, top: s.previa ? 1372 : 1290, textAlign: 'center', fontFamily: 'ST-texto', fontWeight: 600, fontSize: 34, color: '#FFFFFF', textShadow: '0 2px 14px rgba(0,0,0,0.6)'}}>{s.dica}</div>}
+      {s.dica && <div style={{position: 'absolute', left: 0, width: 1080, top: s.previa ? 1320 : 1230, display: 'flex', justifyContent: 'center'}}><div style={{background: 'rgba(1,160,160,0.9)', borderRadius: 40, padding: '18px 36px', maxWidth: 860, textAlign: 'center', fontFamily: 'ST-texto', fontWeight: 600, fontSize: 34, lineHeight: 1.3, color: '#FFFFFF'}}>{s.dica}</div></div>}
       <div style={{position: 'absolute', left: 70, bottom: 425, display: 'flex', alignItems: 'center', gap: 16}}>
         <Img src={arq(assinatura.foto)} style={{width: 64, height: 64, borderRadius: '50%', objectFit: 'cover', border: '3px solid rgba(255,255,255,0.9)'}} />
         <div style={{color: '#FFFFFF'}}>

@@ -28,3 +28,6 @@ Os agentes leem este arquivo antes de criar.
 | 24/11/2026 | Carrossel prosperidade | Trocar a assinatura "APOMETRIA BRASIL" por **"Terapeuta Paulo Rodrigues" com miniatura do rosto dele** (foto do perfil @apometria_brasil) | Sim: padrão em `identidade.json` (`assinatura`) |
 | 24/11/2026 | Design system | Os posts não estavam como ela gosta; o estilo real do feed é **imagem cinematográfica + lilás/turquesa + brilhos + serifada fina branca + rótulo turquesa + símbolo no canto** | Sim: novo modelo `CarrosselAB`; ver `marca.md` |
 | 24/11/2026 | Carrossel prosperidade | Colocar a assinatura "Paulo Rodrigues · Apometria" (com foto) em **todas** as lâminas e **tirar o símbolo da Apometria Brasil** | Sim: padrão do `CarrosselAB` |
+- 24/11/2026 · Paleta "roxa demais": reduzir o lilás a um toque leve no alto; base em azul-petróleo; botões em turquesa (não lilás). Vale para carrossel e stories.
+- 24/11/2026 · Foto da moça sentada (lâmina 4 da prosperidade) "nada a ver" com o texto: preferir imagens que ilustrem a ideia do texto (ex.: névoa, ambiente), não retrato genérico de pessoa triste.
+- 24/11/2026 · Stories SEM figurinhas (enquete, quiz, caixinha, link): o sistema tem que ser 100% automático. Chamadas por escrito: "responda esta story", "mande no direct", "veja o post de hoje".

@@ -43,7 +43,7 @@ export const CarrosselAB: React.FC<PropsAB> = ({pasta, fontes, logo, assinatura,
     <AbsoluteFill style={{background: '#1B1530'}}>
       <Img src={arq(l.imagem)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
       {/* tratamento de cor: lilás em cima, azul-petróleo profundo embaixo */}
-      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(110,80,180,0.28) 0%, rgba(60,50,120,0.10) 35%, rgba(20,40,70,0.35) 60%, rgba(14,24,48,0.88) 100%)'}} />
+      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(120,110,190,0.10) 0%, rgba(40,70,110,0.06) 35%, rgba(12,45,60,0.38) 62%, rgba(8,28,38,0.90) 100%)'}} />
       <AbsoluteFill style={{background: 'radial-gradient(circle at 75% 20%, rgba(120,220,230,0.18) 0%, rgba(0,0,0,0) 45%)', mixBlendMode: 'screen'}} />
       <svg width={1080} height={1350} style={{position: 'absolute', inset: 0}}>
         <defs><filter id="ab-blur" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="6" /></filter></defs>
@@ -60,7 +60,7 @@ export const CarrosselAB: React.FC<PropsAB> = ({pasta, fontes, logo, assinatura,
         </div>
         {l.texto && <div style={{fontFamily: 'AB-texto', fontWeight: 500, fontSize: capa ? 36 : 31, lineHeight: 1.4, marginTop: 24, opacity: 0.95, textWrap: 'pretty'} as React.CSSProperties}>{l.texto}</div>}
         {l.chamada && (
-          <div style={{display: 'inline-block', marginTop: 28, background: 'rgba(185,166,240,0.85)', color: '#FFFFFF', borderRadius: 14, padding: '12px 26px', fontFamily: 'AB-texto', fontWeight: 600, fontSize: 28, textShadow: 'none'}}>{l.chamada}</div>
+          <div style={{display: 'inline-block', marginTop: 28, background: 'rgba(1,160,160,0.88)', color: '#FFFFFF', borderRadius: 14, padding: '12px 26px', fontFamily: 'AB-texto', fontWeight: 600, fontSize: 28, textShadow: 'none'}}>{l.chamada}</div>
         )}
       </div>
       {assinatura && (

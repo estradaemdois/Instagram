@@ -40,15 +40,15 @@
   },
   {
    "arquivo": "s4.jpg",
-   "url": "https://images.pexels.com/photos/9223091/pexels-photo-9223091.jpeg?auto=compress&cs=tinysrgb&w=1600",
-   "fonte": "Pexels 9223091",
+   "url": "https://images.pexels.com/photos/9165903/pexels-photo-9165903.jpeg?auto=compress&w=2600",
    "foco": [
-    0.45,
-    0.68
+    0.55,
+    0.5
    ],
-   "zoom": 1.35,
-   "brilho": 0.8,
-   "saturacao": 0.3
+   "zoom": 1.0,
+   "brilho": 1.0,
+   "saturacao": 1.0,
+   "motivo": "Floresta azul com névoa e duas silhuetas (troca pedida em 24/11: a foto da moça não combinava)"
   },
   {
    "arquivo": "s5.jpg",

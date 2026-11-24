@@ -18,3 +18,4 @@ Origem de cada regra entre parênteses.
 - Conceito espiritual apresentado como **visão** ("na visão espiritual…"), não como fato científico.
 - Linguagem acolhedora e sem julgamento sobre vícios, doenças e sofrimento.
 - Pontuação colada na palavra-chave em destaque.
+- Stories não usam figurinhas interativas (enquete, quiz, caixinha, link): tudo precisa ser publicável automaticamente pelo estúdio. Interação só por texto (responder a story / direct).
