@@ -9,3 +9,4 @@
 - Foto de grupo só entra se o rosto dele estiver visível.
 - Curiosidades nas fotos: só fatos verificáveis (placa, fonte oficial). Na dúvida, não escreve.
 - Não usar o clichê "onde o GPS termina" nas peças.
+- Posts educativos: tom técnico e sério, sem gírias ou brincadeiras; todo dado com fonte técnica citada na legenda e numa lâmina de referências.
