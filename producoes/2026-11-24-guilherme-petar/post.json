@@ -233,11 +233,11 @@
      ]
     },
     {
-     "foto": "DJI_20261120133115_0153_D.JPG",
+     "foto": "IMG-20261123-WA1797.jpg",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
-      0.6
+      0.5
      ]
     },
     {
@@ -327,11 +327,11 @@
      ]
     },
     {
-     "foto": "DJI_20261121124602_0206_D.JPG",
+     "foto": "DJI_20261121134045_0250_D.JPG",
      "etiqueta": "Petar · 21.11.26",
      "foco": [
       0.5,
-      0.55
+      0.5
      ]
     },
     {
@@ -387,16 +387,6 @@
      ]
     },
     {
-     "foto": "IMG-20261123-WA1674.jpg",
-     "layout": "curiosidade",
-     "curiosidade": "Morro Preto: 200 m de percurso, uns 30 minutos lá dentro e dificuldade 1 de 5.",
-     "etiqueta": "Morro Preto · Petar",
-     "foco": [
-      0.5,
-      0.45
-     ]
-    },
-    {
      "foto": "IMG-20261123-WA1703.jpg",
      "etiqueta": "Morro Preto · Petar",
      "foco": [
@@ -405,25 +395,25 @@
      ]
     },
     {
-     "foto": "DJI_20261120102259_0032_D.JPG",
-     "etiqueta": "Petar · 20.11.26",
-     "foco": [
-      0.5,
-      0.45
-     ],
-     "ajuste": {
-      "brilho": 1.1
-     },
-     "layout": "curiosidade",
-     "curiosidade": "Nas cavernas do PETAR só se entra com monitor credenciado, capacete e lanterna."
-    },
-    {
-     "foto": "IMG-20261123-WA1711.jpg",
+     "foto": "IMG-20261123-WA1701.jpg",
+     "layout": "foto",
      "etiqueta": "Morro Preto · Petar",
      "foco": [
       0.5,
-      0.45
+      0.62
      ]
+    },
+    {
+     "foto": "IMG-20261123-WA1756.jpg",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.6,
+      0.42
+     ],
+     "zoom": 1.35,
+     "ajuste": {
+      "brilho": 1.15
+     }
     },
     {
      "foto": "IMG-20261123-WA1698.jpg",
@@ -436,11 +426,11 @@
      ]
     },
     {
-     "foto": "IMG-20261123-WA1854.jpg",
-     "etiqueta": "Petar · 20.11.26",
+     "foto": "IMG-20261123-WA1713.jpg",
+     "etiqueta": "Petar · 21.11.26",
      "foco": [
       0.5,
-      0.5
+      0.62
      ]
     },
     {
@@ -470,6 +460,14 @@
      ]
     },
     {
+     "foto": "DJI_20261120170137_0197_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
      "foto": "IMG-20261123-WA1671.jpg",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
@@ -478,24 +476,17 @@
      ]
     },
     {
-     "foto": "IMG-20261123-WA1839.jpg",
-     "etiqueta": "Petar · 20.11.26",
-     "foco": [
-      0.5,
-      0.5
-     ]
-    },
-    {
-     "foto": "IMG-20261123-WA1860.jpg",
-     "layout": "foto",
-     "etiqueta": "Petar · 20.11.26",
-     "foco": [
-      0.5,
-      0.5
-     ]
-    },
-    {
      "foto": "DJI_20261120112204_0062_D.JPG",
+     "layout": "curiosidade",
+     "curiosidade": "Nas cavernas do PETAR só se entra com monitor credenciado, capacete e lanterna.",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1854.jpg",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
@@ -511,11 +502,11 @@
      ]
     },
     {
-     "foto": "DJI_20261120170137_0197_D.JPG",
-     "etiqueta": "Petar · 20.11.26",
+     "foto": "WhatsApp Image 2026-11-23 at 09.21.13.jpeg",
+     "etiqueta": "Petar · 21.11.26",
      "foco": [
       0.5,
-      0.45
+      0.55
      ]
     }
    ]

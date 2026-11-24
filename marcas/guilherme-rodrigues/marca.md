@@ -8,7 +8,7 @@ Cada lugar vira um **capítulo** numerado (Capítulo 01 = Petar). O perfil funci
 ## Grade: cada lugar ocupa uma linha de 3 carrosséis (até 20 itens cada)
 | Esquerda | Meio | Direita |
 |---|---|---|
-| **Eu**: fotos do Guilherme sozinho (sem casal) + paisagens intercaladas. Capa com o nome do lugar | **Espetacular**: paisagens insanas + vídeos curtos (entrando/saindo dos lugares) + fotos dele misturadas | **Grupo**: só fotos de grupo em que o rosto dele aparece + paisagens + fotos dele |
+| **Eu**: fotos do Guilherme sozinho (sem casal) + paisagens intercaladas. Capa com o nome do lugar | **Espetacular**: paisagens insanas + vídeos curtos (entrando/saindo dos lugares), sem fotos dele sozinho | **Grupo**: o máximo de fotos de grupo em que o rosto dele aparece + paisagens, sem fotos dele sozinho |
 
 Publique na ordem **grupo → espetacular → eu** (o mais novo fica à esquerda).
 Em todos, algumas lâminas levam **curiosidade curta e verdadeira** sobre o lugar (layout `curiosidade`, rótulo "VOCÊ SABIA?").
