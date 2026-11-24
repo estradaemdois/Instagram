@@ -1,0 +1,37 @@
+{
+ "estilo": "feed-apometria-brasil",
+ "laminas": [
+  {
+   "imagem": "s1.jpg",
+   "rotulo": "Apometria e Prosperidade:",
+   "titulo": "Quando o dinheiro / não flui",
+   "texto": "Entenda o que pode estar travando a sua vida financeira."
+  },
+  {
+   "imagem": "s2.jpg",
+   "rotulo": "O que é prosperidade",
+   "titulo": "Energia em / movimento",
+   "texto": "Na visão energética e espiritual, o dinheiro acompanha o fluxo da nossa energia. Quando ela circula, as oportunidades aparecem. Quando fica presa, tudo parece andar mais devagar."
+  },
+  {
+   "imagem": "s3.jpg",
+   "rotulo": "Possíveis causas",
+   "titulo": "O que trava / esse fluxo",
+   "texto": "Padrões de escassez que se repetem na família, vínculos com pessoas e situações do passado, energias acumuladas na casa e no trabalho, e sentimentos como medo, culpa e mágoa."
+  },
+  {
+   "imagem": "s4.jpg",
+   "rotulo": "As influências",
+   "titulo": "Nem tudo que / pesa é seu",
+   "texto": "Energias de ambientes, de pessoas próximas e até de espíritos em sintonia com a escassez podem reforçar o desânimo e a sensação de que nada dá certo."
+  },
+  {
+   "imagem": "s5.jpg",
+   "rotulo": "Como a Apometria atua",
+   "titulo": "Para a energia / voltar a circular",
+   "texto": "A Apometria identifica e trata essas interferências à distância: corta vínculos, faz a limpeza energética da pessoa e do lar e ajuda a reequilibrar o campo.",
+   "chamada": "Saiba mais na legenda",
+   "assinatura": true
+  }
+ ]
+}

@@ -11,8 +11,8 @@
     0.62
    ],
    "zoom": 1.25,
-   "brilho": 0.75,
-   "saturacao": 0.55
+   "brilho": 0.9,
+   "saturacao": 0.8
   },
   {
    "arquivo": "s2.jpg",
@@ -23,20 +23,20 @@
     0.5
    ],
    "zoom": 1.0,
-   "brilho": 1.0,
+   "brilho": 1.15,
    "saturacao": 0.8
   },
   {
    "arquivo": "s3.jpg",
-   "url": "https://images.pexels.com/photos/8515596/pexels-photo-8515596.jpeg?auto=compress&cs=tinysrgb&w=1600",
-   "fonte": "Pexels 8515596",
+   "url": "https://images.pexels.com/photos/7391635/pexels-photo-7391635.jpeg?auto=compress&cs=tinysrgb&w=1600",
+   "fonte": "Pexels 7391635",
    "foco": [
     0.5,
-    0.5
+    0.4
    ],
    "zoom": 1.0,
-   "brilho": 0.55,
-   "saturacao": 0.5
+   "brilho": 0.9,
+   "saturacao": 0.9
   },
   {
    "arquivo": "s4.jpg",

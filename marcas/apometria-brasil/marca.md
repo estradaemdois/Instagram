@@ -1,5 +1,21 @@
 # Kit da marca · Apometria Brasil (@apometria_brasil)
 
+> ⚠️ **Design system atualizado em 24/11/2026** a partir do feed real do perfil (prints enviados pela responsável + análise em `analise-perfil-2026-11-24.md`). Modelo: composição **`CarrosselAB`** em `modelos/remotion/src/CarrosselAB.tsx`. As cores petróleo/dourado e a Lora abaixo ficam só como histórico.
+
+## Design system atual (feed do perfil)
+- **Imagem:** cinematográfica, ocupando a lâmina inteira; pessoas emocionadas (olhos fechados, sorriso, olhar para cima, close no rosto), elementos místicos (pêndulo, céu estrelado, névoa, luz dourada, nebulosa). Clima de sonho, nada de terror.
+- **Tratamento de cor:** lilás/roxo em cima, azul profundo/petróleo embaixo, toques de turquesa e de luz dourada.
+- **Brilhos:** estrelinhas brancas de 4 pontas espalhadas pela imagem.
+- **Título:** serifada fina e elegante, branca, grande, alinhada à esquerda (Cormorant Garamond 500).
+- **Texto de apoio:** sem serifa limpa, branca (Montserrat 500/600).
+- **Rótulo:** caixinha turquesa translúcida com texto branco ("Apometria para Ansiedade:").
+- **Chamada:** botão lilás arredondado ("Clique aqui em SAIBA MAIS").
+- **Logo:** símbolo branco no canto inferior direito de toda lâmina.
+- **Frases e depoimentos:** fundo de céu lilás/roxo; depoimento em cartão branco com nome, 5 estrelas douradas e texto.
+- **Assinatura:** foto do Paulo + "Paulo Rodrigues · Apometria" (na última lâmina).
+- **Reels:** o Paulo de jaleco no consultório (mesa radiônica, quadro abstrato), título em serifada bold branca no alto.
+
+
 > Lido por **todos os agentes** antes de trabalhar. As proibições ficam em `regras.md` (a Guardiã usa as duas).
 
 ## Quem é
