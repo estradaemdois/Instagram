@@ -29,7 +29,7 @@ def ease(x):
 
 def cabecalho(d, passo, total, titulo, texto, alfa=1.0):
     mono = f(K["fontes"]["mono"], 24)
-    M.espaco(d, (56, 56), "COMO NASCE UMA CAVERNA", mono, PAPEL, 3)
+    M.espaco(d, (56, 56), "COMO SE FORMAM AS CAVERNAS DO PETAR", mono, PAPEL, 3)
     num = f"{passo:02d}/{total:02d}"
     M.espaco(d, (W - 56 - M.largura_esp(d, num, mono, 3), 56), num, mono, PAPEL, 3)
     ft = f(K["fontes"]["titulo"], 96)
@@ -76,7 +76,7 @@ def m1(saida):
     def quadro(i):
         t = i / FPS
         img = Image.new("RGB", (W, H), MATA); d = ImageDraw.Draw(img)
-        cabecalho(d, 1, 3, "A receita", "A chuva atravessa o solo da mata, absorve gás carbônico e vira um ácido fraco.")
+        cabecalho(d, 1, 4, "A rocha e a água", "A água da chuva absorve CO₂ do solo da mata e forma ácido carbônico, que dissolve o carbonato de cálcio do metacalcário.")
         # nuvem
         for cx, r in ((330, 60), (400, 80), (480, 62), (560, 50)):
             d.ellipse((cx - r, TOP + 10 - r // 2, cx + r, TOP + 10 + r), fill=(90, 100, 96))
@@ -90,7 +90,7 @@ def m1(saida):
             d.line([(fx, ROCHA_Y), (fx + 20, ROCHA_Y + 130), (fx - 10, ROCHA_Y + 260), (fx + 15, 1230)], fill=MATA, width=7)
         mono = f(K["fontes"]["mono"], 22)
         M.espaco(d, (40, SOLO_Y + 60), "SOLO DA MATA", mono, PAPEL, 3)
-        M.espaco(d, (40, ROCHA_Y + 22), "CALCÁRIO · ~600 MILHÕES DE ANOS", mono, PAPEL, 3)
+        M.espaco(d, (40, ROCHA_Y + 22), "METACALCÁRIO · SUBGRUPO LAJEADO", mono, PAPEL, 3)
         # bolhas de CO2 subindo do solo
         fco = f(INTER, 22)
         for bx, ph in bolhas:
@@ -115,15 +115,15 @@ def m1(saida):
         if a > 0:
             caixa = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dc = ImageDraw.Draw(caixa)
             dc.rounded_rectangle((150, 1130 - 10, 930, 1250), radius=18, fill=MATA + (int(235 * a),))
-            ff = f(INTER, 46)
-            txt = "H₂O + CO₂ → H₂CO₃"
+            ff = f(INTER, 40)
+            txt = "CaCO₃ + H₂O + CO₂ → Ca²⁺ + 2 HCO₃⁻"
             w = dc.textlength(txt, font=ff)
             dc.text(((W - w) / 2, 1132), txt, font=ff, fill=PAPEL + (int(255 * a),))
-            sub = "água + gás carbônico = ácido carbônico"
+            sub = "a calcita é dissolvida e levada em solução"
             fs = f(INTER_R, 26); w2 = dc.textlength(sub, font=fs)
             dc.text(((W - w2) / 2, 1200), sub, font=fs, fill=SINAL + (int(255 * a),))
             img.paste(caixa, (0, 0), caixa)
-        rodape(ImageDraw.Draw(img), "Petar · Vale do Ribeira")
+        rodape(ImageDraw.Draw(img), "Fonte: Karmann & Ferrari · SIGEP/USP")
         return img
     salvar(quadro, n, saida)
 
@@ -136,46 +136,42 @@ def m2(saida):
     def quadro(i):
         t = i / FPS; p = ease((t - 0.8) / 6.5)
         img = Image.new("RGB", (W, H), MATA); d = ImageDraw.Draw(img)
-        cabecalho(d, 2, 3, "Gota a gota", "O ácido entra pelas fraturas e dissolve o calcário. A fresta vira túnel; o túnel, salão.")
+        cabecalho(d, 3, 4, "Entalhamento", "O rio dissolve e desgasta o leito com os sedimentos que carrega, aprofundando o conduto: cânions subterrâneos de 10 a 60 m.")
         estratos(d, 0, Y0 + 80, W, Y1, seed=5)
         d.rectangle((0, Y0, W, Y0 + 80), fill=SOLO)
-        # fratura
-        fr = [(540, Y0 + 80), (560, 640), (520, 800), (560, 960), (540, Y1)]
-        d.line(fr, fill=MATA, width=6)
-        # cavidade crescendo (elipse + ruído)
-        cx, cy = 540, 930
-        rx, ry = 20 + 400 * p, 10 + 190 * p
-        pts = []
-        for k in range(72):
-            a = k / 72 * 2 * math.pi
-            rr = 1 + 0.08 * math.sin(5 * a + 1) + 0.05 * math.sin(11 * a)
-            pts.append((cx + rx * rr * math.cos(a), cy + ry * rr * math.sin(a) * (0.75 if math.sin(a) > 0 else 1.15)))
-        d.polygon(pts, fill=(12, 20, 18))
-        # rio no fundo da cavidade
-        if p > 0.15:
-            yb = cy + ry * 0.68
-            larg = rx * 0.6
-            onda = [(cx - larg + x, yb + 4 * math.sin(x / 25 + t * 6)) for x in range(0, int(2 * larg), 12)]
+        # tubo freático inicial (fase de iniciação) + cânion vadoso que aprofunda
+        cx, topo_tubo = 540, 560
+        d.line([(540, Y0 + 80), (548, topo_tubo)], fill=MATA, width=5)
+        d.ellipse((cx - 80, topo_tubo, cx + 80, topo_tubo + 130), fill=(12, 20, 18))
+        fundo = topo_tubo + 120 + 380 * p
+        esq, dir_ = [], []
+        yy = topo_tubo + 100
+        while yy <= fundo:
+            w = 46 + 10 * math.sin(yy / 37) + 6 * math.sin(yy / 13)
+            off = 14 * math.sin(yy / 90)
+            esq.append((cx - w + off, yy)); dir_.append((cx + w + off, yy)); yy += 8
+        if len(esq) > 1:
+            d.polygon(esq + dir_[::-1], fill=(12, 20, 18))
+            # rio no fundo + seixos (abrasão)
+            yb = esq[-1][1]
+            onda = [(esq[-1][0] + x, yb - 8 + 3 * math.sin(x / 9 + t * 8)) for x in range(0, int(dir_[-1][0] - esq[-1][0]), 6)]
             if len(onda) > 1: d.line(onda, fill=AGUA, width=6)
-        # gente pra escala
-        if p > 0.85:
-            a = ease((p - 0.85) / 0.15)
-            hx, hy = cx + 120, cy + ry * 0.62
-            cor = tuple(int(c * a + 12 * (1 - a)) for c in PAPEL)
-            d.ellipse((hx - 9, hy - 70, hx + 9, hy - 52), fill=cor)
-            d.pieslice((hx - 13, hy - 80, hx + 13, hy - 58), 180, 360, fill=tuple(int(c * a) for c in (60, 120, 220)))
-            d.line([(hx, hy - 52), (hx, hy - 20)], fill=cor, width=6)
-            d.line([(hx, hy - 20), (hx - 9, hy)], fill=cor, width=5); d.line([(hx, hy - 20), (hx + 9, hy)], fill=cor, width=5)
-            d.line([(hx, hy - 45), (hx + 14, hy - 30)], fill=cor, width=5)
-            mono = f(K["fontes"]["mono"], 20)
-            M.espaco(d, (hx + 26, hy - 64), "VOCÊ AQUI", mono, cor, 2)
+            rnd = random.Random(int(t * 3))
+            for _ in range(4):
+                px = rnd.uniform(esq[-1][0] + 8, dir_[-1][0] - 8)
+                d.ellipse((px - 5, yb - 8, px + 5, yb + 2), fill=PEDRA)
+        mono = f(K["fontes"]["mono"], 20)
+        M.espaco(d, (cx + 100, topo_tubo + 50), "TUBO FREÁTICO", mono, PAPEL, 2)
+        if p > 0.2:
+            M.espaco(d, (cx + 100, (topo_tubo + 130 + fundo) / 2), "CÂNION VADOSO", mono, SINAL, 2)
+            d.line([(cx + 92, topo_tubo + 140), (cx + 92, fundo)], fill=SINAL, width=2)
         # contador de tempo
-        anos = int(5_000_000 * p)
-        txt = "0 anos" if anos < 1000 else (f"{anos/1e6:.1f} milhões de anos".replace(".", ",") if anos >= 1_000_000 else f"{anos//1000} mil anos")
+        anos = int(1_700_000 * p)
+        txt = "0 anos" if anos < 1000 else ((f"{anos/1e6:.1f} milhão de anos" if anos < 2_000_000 else f"{anos/1e6:.1f} milhões de anos").replace(".", ",") if anos >= 1_000_000 else f"{anos//1000} mil anos")
         fc = f(K["fontes"]["titulo"], 64)
         w = d.textlength(txt.upper(), font=fc)
         d.text(((W - w) / 2, 1140), txt.upper(), font=fc, fill=SINAL)
-        rodape(d, "Escala de tempo ilustrativa")
+        rodape(d, "Taxa medida: 42 mm a cada mil anos (U/Th)")
         return img
     salvar(quadro, n, saida)
 
@@ -189,7 +185,7 @@ def m3(saida):
     def quadro(i):
         t = i / FPS; p = ease((t - 0.3) / 8.4)
         img = Image.new("RGB", (W, H), MATA); d = ImageDraw.Draw(img)
-        cabecalho(d, 3, 3, "Anel por anel", "Dentro da caverna, a gota perde gás carbônico pro ar e deixa um anel de calcita.")
+        cabecalho(d, 4, 4, "Espeleotemas", "A água que goteja chega saturada em carbonato. Ao perder CO₂ para o ar da caverna, precipita calcita, anel por anel.")
         estratos(d, 0, 380, W, TETO, seed=7); estratos(d, 0, CHAO, W, 1290, seed=9)
         # estalactite: primeiro tubo fino (canudinho), depois engrossa em cone
         comp = 40 + 330 * p
@@ -236,7 +232,67 @@ def m3(saida):
             fc = f(K["fontes"]["titulo"], 72)
             txt = "COLUNA"
             d.text((X - 380, (ini + fim_gota) / 2 - 40), txt, font=fc, fill=SINAL)
-        rodape(d, "Frações de milímetro por ano")
+        rodape(d, "Crescimento: frações de milímetro por ano")
+        return img
+    salvar(quadro, n, saida)
+
+
+# ---------- RIOS: sumidouro → conduto → ressurgência ----------
+def rios(saida):
+    n = FPS * 9
+
+    def quadro(i):
+        t = i / FPS
+        img = Image.new("RGB", (W, H), MATA); d = ImageDraw.Draw(img)
+        cabecalho(d, 2, 4, "Os rios entram", "No PETAR, a maior parte da água vem de rios que nascem em rochas insolúveis. No calcário, eles somem em sumidouros e reaparecem nas ressurgências.")
+        # relevo: rocha insolúvel alta à esquerda; calcário mais baixo; vale do rio principal à direita
+        sup = [(0, 600), (250, 600), (420, 770), (800, 790), (900, 1010), (W, 1010)]
+        d.polygon(sup + [(W, 1260), (0, 1260)], fill=ROCHA)
+        estratos(d, 420, 800, W, 1260, seed=11)
+        d.polygon([(800, 790), (900, 1010), (W, 1010), (W, 760), (800, 760)], fill=MATA)
+        d.polygon([(0, 600), (250, 600), (420, 770), (420, 1260), (0, 1260)], fill=(70, 60, 54))
+        for yy in range(640, 1260, 28):
+            d.line([(0, yy), (418, yy - 60)], fill=(78, 68, 60), width=2)
+        d.polygon([(0, 440), (W, 440), (W, 590), (420, 590), (420, 762), (250, 592), (0, 592)], fill=MATA)
+        d.line(sup[:3], fill=SOLO, width=12); d.line(sup[2:], fill=SOLO, width=12)
+        for x in range(20, 400, 70):
+            yy = 600 if x < 250 else 600 + (x - 250) * (170 / 170)
+            d.ellipse((x - 26, yy - 50, x + 26, yy + 4), fill=(46, 92, 60))
+        def fluxo(pts, off, cor, w):
+            seg = []
+            for a, b in zip(pts, pts[1:]):
+                L = math.dist(a, b); steps = max(2, int(L / 6))
+                for k in range(steps):
+                    seg.append((a[0] + (b[0] - a[0]) * k / steps, a[1] + (b[1] - a[1]) * k / steps))
+            for k in range(len(seg) - 1):
+                if ((k + off) // 4) % 3 != 2:
+                    d.line([seg[k], seg[k + 1]], fill=cor, width=w)
+        off = int(t * 20)
+        fluxo([(30, 592), (250, 592), (415, 758)], -off, AGUA, 8)
+        # sumidouro e conduto dentro da rocha
+        d.ellipse((410, 752, 450, 786), fill=(8, 12, 11))
+        cond = [(430, 775), (470, 870), (580, 930), (720, 950), (840, 975), (905, 995)]
+        d.line(cond, fill=(10, 16, 15), width=40, joint="curve")
+        fluxo(cond, -off, AGUA, 6)
+        # ressurgência + rio principal no vale
+        d.ellipse((890, 975, 925, 1012), fill=(8, 12, 11))
+        fluxo([(905, 1004), (W, 1004)], -off, AGUA, 8)
+        mono = f(K["fontes"]["mono"], 22)
+        def rot(txt, x, y, cor=PAPEL):
+            M.espaco(d, (x, y), txt, mono, cor, 3)
+        rot("ROCHA INSOLÚVEL", 30, 680)
+        rot("GRANITO, METAPELITO", 30, 712, PEDRA)
+        rot("METACALCÁRIO", 560, 1080)
+        a = ease((t - 1.0) / 1.0); b = ease((t - 2.5) / 1.0); c = ease((t - 4.0) / 1.0)
+        if a > 0: rot("SUMIDOURO", 452, 720, tuple(int(v * a) for v in SINAL))
+        if b > 0: rot("CONDUTO", 560, 880, tuple(int(v * b) for v in SINAL))
+        if c > 0: rot("RESSURGÊNCIA", 700, 1020, tuple(int(v * c) for v in SINAL))
+        fs = f(INTER_R, 26)
+        msg = "Muitos sumidouros, poucas ressurgências: 8 a 12 para 1 (setor sudoeste)"
+        dd = ease((t - 5.5) / 1.0)
+        if dd > 0:
+            d.text((56, 1180), msg, font=fs, fill=tuple(int(v * dd) for v in PAPEL))
+        rodape(d, "Fonte: Karmann & Ferrari · SIGEP/USP")
         return img
     salvar(quadro, n, saida)
 
@@ -246,23 +302,23 @@ def m4(saida, fundo):
     n = FPS * 7
     bg = M.tratar(M.recortar(Image.open(fundo), (0.5, 0.55)))
     bg = Image.eval(bg, lambda v: int(v * 0.42)).filter(ImageFilter.GaussianBlur(3))
-    itens = [(1958, "{:d}", "ano de criação do parque"),
-             (35.7, "{:.1f} mil", "hectares de área protegida"),
-             (300, "{:d}+", "cavernas cadastradas"),
-             (200, "~{:d} m", "altura do portal da Casa de Pedra"),
-             (600, "~{:d} mi", "anos de idade do calcário")]
+    itens = [(1958, "{:d}", "criação do parque"),
+             (6.3, "{:.1f} km", "caverna Santana, a mais extensa"),
+             (297, "{:d} m", "desnível da caverna Água Suja"),
+             (2, "~{:d} mi", "anos: sistema Pérolas–Santana"),
+             (1963, "{:d} mm", "de chuva por ano, sem estação seca")]
 
     def quadro(i):
         t = i / FPS
         img = bg.copy(); d = ImageDraw.Draw(img)
         mono = f(K["fontes"]["mono"], 24)
-        M.espaco(d, (56, 56), "COMO NASCE UMA CAVERNA", mono, PAPEL, 3)
+        M.espaco(d, (56, 56), "COMO SE FORMAM AS CAVERNAS DO PETAR", mono, PAPEL, 3)
         d.text((56, 112), "PETAR EM NÚMEROS", font=f(K["fontes"]["titulo"], 96), fill=SINAL)
         y = 300
         for k, (val, fmt, rot) in enumerate(itens):
             a = ease((t - 0.3 - k * 0.45) / 1.4)
             v = val * a
-            if fmt.startswith("{:d}") or "{:d}" in fmt:
+            if "{:d}" in fmt:
                 v = int(round(v)) if a < 1 else int(val)
                 txt = fmt.format(v)
             else:
@@ -270,11 +326,11 @@ def m4(saida, fundo):
             fn = f(K["fontes"]["titulo"], 120)
             cor = tuple(int(c * min(1, a * 2)) for c in PAPEL)
             d.text((56, y), txt, font=fn, fill=cor)
-            fr = f(INTER, 34)
-            d.text((56 + d.textlength("~600 mi", font=fn) + 40, y + 52), rot, font=fr, fill=tuple(int(c * min(1, a * 2)) for c in PAPEL))
+            fr = f(INTER, 30)
+            d.text((56 + d.textlength("1963 mm", font=fn) + 36, y + 52), rot, font=fr, fill=tuple(int(c * min(1, a * 2)) for c in PAPEL))
             d.line([(56, y + 175), (W - 56, y + 175)], fill=tuple(int(c * 0.35) for c in PAPEL), width=1)
             y += 190
-        rodape(d, "Fontes: ALESP · Semil-SP · USP")
+        rodape(d, "Fonte: Karmann & Ferrari · SIGEP/USP")
         return img
     salvar(quadro, n, saida)
 
@@ -283,6 +339,7 @@ if __name__ == "__main__":
     out = sys.argv[1]; os.makedirs(out, exist_ok=True)
     quais = sys.argv[2:] or ["m1", "m2", "m3"]
     if "m1" in quais: m1(os.path.join(out, "m1.mp4"))
+    if "rios" in quais: rios(os.path.join(out, "rios.mp4"))
     if "m2" in quais: m2(os.path.join(out, "m2.mp4"))
     if "m3" in quais: m3(os.path.join(out, "m3.mp4"))
     if "m4" in quais: m4(os.path.join(out, "m4.mp4"), os.environ["FUNDO_M4"])
