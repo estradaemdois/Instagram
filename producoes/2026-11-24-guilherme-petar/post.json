@@ -1,0 +1,128 @@
+{
+ "posts": [
+  {
+   "nome": "1-carrossel",
+   "laminas": [
+    {
+     "foto": "DJI_20261120114216_0067_D.JPG",
+     "layout": "capa",
+     "foco": [
+      0.36,
+      0.56
+     ],
+     "capitulo": "Lugares que parecem mentira · 01",
+     "coordenadas": "24°32′S 48°41′O",
+     "titulo": "Petar",
+     "frase": "onde o GPS termina",
+     "local": "Vale do Ribeira · SP",
+     "zoom": 1.25,
+     "ajuste": {
+      "brilho": 1.1
+     }
+    },
+    {
+     "foto": "DJI_20261120103153_0034_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.4
+     ],
+     "ajuste": {
+      "brilho": 1.12
+     }
+    },
+    {
+     "foto": "DJI_20261120114908_0085_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "DJI_20261120114944_0089_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "DJI_20261120112157_0061_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "DJI_20261120122142_0120_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.64
+     ]
+    },
+    {
+     "foto": "DJI_20261120122709_0129_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "DJI_20261120133211_0156_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "DJI_20261121141214_0261_D.JPG",
+     "etiqueta": "Petar · 21.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "DJI_20261121124614_0208_D.JPG",
+     "etiqueta": "Petar · 21.11.26",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "2-foto",
+   "laminas": [
+    {
+     "foto": "DJI_20261120121956_0108_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "3-frase",
+   "laminas": [
+    {
+     "foto": "DJI_20261120111359_0057_D.JPG",
+     "layout": "frase",
+     "foco": [
+      0.5,
+      0.4
+     ],
+     "frase": "Tem lugar que só começa depois que o sinal acaba."
+    }
+   ]
+  }
+ ]
+}

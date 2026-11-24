@@ -1,0 +1,18 @@
+{
+  "nome": "Guilherme Rodrigues",
+  "perfil": "@guilherme.rodrigues_ofc",
+  "cores": {
+    "mata": "#14231F",
+    "papel": "#F3EEE4",
+    "sinal": "#E8742C",
+    "pedra": "#8C8577"
+  },
+  "fontes": {
+    "titulo": "anton.woff",
+    "italico": "playfair-italico.woff",
+    "mono": "jetbrains-mono-500.woff",
+    "texto": "Inter-Regular.otf"
+  },
+  "formato": { "largura": 1080, "altura": 1350 },
+  "tratamento": "Trilha: saturação 86%, pretos lavados, sombras verde-petróleo, luzes quentes, vinheta suave"
+}
