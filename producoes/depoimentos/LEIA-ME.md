@@ -1,6 +1,8 @@
 # Depoimentos (stories) · Paulo Rodrigues · Apometria
 
-Modelo: composição `DepoimentoAB` (1080x1920). Cada story: recorte só do trecho do relato (sem nomes, sem dados), objeção entre aspas e um comentário curto que responde a ela com base no que a pessoa disse, assinatura e aviso "Relato individual, compartilhado com autorização".
+Modelo atual: composição `DepoimentoWA` — o **print original do WhatsApp inteiro** (moldura do app à mostra, é o que dá veracidade). Opção A: story do print + story do comentário. Opção B: print e comentário juntos.
+
+Modelo antigo (recortado, descartado em 24/11): `DepoimentoAB` (1080x1920). Cada story: recorte só do trecho do relato (sem nomes, sem dados), objeção entre aspas e um comentário curto que responde a ela com base no que a pessoa disse, assinatura e aviso "Relato individual, compartilhado com autorização".
 
 Antes de publicar cada um: autorização por escrito do cliente (ver LEIA-ME do pacote original). Não usar o da Thais. Frequência pedida: a cada 2 dias.
 

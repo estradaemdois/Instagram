@@ -8,6 +8,7 @@ import {CarrosselAB, PropsAB} from './CarrosselAB';
 import {StoryAB, PropsStoryAB} from './StoryAB';
 import {VideoAB, PropsVideoAB} from './VideoAB';
 import {DepoimentoAB, PropsDepo} from './DepoimentoAB';
+import {DepoimentoWA, PropsWA} from './DepoimentoWA';
 
 // Uma lâmina por quadro (frame). Post único = carrossel de 1 lâmina.
 export const Root: React.FC = () => (
@@ -86,6 +87,16 @@ export const Root: React.FC = () => (
     height={1920}
     durationInFrames={1}
     defaultProps={{pasta: 'x', fontes: {titulo: 'x', texto: 'x', texto_forte: 'x'}, assinatura: {nome: 'x', foto: 'x'}, aviso: '', itens: [{print: 'x', objecao: 'x', comentario: 'x'}]} as unknown as PropsDepo}
+    calculateMetadata={({props}) => ({durationInFrames: Math.max(1, props.itens.length)})}
+  />
+  <Composition
+    id="DepoimentoWA"
+    component={DepoimentoWA}
+    fps={30}
+    width={1080}
+    height={1920}
+    durationInFrames={1}
+    defaultProps={{pasta: 'x', fontes: {titulo: 'x', texto: 'x', texto_forte: 'x'}, assinatura: {nome: 'x', foto: 'x'}, aviso: '', itens: [{print: 'x', modo: 'print', objecao: 'x', comentario: 'x'}]} as unknown as PropsWA}
     calculateMetadata={({props}) => ({durationInFrames: Math.max(1, props.itens.length)})}
   />
   </>
