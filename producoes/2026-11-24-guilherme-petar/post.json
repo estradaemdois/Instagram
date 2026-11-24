@@ -1,11 +1,16 @@
 {
  "posts": [
   {
-   "nome": "1-carrossel-solo",
+   "nome": "1-solo",
    "laminas": [
     {
      "foto": "DJI_20261120114216_0067_D.JPG",
      "layout": "capa",
+     "capitulo": "Lugares que parecem mentira · 01",
+     "coordenadas": "24°32′S 48°41′O",
+     "titulo": "Petar",
+     "frase": "um mundo debaixo do mundo",
+     "local": "Vale do Ribeira · SP",
      "foco": [
       0.36,
       0.56
@@ -13,15 +18,12 @@
      "zoom": 1.25,
      "ajuste": {
       "brilho": 1.1
-     },
-     "capitulo": "Lugares que parecem mentira · 01",
-     "coordenadas": "24°32′S 48°41′O",
-     "titulo": "Petar",
-     "frase": "um mundo debaixo do mundo",
-     "local": "Vale do Ribeira · SP"
+     }
     },
     {
      "foto": "DJI_20261120103153_0034_D.JPG",
+     "layout": "curiosidade",
+     "curiosidade": "Essas cavernas foram esculpidas pela água, dissolvendo o calcário por milhões de anos.",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
@@ -40,11 +42,13 @@
      ]
     },
     {
-     "foto": "DJI_20261120112157_0061_D.JPG",
+     "foto": "IMG-20261123-WA1666.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "Estalactites crescem cerca de 1 cm por século. Olhar pra cima aqui é olhar pra milhares de anos.",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
-      0.45
+      0.4
      ]
     },
     {
@@ -59,6 +63,14 @@
      }
     },
     {
+     "foto": "DJI_20261120112157_0061_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
      "foto": "DJI_20261120102150_0030_D.JPG",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
@@ -70,7 +82,19 @@
      }
     },
     {
+     "foto": "IMG-20261123-WA1849.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "Água parada, limpa e sem luz do sol. Basta uma lanterna pra ela acender em verde.",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
      "foto": "DJI_20261120165934_0191_D.JPG",
+     "layout": "curiosidade",
+     "curiosidade": "O Vale do Ribeira guarda o maior trecho contínuo de Mata Atlântica do Brasil.",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
@@ -94,6 +118,22 @@
      ]
     },
     {
+     "foto": "DJI_20261120132931_0141_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1878.jpg",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
      "foto": "DJI_20261121124614_0208_D.JPG",
      "etiqueta": "Petar · 21.11.26",
      "foco": [
@@ -102,7 +142,32 @@
      ]
     },
     {
-     "foto": "DJI_20261120133211_0156_D.JPG",
+     "foto": "DJI_20261121134507_0254_D.JPG",
+     "etiqueta": "Petar · 21.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "DJI_20261121124740_0214_D.JPG",
+     "etiqueta": "Petar · 21.11.26",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "layout": "video",
+     "fotos": [
+      "DJI_20261120133211_0156_D.JPG",
+      "DJI_20261120133213_0157_D.JPG",
+      "DJI_20261120133218_0158_D.JPG",
+      "DJI_20261120133221_0159_D.JPG",
+      "DJI_20261120133225_0160_D.JPG",
+      "DJI_20261120133227_0161_D.JPG"
+     ],
+     "seg": 0.5,
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
@@ -112,43 +177,34 @@
    ]
   },
   {
-   "nome": "2-frase",
+   "nome": "2-subterraneo",
    "laminas": [
     {
      "foto": "DJI_20261120111359_0057_D.JPG",
-     "layout": "frase",
-     "foco": [
-      0.5,
-      0.4
-     ],
-     "frase": "O planeta guarda as melhores partes do lado de dentro."
-    }
-   ]
-  },
-  {
-   "nome": "3-carrossel-grupo",
-   "laminas": [
-    {
-     "foto": "dd8674ac-220f-42b0-a57f-92dda6851411.jpg",
      "layout": "capa",
-     "foco": [
-      0.5,
-      0.6
-     ],
      "capitulo": "Lugares que parecem mentira · 01",
      "coordenadas": "24°32′S 48°41′O",
-     "titulo": "A tropa",
-     "frase": "ninguém sai igual de uma caverna",
+     "titulo": "Subterrâneo",
+     "frase": "o que a Terra esconde",
      "local": "Petar · Vale do Ribeira · SP",
-     "posicao": "topo"
-    },
-    {
-     "foto": "WhatsApp Image 2026-11-23 at 09.21.13.jpeg",
-     "etiqueta": "Petar · 21.11.26",
      "foco": [
       0.5,
-      0.55
-     ]
+      0.42
+     ],
+     "ajuste": {
+      "brilho": 1.08
+     }
+    },
+    {
+     "layout": "video",
+     "video": "VID-20261123-WA1754.mp4",
+     "inicio": 5.5,
+     "fim": 20.6,
+     "foco": [
+      0.5,
+      0.5
+     ],
+     "etiqueta": "Petar · entrando na caverna"
     },
     {
      "foto": "DJI_20261120114457_0078_D.JPG",
@@ -159,19 +215,136 @@
      ]
     },
     {
-     "foto": "DJI_20261120121655_0102_D.JPG",
+     "foto": "IMG-20261123-WA1786.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "Estalactite desce do teto. Estalagmite sobe do chão. Quando as duas se encontram, viram coluna.",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1809.jpg",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
       0.5
+     ]
+    },
+    {
+     "foto": "DJI_20261120133115_0153_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.6
+     ]
+    },
+    {
+     "foto": "DJI_20261120143740_0163_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1783.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "A entrada da Caverna do Morro Preto tem 25 metros de altura. Cabe um prédio de 8 andares.",
+     "etiqueta": "Morro Preto · Petar",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "layout": "video",
+     "fotos": [
+      "DJI_20261120121442_0094_D.JPG",
+      "DJI_20261120121446_0095_D.JPG",
+      "DJI_20261120121646_0101_D.JPG",
+      "DJI_20261120121655_0102_D.JPG"
+     ],
+     "seg": 0.75,
+     "etiqueta": "Petar · saindo pra luz",
+     "foco": [
+      0.5,
+      0.45
      ],
      "ajuste": {
-      "brilho": 1.1
+      "brilho": 1.12
      }
     },
     {
-     "foto": "DJI_20261120121956_0108_D.JPG",
+     "foto": "IMG-20261123-WA1862.jpg",
      "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1814.jpg",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1681.jpg",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "DJI_20261121141214_0261_D.JPG",
+     "layout": "curiosidade",
+     "curiosidade": "O PETAR tem mais de 300 cavernas cadastradas. Fora delas, cachoeira em cada curva da trilha.",
+     "etiqueta": "Petar · 21.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "DJI_20261121131705_0234_D.JPG",
+     "etiqueta": "Petar · 21.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1890.jpg",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "DJI_20261121124602_0206_D.JPG",
+     "etiqueta": "Petar · 21.11.26",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1851.jpg",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "DJI_20261121141226_0264_D.JPG",
+     "etiqueta": "Petar · 21.11.26",
      "foco": [
       0.5,
       0.5
@@ -186,7 +359,84 @@
      ]
     },
     {
-     "foto": "DJI_20261120092533_0008_D.JPG",
+     "foto": "DJI_20261121170819_0267_D.JPG",
+     "layout": "foto",
+     "etiqueta": "Iporanga · 21.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    }
+   ]
+  },
+  {
+   "nome": "3-expedicao",
+   "laminas": [
+    {
+     "foto": "IMG-20261123-WA1707.jpg",
+     "layout": "capa",
+     "capitulo": "Lugares que parecem mentira · 01",
+     "coordenadas": "24°32′S 48°41′O",
+     "titulo": "Expedição",
+     "frase": "ninguém atravessa o escuro sozinho",
+     "local": "Morro Preto · Petar · SP",
+     "posicao": "topo",
+     "foco": [
+      0.5,
+      0.62
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1674.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "Morro Preto: 200 m de percurso, uns 30 minutos lá dentro e dificuldade 1 de 5.",
+     "etiqueta": "Morro Preto · Petar",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1703.jpg",
+     "etiqueta": "Morro Preto · Petar",
+     "foco": [
+      0.5,
+      0.7
+     ]
+    },
+    {
+     "foto": "DJI_20261120102259_0032_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ],
+     "ajuste": {
+      "brilho": 1.1
+     },
+     "layout": "curiosidade",
+     "curiosidade": "Nas cavernas do PETAR só se entra com monitor credenciado, capacete e lanterna."
+    },
+    {
+     "foto": "IMG-20261123-WA1711.jpg",
+     "etiqueta": "Morro Preto · Petar",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1698.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "Dentro da caverna, a temperatura quase não muda o ano inteiro. Lá fora, a mata ferve.",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1854.jpg",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
@@ -194,8 +444,67 @@
      ]
     },
     {
-     "foto": "DJI_20261121141226_0264_D.JPG",
+     "foto": "IMG-20261123-WA1837.jpg",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "DJI_20261121124718_0211_D.JPG",
      "etiqueta": "Petar · 21.11.26",
+     "foco": [
+      0.5,
+      0.55
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1884.jpg",
+     "layout": "curiosidade",
+     "curiosidade": "Só restam cerca de 12% da Mata Atlântica original. Por aqui, ela ainda manda.",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1671.jpg",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.45
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1839.jpg",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1860.jpg",
+     "layout": "foto",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "DJI_20261120112204_0062_D.JPG",
+     "etiqueta": "Petar · 20.11.26",
+     "foco": [
+      0.5,
+      0.5
+     ]
+    },
+    {
+     "foto": "IMG-20261123-WA1857.jpg",
+     "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
       0.5
@@ -206,7 +515,7 @@
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
-      0.4
+      0.45
      ]
     }
    ]

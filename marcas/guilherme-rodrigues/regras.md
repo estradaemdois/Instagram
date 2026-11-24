@@ -5,5 +5,7 @@
 - Não inventar nome de caverna, trilha ou cachoeira: se não tiver certeza, usar só o nome do parque/cidade e a data da foto.
 - No máximo 5 hashtags e sempre com `#explorer`.
 - Publicação: pelo estúdio, só quando pedirem.
-- Carrossel solo: só fotos dele sozinho (casal não entra). Paisagens podem entrar no meio.
+- Carrossel "eu": só fotos dele sozinho (casal não entra). Paisagens podem entrar no meio.
+- Foto de grupo só entra se o rosto dele estiver visível.
+- Curiosidades nas fotos: só fatos verificáveis (placa, fonte oficial). Na dúvida, não escreve.
 - Não usar o clichê "onde o GPS termina" nas peças.

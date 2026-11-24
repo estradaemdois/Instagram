@@ -5,13 +5,14 @@ Perfil pessoal de viagem e aventura. Bio: "Caçando lugares que parecem mentira 
 ## Conceito: "Lugares que parecem mentira"
 Cada lugar vira um **capítulo** numerado (Capítulo 01 = Petar). O perfil funciona como um diário de campo: foto real, tratamento de cor único e uma tipografia pequena e técnica (coordenadas, data, número da lâmina) que lembra GPS e caderneta de expedição.
 
-## Grade: cada lugar ocupa uma linha de 3 posts
+## Grade: cada lugar ocupa uma linha de 3 carrosséis (até 20 itens cada)
 | Esquerda | Meio | Direita |
 |---|---|---|
-| **Carrossel solo**: só o Guilherme sozinho (sem casal) + paisagens fortes intercaladas. Capa com o nome do lugar gigante | **Frase**: foto de paisagem escurecida + frase em itálico (ou foto limpa) | **Carrossel do grupo**: fotos do grupo grande + paisagens. Capa com título próprio (ex.: "A TROPA"), texto no alto se o grupo estiver embaixo |
+| **Eu**: fotos do Guilherme sozinho (sem casal) + paisagens intercaladas. Capa com o nome do lugar | **Espetacular**: paisagens insanas + vídeos curtos (entrando/saindo dos lugares) + fotos dele misturadas | **Grupo**: só fotos de grupo em que o rosto dele aparece + paisagens + fotos dele |
 
-Como o Instagram põe o post mais novo à esquerda, **publique na ordem: grupo → frase → solo**.
-Reels entram fora desse ritmo.
+Publique na ordem **grupo → espetacular → eu** (o mais novo fica à esquerda).
+Em todos, algumas lâminas levam **curiosidade curta e verdadeira** sobre o lugar (layout `curiosidade`, rótulo "VOCÊ SABIA?").
+Vídeos: até 10 MB conseguem ser baixados do Drive; os maiores precisam ser enviados já cortados. Sequências de fotos em rajada viram mini vídeo (stop-motion).
 
 ## Cores
 | Nome | Cor | Uso |
@@ -34,7 +35,7 @@ Saturação um pouco menor (86%), pretos levemente lavados, sombras puxadas para
 Sempre 1080x1350 (4:5). Fotos verticais 9:16 são recortadas escolhendo o ponto de foco.
 
 ## Como montar
-`python3 modelos/foto-viagem/montar.py producoes/<pasta>` lê o `post.json` da pasta e grava em `final/`. Layouts: `capa`, `foto`, `frase`, `limpa`.
+`python3 modelos/foto-viagem/montar.py producoes/<pasta>` lê o `post.json` da pasta e grava em `final/`. Layouts: `capa` (com `posicao: topo` quando as pessoas estão embaixo), `foto`, `curiosidade`, `frase`, `video` (corte de vídeo com `inicio`/`fim` ou sequência de `fotos`).
 
 ## Voz das legendas
 Primeira pessoa, tom de quem descobriu um segredo e quer contar. Temas: lugares inacreditáveis, trilha, natureza, a sensação de estar lá.

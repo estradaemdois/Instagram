@@ -11,8 +11,12 @@
     "titulo": "anton.woff",
     "italico": "playfair-italico.woff",
     "mono": "jetbrains-mono-500.woff",
-    "texto": "Inter-Regular.otf"
+    "texto": "Inter-Regular.otf",
+    "forte": "Inter-SemiBold.otf"
   },
-  "formato": { "largura": 1080, "altura": 1350 },
+  "formato": {
+    "largura": 1080,
+    "altura": 1350
+  },
   "tratamento": "Trilha: saturação 86%, pretos lavados, sombras verde-petróleo, luzes quentes, vinheta suave"
 }

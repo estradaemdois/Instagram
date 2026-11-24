@@ -172,6 +172,94 @@ def frase(img, k, l):
     return img
 
 
+def curiosidade(img, k, l, i, total):
+    img = degrade(img, 0.42, 0.95)
+    d = ImageDraw.Draw(img)
+    papel, sinal = rgb(k["cores"]["papel"]), rgb(k["cores"]["sinal"])
+    mono = fonte(k["fontes"]["mono"], 24)
+    ft = fonte(k["fontes"].get("forte", "Inter-SemiBold.otf"), l.get("tamanho", 46))
+    linhas = quebrar(d, l["curiosidade"], ft, W - 130)
+    alt_l = int(ft.size * 1.25)
+    y = H - 120 - alt_l * len(linhas)
+    d.rectangle((56, y - 52, 68, y - 40), fill=sinal)
+    espaco(d, (84, y - 60), l.get("rotulo", "Você sabia?").upper(), mono, sinal, 3)
+    for ln in linhas:
+        d.text((56, y), ln, font=ft, fill=papel)
+        y += alt_l
+    num = f"{i:02d}/{total:02d}" if total > 1 else None
+    etiqueta(d, k, l.get("etiqueta", ""), numero=num)
+    return img
+
+
+def abrir(pasta, nome):
+    for sub in ("bruto", "diversos", "videos", ""):
+        c = os.path.join(pasta, sub, nome)
+        if os.path.exists(c):
+            return c
+    raise FileNotFoundError(nome)
+
+
+def camada(k, l, i, total):
+    """PNG transparente com etiqueta/curiosidade para pôr por cima do vídeo."""
+    base = Image.new("RGB", (W, H), (0, 0, 0))
+    if l.get("curiosidade"):
+        txt = curiosidade(Image.new("RGB", (W, H), (255, 0, 255)), k, l, i, total)
+    else:
+        txt = Image.new("RGB", (W, H), (255, 0, 255))
+        txt = degrade(txt, 0.82, 0.55)
+        etiqueta(ImageDraw.Draw(txt), k, l.get("etiqueta", ""), numero=f"{i:02d}/{total:02d}" if total > 1 else None)
+    # reconstrói alfa: o que ficou igual ao magenta é transparente; o degradê vira sombra
+    import numpy as np
+    a = np.asarray(txt).astype(int)
+    mag = np.array([255, 0, 255])
+    # sombra: mistura linear magenta→quase preto (8,14,13)
+    t = np.clip((255 - a[..., 0]) / 247.0, 0, 1)
+    eh_degrade = (np.abs(a[..., 0] - a[..., 2]) < 12) & (a[..., 1] < 20)
+    rgba = np.zeros((H, W, 4), dtype=np.uint8)
+    rgba[..., :3] = a.clip(0, 255)
+    alfa = np.where(eh_degrade, (t * 255), 255)
+    rgba[..., :3] = np.where(eh_degrade[..., None], np.array([8, 14, 13]), a).clip(0, 255)
+    rgba[..., 3] = alfa.astype(np.uint8)
+    return Image.fromarray(rgba, "RGBA")
+
+
+GRADE = ("eq=saturation=0.86:contrast=1.06,"
+         "colorbalance=rs=-0.02:bs=0.03:rh=0.03:bh=-0.04,"
+         "curves=all='0/0.055 1/0.94',vignette=PI/5")
+
+
+def video(pasta, k, l, i, total, saida):
+    import subprocess, tempfile
+    tmp = tempfile.mkdtemp()
+    cam = os.path.join(tmp, "camada.png")
+    camada(k, l, i, total).save(cam)
+    out = os.path.join(saida, f"{i:02d}.mp4")
+    if l.get("video"):
+        src = abrir(pasta, l["video"])
+        fx, fy = l.get("foco", (0.5, 0.5))
+        vf = (f"scale=1080:-2,crop=1080:1350:0:'(ih-1350)*{fy}'," + GRADE + ",fps=30")
+        cmd = ["ffmpeg", "-v", "error", "-y", "-ss", str(l.get("inicio", 0)), "-to", str(l["fim"]),
+               "-i", src, "-i", cam, "-filter_complex", f"[0:v]{vf}[v];[v][1:v]overlay=0:0,format=yuv420p",
+               "-an", "-c:v", "libx264", "-crf", "19", "-preset", "medium", "-movflags", "+faststart", out]
+    else:  # sequência de fotos com zoom lento (stop-motion)
+        fps, seg = 30, l.get("seg", 0.6)
+        n = 0
+        fotos = l["fotos"]
+        for j, nome in enumerate(fotos):
+            img = tratar(recortar(Image.open(abrir(pasta, nome)), l.get("foco", (0.5, 0.5)), 1.0), l.get("ajuste"))
+            qs = int(fps * seg)
+            for q in range(qs):
+                z = 1 + 0.10 * (j * qs + q) / (len(fotos) * qs)
+                cw, ch = W / z, H / z
+                fr = img.crop((int((W - cw) / 2), int((H - ch) / 2), int((W + cw) / 2), int((H + ch) / 2))).resize((W, H), Image.BICUBIC)
+                fr.save(os.path.join(tmp, f"f{n:04d}.jpg"), quality=92); n += 1
+        cmd = ["ffmpeg", "-v", "error", "-y", "-framerate", str(fps), "-i", os.path.join(tmp, "f%04d.jpg"), "-i", cam,
+               "-filter_complex", "[0:v][1:v]overlay=0:0,format=yuv420p", "-c:v", "libx264", "-crf", "19",
+               "-movflags", "+faststart", out]
+    subprocess.run(cmd, check=True)
+    return out
+
+
 def main(pasta):
     k = kit()
     with open(os.path.join(pasta, "post.json")) as f:
@@ -185,13 +273,17 @@ def montar_post(pasta, k, post):
     os.makedirs(saida, exist_ok=True)
     total = len(post["laminas"])
     for i, l in enumerate(post["laminas"], 1):
-        foto = Image.open(os.path.join(pasta, "bruto", l["foto"]))
-        img = tratar(recortar(foto, l.get("foco", (0.5, 0.5)), l.get("zoom", 1.0)), l.get("ajuste"))
         lay = l.get("layout", "foto")
+        if lay == "video":
+            print("ok", video(pasta, k, l, i, total, saida)); continue
+        foto = Image.open(abrir(pasta, l["foto"]))
+        img = tratar(recortar(foto, l.get("foco", (0.5, 0.5)), l.get("zoom", 1.0)), l.get("ajuste"))
         if lay == "capa":
             img = capa(img, k, l)
         elif lay == "frase":
             img = frase(img, k, l)
+        elif lay == "curiosidade":
+            img = curiosidade(img, k, l, i, total)
         if lay in ("foto", "frase") and l.get("etiqueta"):
             img = degrade(img, 0.82, 0.55) if lay == "foto" else img
             num = f"{i:02d}/{total:02d}" if total > 1 else None
