@@ -73,12 +73,14 @@ export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, v
         </div>
       </div>
 
-      {/* Rodapé com símbolo (só quando não há a linha do Instituto) */}
-      {!vinculo && !selo && <div style={{position: 'absolute', top: 1490, left: 0, right: 0, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 20}}>
-        <div style={{width: 120, height: 1, background: 'rgba(202,233,225,0.35)'}} />
-        <Img src={arq(simbolo)} style={{width: 58, height: 58, opacity: 0.9}} />
-        <div style={{width: 120, height: 1, background: 'rgba(202,233,225,0.35)'}} />
-      </div>}
+      {/* Rodapé: só o símbolo da Apometria Brasil, à direita */}
+      {!vinculo && !selo && (
+        <div style={{position: 'absolute', top: (440 + H) + 34, right: 52, display: 'flex', alignItems: 'center', gap: 18}}>
+          <div style={{width: 160, height: 1, background: 'linear-gradient(90deg, rgba(202,233,225,0), rgba(202,233,225,0.4))'}} />
+          <Img src={arq(simbolo)} style={{width: 64, height: 64, opacity: 0.92}} />
+        </div>
+      )}
+
       {/* Selo redondo do Instituto, no canto do print */}
       {selo && (() => {
         const R = 92, top = (vinculo ? 505 : 440) + H - R - 6, left = 52 + W - R + 6;

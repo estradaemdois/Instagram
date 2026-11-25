@@ -41,3 +41,4 @@ Os agentes leem este arquivo antes de criar.
 - 24/11/2026 · Depoimentos: rótulo só "DEPOIMENTO" (não "depoimento real"); sem "cada pessoa tem o seu processo"; borrar nomes de clientes dentro das mensagens; formato atual = print e comentário na mesma imagem.
 - 25/11/2026 · Depoimentos v2 (`DepoimentoAP`): sem aviso de autorização; "Paulo Rodrigues / Apometria" em destaque no topo (Apometria grande, em degradê branco→menta→turquesa); etiqueta "Depoimento após a Apometria" ou "Relato depois da Apometria"; comentário em cartão separado do print; símbolo da Apometria Brasil pequeno no rodapé. Tom sério, nada infantil.
 - 25/11/2026 · Depoimentos: o vínculo com o Instituto vai como **selo redondo** (símbolo dentro de anel com "INSTITUTO APOMETRIA BRASIL") no canto inferior direito do print, não como linha de texto.
+- 25/11/2026 · Depoimentos: sem selo e sem linha "Terapeuta do Instituto"; apenas o símbolo da Apometria Brasil no rodapé, à direita.
