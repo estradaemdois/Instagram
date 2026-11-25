@@ -4,8 +4,8 @@ import {AbsoluteFill, Img, staticFile, useCurrentFrame, continueRender, delayRen
 // Depoimento v2 (25/11/2026): assinatura "Paulo Rodrigues · Apometria" em destaque no topo,
 // etiqueta "Depoimento após a Apometria" (ou "Relato depois da Apometria"), print ORIGINAL do WhatsApp inteiro,
 // comentário num cartão separado do print e símbolo da Apometria Brasil no rodapé. Sem aviso de autorização.
-export type ItemAP = {print: string; etiqueta: string; objecao: string; comentario: string};
-export type PropsAP = {pasta: string; fontes: {titulo: string; texto: string; texto_forte: string}; foto: string; simbolo: string; vinculo?: string; selo?: boolean; itens: ItemAP[]};
+export type ItemAP = {print: string; etiqueta: string; objecao?: string; comentario?: string};
+export type PropsAP = {pasta: string; fontes: {titulo: string; texto: string; texto_forte: string}; foto: string; simbolo: string; vinculo?: string; selo?: boolean; faixa?: boolean; itens: ItemAP[]};
 
 const useFontes = (pasta: string, f: PropsAP['fontes']) => {
   const [h] = useState(() => delayRender('fontes AP'));
@@ -20,15 +20,23 @@ const useFontes = (pasta: string, f: PropsAP['fontes']) => {
 
 const TURQ = '#01C2C1', MENTA = '#CAE9E1';
 
-export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, vinculo, selo, itens}) => {
+export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, vinculo, selo, faixa, itens}) => {
   useFontes(pasta, fontes);
   const d = itens[useCurrentFrame()];
   const arq = (a: string) => staticFile(`${pasta}/${a}`);
-  const H = 975, W = Math.round(H * 0.466);
+  const H = d.comentario ? 975 : 1040, W = Math.round(H * 0.466);
   return (
     <AbsoluteFill style={{background: 'linear-gradient(175deg, #10414B 0%, #0A2A33 50%, #061820 100%)', color: '#FFFFFF'}}>
       <AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 8%, rgba(1,194,193,0.20) 0%, rgba(0,0,0,0) 45%)'}} />
 
+      {/* Faixa de fundo atrás da assinatura */}
+      {faixa && (
+        <div style={{position: 'absolute', top: 182, left: 120, right: 120, height: 168, borderRadius: 84, overflow: 'hidden',
+          background: 'linear-gradient(100deg, rgba(202,233,225,0.16) 0%, rgba(1,194,193,0.14) 55%, rgba(43,107,106,0.30) 100%)',
+          border: '1px solid rgba(202,233,225,0.38)', boxShadow: '0 18px 50px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.18)'}}>
+          <div style={{position: 'absolute', inset: 0, background: 'radial-gradient(circle at 15% 0%, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0) 50%)'}} />
+        </div>
+      )}
       {/* Assinatura em destaque */}
       <div style={{position: 'absolute', top: 205, left: 0, right: 0, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 28}}>
         <div style={{width: 112, height: 112, borderRadius: '50%', padding: 4, background: `linear-gradient(140deg, ${TURQ}, ${MENTA})`}}>
@@ -59,19 +67,19 @@ export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, v
       </div>
 
       {/* Print original */}
-      <div style={{position: 'absolute', top: vinculo ? 505 : 440, left: 52, width: W, height: H, borderRadius: 28, overflow: 'hidden', border: '3px solid rgba(255,255,255,0.85)', boxShadow: '0 30px 70px rgba(0,0,0,0.6)'}}>
+      <div style={{position: 'absolute', top: vinculo ? 505 : 440, left: d.comentario ? 52 : (1080 - W) / 2, width: W, height: H, borderRadius: 28, overflow: 'hidden', border: '3px solid rgba(255,255,255,0.85)', boxShadow: '0 30px 70px rgba(0,0,0,0.6)'}}>
         <Img src={arq(d.print)} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top'}} />
       </div>
 
       {/* Comentário separado */}
-      <div style={{position: 'absolute', top: vinculo ? 505 : 440, left: 52 + W + 34, right: 52, height: H, display: 'flex', alignItems: 'center'}}>
+      {d.comentario && <div style={{position: 'absolute', top: vinculo ? 505 : 440, left: 52 + W + 34, right: 52, height: H, display: 'flex', alignItems: 'center'}}>
         <div style={{width: '100%', background: 'rgba(202,233,225,0.06)', border: '1.5px solid rgba(1,194,193,0.45)', borderRadius: 26, padding: '42px 34px'}}>
           <div style={{fontFamily: 'AP-texto', fontWeight: 600, fontSize: 19, letterSpacing: '0.22em', color: TURQ}}>MUITA GENTE PERGUNTA</div>
           <div style={{fontFamily: 'AP-titulo', fontWeight: 500, fontSize: 50, lineHeight: 1.06, marginTop: 14}}>{d.objecao}</div>
           <div style={{width: 50, height: 2, background: TURQ, margin: '26px 0'}} />
           <div style={{fontFamily: 'AP-texto', fontWeight: 500, fontSize: 26, lineHeight: 1.5, opacity: 0.95}}>{d.comentario}</div>
         </div>
-      </div>
+      </div>}
 
       {/* Rodapé: só o símbolo da Apometria Brasil, à direita */}
       {!vinculo && !selo && (
