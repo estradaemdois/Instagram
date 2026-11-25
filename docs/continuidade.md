@@ -67,3 +67,8 @@ Radar (tendências) · Sonda (dores/objeções) · Mestre (apometria/base do Pau
 ## Avisos
 - Chave da integração do estúdio também foi exposta no chat (14/11): lembrar a responsável de revogar em Saúde do sistema.
 - Nunca gravar chaves em arquivos do repositório.
+
+
+## Enviados ao estúdio em 26/11/2026 (aguardando aprovação)
+- Carrossel "Um trabalho de magia perde a força sozinho?" (6 lâminas, legenda técnica) — 02/12 às 15h · pedido b3592804-130e-4ee8-b7c0-573d9d3b017d
+- 4 stories da magia — 02/12 às 15h10, 15h30, 18h e 21h · pedidos 9fcab287…, 834439fe…, 1959c948…, 58a40148…
