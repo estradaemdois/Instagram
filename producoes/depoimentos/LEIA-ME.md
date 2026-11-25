@@ -6,7 +6,8 @@ Modelo atual (25/11/2026): composição `DepoimentoAP`, props `modelos/remotion/
 - Etiqueta alternada em turquesa entre fios: "Depoimento após a Apometria" / "Relato depois da Apometria".
 - **Print original do WhatsApp inteiro**, centralizado. Nomes de clientes dentro das mensagens borrados.
 - Rodapé: só o símbolo da Apometria Brasil, à direita.
-- Sem comentários/objeções, sem aviso de autorização, sem selo.
+- Sem aviso de autorização, sem selo.
+- Cada depoimento = 2 stories: (a) o print; (b) story separado com "Muita gente pergunta" + objeção entre aspas + resposta humilde (quebra a objeção, sem elogiar o trabalho).
 
 Recusados: fundo claro creme, céu estrelado, selo redondo, faixa atrás do nome, comentário ao lado do print.
 
