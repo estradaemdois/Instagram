@@ -5,7 +5,7 @@ import {AbsoluteFill, Img, staticFile, useCurrentFrame, continueRender, delayRen
 // etiqueta "Depoimento após a Apometria" (ou "Relato depois da Apometria"), print ORIGINAL do WhatsApp inteiro,
 // comentário num cartão separado do print e símbolo da Apometria Brasil no rodapé. Sem aviso de autorização.
 export type ItemAP = {print: string; etiqueta: string; objecao: string; comentario: string};
-export type PropsAP = {pasta: string; fontes: {titulo: string; texto: string; texto_forte: string}; foto: string; simbolo: string; vinculo?: string; itens: ItemAP[]};
+export type PropsAP = {pasta: string; fontes: {titulo: string; texto: string; texto_forte: string}; foto: string; simbolo: string; vinculo?: string; selo?: boolean; itens: ItemAP[]};
 
 const useFontes = (pasta: string, f: PropsAP['fontes']) => {
   const [h] = useState(() => delayRender('fontes AP'));
@@ -20,7 +20,7 @@ const useFontes = (pasta: string, f: PropsAP['fontes']) => {
 
 const TURQ = '#01C2C1', MENTA = '#CAE9E1';
 
-export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, vinculo, itens}) => {
+export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, vinculo, selo, itens}) => {
   useFontes(pasta, fontes);
   const d = itens[useCurrentFrame()];
   const arq = (a: string) => staticFile(`${pasta}/${a}`);
@@ -74,11 +74,32 @@ export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, v
       </div>
 
       {/* Rodapé com símbolo (só quando não há a linha do Instituto) */}
-      {!vinculo && <div style={{position: 'absolute', top: 1490, left: 0, right: 0, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 20}}>
+      {!vinculo && !selo && <div style={{position: 'absolute', top: 1490, left: 0, right: 0, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 20}}>
         <div style={{width: 120, height: 1, background: 'rgba(202,233,225,0.35)'}} />
         <Img src={arq(simbolo)} style={{width: 58, height: 58, opacity: 0.9}} />
         <div style={{width: 120, height: 1, background: 'rgba(202,233,225,0.35)'}} />
       </div>}
+      {/* Selo redondo do Instituto, no canto do print */}
+      {selo && (() => {
+        const R = 92, top = (vinculo ? 505 : 440) + H - R - 6, left = 52 + W - R + 6;
+        return (
+          <div style={{position: 'absolute', top: top - R + R, left: left - R + R, width: 2 * R, height: 2 * R, transform: `translate(-${0}px, -${0}px)`}}>
+            <svg width={2 * R} height={2 * R} viewBox="0 0 184 184" style={{position: 'absolute', inset: 0, filter: 'drop-shadow(0 10px 24px rgba(0,0,0,0.55))'}}>
+              <defs>
+                <path id="arco-selo" d="M 92 92 m -66 0 a 66 66 0 1 1 132 0 a 66 66 0 1 1 -132 0" />
+                <linearGradient id="anel-selo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#CAE9E1" /><stop offset="1" stopColor="#01C2C1" /></linearGradient>
+              </defs>
+              <circle cx="92" cy="92" r="90" fill="#0B2E37" />
+              <circle cx="92" cy="92" r="86" fill="none" stroke="url(#anel-selo)" strokeWidth="2.5" />
+              <circle cx="92" cy="92" r="50" fill="none" stroke="rgba(202,233,225,0.55)" strokeWidth="1.2" />
+              <text style={{fontFamily: 'AP-texto', fontWeight: 600, fontSize: 16, letterSpacing: '0.1em'}} fill="#CAE9E1">
+                <textPath href="#arco-selo" startOffset="0" textLength={410} lengthAdjust="spacing">INSTITUTO APOMETRIA BRASIL  •  </textPath>
+              </text>
+            </svg>
+            <Img src={arq(simbolo)} style={{position: 'absolute', left: R - 36, top: R - 36, width: 72, height: 72}} />
+          </div>
+        );
+      })()}
     </AbsoluteFill>
   );
 };
