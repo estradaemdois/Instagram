@@ -4,5 +4,5 @@
 3. lamina-3.jpg — "Só entra onde encontra sintonia" (foto)
 4. lamina-4.jpg — "Depende de quem o sustenta" (foto)
 5. lamina-5.jpg — "Quando tudo trava ao mesmo tempo" (foto)
-6. lamina-6.jpg — "Vibração também protege" (foto)
+6. lamina-6.jpg — "Identificar, desfazer e proteger" (foto)
 lamina-1.jpg e lamina-2.jpg (fotos) ficam como reserva, sem uso.
