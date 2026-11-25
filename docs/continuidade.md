@@ -72,3 +72,6 @@ Radar (tendências) · Sonda (dores/objeções) · Mestre (apometria/base do Pau
 ## Enviados ao estúdio em 26/11/2026 (aguardando aprovação)
 - Carrossel "Um trabalho de magia perde a força sozinho?" (6 lâminas, legenda técnica) — 02/12 às 15h · pedido b3592804-130e-4ee8-b7c0-573d9d3b017d
 - 4 stories da magia — 02/12 às 15h10, 15h30, 18h e 21h · pedidos 9fcab287…, 834439fe…, 1959c948…, 58a40148…
+- Carrossel "Chips e implantes astrais" (capa em vídeo do Gemini + 5 lâminas, legenda técnica ajustada) — 28/11 às 15h · pedido 8c21a862-5bb9-486a-99d8-b1580888f669
+- 4 stories dos implantes — 28/11 às 15h10, 15h30, 18h e 21h · pedidos 53723dfb…, 93fb9c31…, a3e4ff6a…, 232b86a7…
+- Atenção: a integração do estúdio (Vercel) recusa envios acima de ~4,5 MB (erro 413). Comprimir vídeo (crf 27) e JPG (qualidade 82) antes de enviar. Reels de 25 s (15–17 MB) precisam ser comprimidos para caber.
