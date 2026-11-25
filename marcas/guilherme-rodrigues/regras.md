@@ -11,3 +11,4 @@
 - Não usar o clichê "onde o GPS termina" nas peças.
 - Posts educativos: tom técnico e sério, sem gírias ou brincadeiras; todo dado com fonte técnica citada na legenda e numa lâmina de referências.
 - Textos nas lâminas e legendas: científicos, objetivos e sem frases subjetivas ou de efeito. Rótulo da lâmina = nome do tema técnico.
+- Legendas de posts informativos terminam com **📖 GLOSSÁRIO** dos termos técnicos usados. Limite do Instagram: 2.200 caracteres (conferir com wc -m).
