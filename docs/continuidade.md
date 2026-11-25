@@ -75,3 +75,4 @@ Radar (tendências) · Sonda (dores/objeções) · Mestre (apometria/base do Pau
 - Carrossel "Chips e implantes astrais" (capa em vídeo do Gemini + 5 lâminas, legenda técnica ajustada) — 28/11 às 15h · pedido 8c21a862-5bb9-486a-99d8-b1580888f669
 - 4 stories dos implantes — 28/11 às 15h10, 15h30, 18h e 21h · pedidos 53723dfb…, 93fb9c31…, a3e4ff6a…, 232b86a7…
 - Atenção: a integração do estúdio (Vercel) recusa envios acima de ~4,5 MB (erro 413). Comprimir vídeo (crf 27) e JPG (qualidade 82) antes de enviar. Reels de 25 s (15–17 MB) precisam ser comprimidos para caber.
+- 26/11: carrossel da magia substituído — NOVO pedido 1b9e6264-123a-4d0e-9f48-5c29e898de21 (2 vídeos do Gemini + 4 fotos, última lâmina "Identificar, desfazer e proteger"), 02/12 às 15h. O pedido ANTIGO b3592804… (só fotos) deve ser excluído pela responsável. Stories da magia (9fcab287…, 834439fe…, 1959c948…, 58a40148…) continuam valendo.
