@@ -43,3 +43,4 @@ Os agentes leem este arquivo antes de criar.
 - 25/11/2026 · Depoimentos: o vínculo com o Instituto vai como **selo redondo** (símbolo dentro de anel com "INSTITUTO APOMETRIA BRASIL") no canto inferior direito do print, não como linha de texto.
 - 25/11/2026 · Depoimentos: sem selo e sem linha "Terapeuta do Instituto"; apenas o símbolo da Apometria Brasil no rodapé, à direita.
 - 25/11/2026 · Depoimentos devem seguir o design system já definido (céu cinematográfico, azul profundo com leve lilás, brilhos, rótulo turquesa, assinatura do Paulo), não um fundo liso inventado. Sem textos/comentários ao lado do print. Modelo: `DepoimentoCeu`.
+- 25/11/2026 · Depoimento com céu estrelado, brilhos e rótulo turquesa forte = "horrível", chamativo demais. Pedido: menos chamativo, mais soft, com a paleta da marca (creme/areia/sálvia + verde-petróleo). Teste: `DepoimentoSoft`.
