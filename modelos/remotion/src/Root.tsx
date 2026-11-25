@@ -12,6 +12,7 @@ import {DepoimentoWA, PropsWA} from './DepoimentoWA';
 import {DepoimentoAP, PropsAP} from './DepoimentoAP';
 import {DepoimentoCeu, PropsCeu} from './DepoimentoCeu';
 import {DepoimentoSoft, PropsSoft} from './DepoimentoSoft';
+import {ReelFala, PropsReelFala} from './ReelFala';
 
 // Uma lâmina por quadro (frame). Post único = carrossel de 1 lâmina.
 export const Root: React.FC = () => (
@@ -131,6 +132,16 @@ export const Root: React.FC = () => (
     durationInFrames={1}
     defaultProps={{pasta: 'x', fontes: {titulo: 'x', texto: 'x', texto_forte: 'x'}, assinatura: {nome: 'x', foto: 'x'}, simbolo: 'x', itens: [{print: 'x', rotulo: 'x'}]} as unknown as PropsSoft}
     calculateMetadata={({props}) => ({durationInFrames: Math.max(1, props.itens.length)})}
+  />
+  <Composition
+    id="ReelFala"
+    component={ReelFala}
+    fps={30}
+    width={1080}
+    height={1920}
+    durationInFrames={300}
+    defaultProps={{pasta: 'x', video: 'x', duracao: 10, inicios: [0], blocos: [], fontes: {titulo: 'x', texto: 'x', texto_forte: 'x'}, assinatura: {nome: 'x', foto: 'x'}, rotulo: 'x', titulo: 'x'} as unknown as PropsReelFala}
+    calculateMetadata={({props}) => ({durationInFrames: Math.round(props.duracao * 30)})}
   />
   </>
 );
