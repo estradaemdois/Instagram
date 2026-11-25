@@ -69,7 +69,7 @@ export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, v
       </div>
 
       {/* Print original */}
-      {d.print && !d.separado && <div style={{position: 'absolute', top: vinculo ? 505 : 440, left: d.comentario && !d.separado ? 52 : (1080 - W) / 2, width: W, height: H, borderRadius: 28, overflow: 'hidden', border: '3px solid rgba(255,255,255,0.85)', boxShadow: '0 30px 70px rgba(0,0,0,0.6)'}}>
+      {d.print && !d.separado && <div style={{position: 'absolute', top: vinculo ? 505 : 440, left: d.comentario && !d.separado ? 52 : (1080 - W) / 2, width: W, height: H, borderRadius: 28, overflow: 'hidden', border: cl ? '1px solid #D5E2E0' : '3px solid rgba(255,255,255,0.85)', boxShadow: cl ? '0 24px 60px rgba(20,70,74,0.20), 0 4px 14px rgba(20,70,74,0.10)' : '0 30px 70px rgba(0,0,0,0.6)'}}>
         <Img src={arq(d.print)} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top'}} />
       </div>}
 
