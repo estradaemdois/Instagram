@@ -9,7 +9,7 @@ Nunca peça senhas, tokens ou chaves pelo chat. Se aparecer um segredo no chat, 
 
 ## Como trabalhar aqui
 - ⛔ **A fábrica de vários agentes (Maestro, Sonda, Lupa etc.) foi CANCELADA pela responsável em 23/11/2026.** Não usar a skill `produzir` nem os agentes de `.claude/agents/` (ficam só como arquivo).
-- **Modo de trabalho atual (o de antes):** o Claude escreve direto seguindo o kit da marca, usa fotos reais do Pexels (escuro → claro em temas difíceis), monta no modelo `modelos/remotion` (Apometria Brasil: composição `CarrosselAB`, estilo do feed do perfil, desde 24/11/2026; outras marcas: `Carrossel`) e mostra para a responsável aprovar.
+- **Modo de trabalho atual (o de antes):** o Claude escreve direto seguindo o kit da marca, usa fotos reais do Pexels (escuro → claro em temas difíceis), monta no modelo `modelos/remotion` (Apometria Brasil: composição `CarrosselAB`, estilo do feed do perfil, desde 24/11/2026; **imagens no padrão de referência dos implantes astrais, geradas no Gemini pela responsável a partir dos comandos do Claude — ver topo de `marcas/apometria-brasil/marca.md`**; outras marcas: `Carrossel`) e mostra para a responsável aprovar.
 - Antes de criar qualquer coisa para uma marca, leia o kit em `marcas/<marca>/` (principalmente `regras.md` e `aprendizados.md`).
 - Toda correção da responsável vira uma linha em `marcas/<marca>/aprendizados.md` (e em `regras.md`, se for proibição).
 - Critérios dos juízes: `docs/criterios.md`. Formatos dos arquivos: `docs/formatos.md`. Arquitetura: `docs/arquitetura.md`.

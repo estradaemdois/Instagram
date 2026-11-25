@@ -1,3 +1,15 @@
+# ⭐ PADRÃO VISUAL DE REFERÊNCIA (26/11/2026)
+**O carrossel "Chips e implantes astrais" (imagens e vídeo gerados no Gemini) é o mais próximo do que a responsável quer.** Toda nova peça deve seguir este padrão de imagem e cor. Referências em `referencias-padrao/`.
+
+- **Imagem gerada por IA, fotográfica e cinematográfica (realista)**, que mostra **literalmente** o conceito do texto: o implante preso na pessoa, a aura sendo drenada, as entidades em silhueta influenciando, as mãos de luz retirando. Nada de foto de banco genérica nem ilustração.
+- **Paleta:** azul-petróleo escuro e turquesa dominantes; aura e energia em turquesa luminoso; pontos de luz **vermelho-escuro** nos elementos negativos (implantes, artefatos); luz **branca/dourada quente** só no momento de alívio e cura.
+- **Entidades:** silhuetas humanas escuras, translúcidas, **sem rosto**, como fumaça; presença sutil e silenciosa, nunca monstro, sangue ou terror explícito.
+- **Personagem:** a mesma pessoa em todas as cenas (gerar tudo na mesma conversa do Gemini); ambientes do dia a dia (quarto, cozinha, sala) com luz de janela.
+- **Narrativa visual:** escuro e pesado nas primeiras lâminas → claro e luminoso no fechamento.
+- **Capa:** vídeo curto do Gemini (9:16, ~8–10 s) recortado em 4:5, com o título por cima (modelo `VideoAB`).
+- Sobre as imagens, o texto segue o `CarrosselAB` (rótulo turquesa, título em Cormorant branca, texto em Montserrat, assinatura do Paulo).
+- Molde de comando: `producoes/2026-11-24-apometria-implantes-astrais/prompts-gemini-v2.md`.
+
 # Kit da marca · Apometria Brasil (@apometria_brasil)
 
 > ⚠️ **Design system atualizado em 24/11/2026** a partir do feed real do perfil (prints enviados pela responsável + análise em `analise-perfil-2026-11-24.md`). Modelo: composição **`CarrosselAB`** em `modelos/remotion/src/CarrosselAB.tsx`. As cores petróleo/dourado e a Lora abaixo ficam só como histórico.
