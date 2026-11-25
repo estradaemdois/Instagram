@@ -4,7 +4,7 @@ import {AbsoluteFill, Img, staticFile, useCurrentFrame, continueRender, delayRen
 // Depoimento v2 (25/11/2026): assinatura "Paulo Rodrigues · Apometria" em destaque no topo,
 // etiqueta "Depoimento após a Apometria" (ou "Relato depois da Apometria"), print ORIGINAL do WhatsApp inteiro,
 // comentário num cartão separado do print e símbolo da Apometria Brasil no rodapé. Sem aviso de autorização.
-export type ItemAP = {print?: string; etiqueta: string; objecao?: string; comentario?: string; separado?: boolean};
+export type ItemAP = {print?: string; etiqueta: string; objecao?: string; comentario?: string; separado?: boolean; claro?: boolean};
 export type PropsAP = {pasta: string; fontes: {titulo: string; texto: string; texto_forte: string}; foto: string; simbolo: string; vinculo?: string; selo?: boolean; faixa?: boolean; itens: ItemAP[]};
 
 const useFontes = (pasta: string, f: PropsAP['fontes']) => {
@@ -24,10 +24,12 @@ export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, v
   useFontes(pasta, fontes);
   const d = itens[useCurrentFrame()];
   const arq = (a: string) => staticFile(`${pasta}/${a}`);
+  const cl = !!d.claro;
+  const TX = cl ? '#14464A' : '#FFFFFF', SUB = cl ? '#1C5F63' : MENTA, AC = cl ? '#0E8F8E' : TURQ;
   const H = d.comentario && !d.separado ? 975 : 1040, W = Math.round(H * 0.466);
   return (
-    <AbsoluteFill style={{background: 'linear-gradient(175deg, #10414B 0%, #0A2A33 50%, #061820 100%)', color: '#FFFFFF'}}>
-      <AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 8%, rgba(1,194,193,0.20) 0%, rgba(0,0,0,0) 45%)'}} />
+    <AbsoluteFill style={{background: cl ? 'linear-gradient(180deg, #FFFFFF 0%, #FBFCFC 60%, #F1F6F5 100%)' : 'linear-gradient(175deg, #10414B 0%, #0A2A33 50%, #061820 100%)', color: TX}}>
+      <AbsoluteFill style={{background: cl ? 'radial-gradient(ellipse at 50% 6%, rgba(1,194,193,0.08) 0%, rgba(255,255,255,0) 45%)' : 'radial-gradient(ellipse at 50% 8%, rgba(1,194,193,0.20) 0%, rgba(0,0,0,0) 45%)'}} />
 
       {/* Faixa de fundo atrás da assinatura */}
       {faixa && (
@@ -40,12 +42,12 @@ export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, v
       {/* Assinatura em destaque */}
       <div style={{position: 'absolute', top: 205, left: 0, right: 0, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 28}}>
         <div style={{width: 112, height: 112, borderRadius: '50%', padding: 4, background: `linear-gradient(140deg, ${TURQ}, ${MENTA})`}}>
-          <Img src={arq(foto)} style={{width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover', border: '3px solid #0A2A33'}} />
+          <Img src={arq(foto)} style={{width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover', border: cl ? '3px solid #FFFFFF' : '3px solid #0A2A33'}} />
         </div>
         <div>
-          <div style={{fontFamily: 'AP-texto', fontWeight: 600, fontSize: 25, letterSpacing: '0.42em', color: MENTA, marginLeft: 4}}>PAULO RODRIGUES</div>
+          <div style={{fontFamily: 'AP-texto', fontWeight: 600, fontSize: 25, letterSpacing: '0.42em', color: SUB, marginLeft: 4}}>PAULO RODRIGUES</div>
           <div style={{fontFamily: 'AP-titulo', fontWeight: 500, fontSize: 104, lineHeight: 0.95, letterSpacing: '0.02em',
-            background: `linear-gradient(90deg, #FFFFFF 0%, ${MENTA} 45%, ${TURQ} 100%)`, WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent'}}>Apometria</div>
+            background: cl ? 'linear-gradient(90deg, #14464A 0%, #1C5F63 45%, #0E9E9D 100%)' : `linear-gradient(90deg, #FFFFFF 0%, ${MENTA} 45%, ${TURQ} 100%)`, WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent'}}>Apometria</div>
         </div>
       </div>
 
@@ -61,9 +63,9 @@ export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, v
 
       {/* Etiqueta */}
       <div style={{position: 'absolute', top: vinculo ? 446 : 372, left: 0, right: 0, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 22}}>
-        <div style={{width: 90, height: 1.5, background: `linear-gradient(90deg, rgba(1,194,193,0), ${TURQ})`}} />
-        <div style={{fontFamily: 'AP-texto', fontWeight: 600, fontSize: 24, letterSpacing: '0.28em', color: TURQ}}>{d.etiqueta.toUpperCase()}</div>
-        <div style={{width: 90, height: 1.5, background: `linear-gradient(90deg, ${TURQ}, rgba(1,194,193,0))`}} />
+        <div style={{width: 90, height: 1.5, background: `linear-gradient(90deg, rgba(1,194,193,0), ${AC})`}} />
+        <div style={{fontFamily: 'AP-texto', fontWeight: 600, fontSize: 24, letterSpacing: '0.28em', color: AC}}>{d.etiqueta.toUpperCase()}</div>
+        <div style={{width: 90, height: 1.5, background: `linear-gradient(90deg, ${AC}, rgba(1,194,193,0))`}} />
       </div>
 
       {/* Print original */}
@@ -84,9 +86,9 @@ export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, v
       {/* Story de comentário (separado do print) */}
       {d.separado && (
         <div style={{position: 'absolute', top: 470, left: 90, right: 90, height: 1000, display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
-          <div style={{fontFamily: 'AP-texto', fontWeight: 600, fontSize: 24, letterSpacing: '0.26em', color: TURQ}}>MUITA GENTE PERGUNTA</div>
+          <div style={{fontFamily: 'AP-texto', fontWeight: 600, fontSize: 24, letterSpacing: '0.26em', color: AC}}>MUITA GENTE ME PERGUNTA</div>
           <div style={{fontFamily: 'AP-titulo', fontWeight: 500, fontSize: 82, lineHeight: 1.04, marginTop: 20}}>“{d.objecao}”</div>
-          <div style={{width: 70, height: 2, background: TURQ, margin: '44px 0 36px'}} />
+          <div style={{width: 70, height: 2, background: AC, margin: '44px 0 36px'}} />
           <div style={{fontFamily: 'AP-texto', fontWeight: 500, fontSize: 38, lineHeight: 1.5, opacity: 0.95, textWrap: 'pretty'} as React.CSSProperties}>{d.comentario}</div>
         </div>
       )}
@@ -94,8 +96,8 @@ export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, v
       {/* Rodapé: só o símbolo da Apometria Brasil, à direita */}
       {!vinculo && !selo && (
         <div style={{position: 'absolute', top: (440 + H) + 34, right: 52, display: 'flex', alignItems: 'center', gap: 18}}>
-          <div style={{width: 160, height: 1, background: 'linear-gradient(90deg, rgba(202,233,225,0), rgba(202,233,225,0.4))'}} />
-          <Img src={arq(simbolo)} style={{width: 64, height: 64, opacity: 0.92}} />
+          <div style={{width: 160, height: 1, background: cl ? 'linear-gradient(90deg, rgba(20,70,74,0), rgba(20,70,74,0.3))' : 'linear-gradient(90deg, rgba(202,233,225,0), rgba(202,233,225,0.4))'}} />
+          <Img src={arq(cl ? 'simbolo-petroleo.png' : simbolo)} style={{width: 64, height: 64, opacity: cl ? 0.8 : 0.92}} />
         </div>
       )}
 

@@ -48,3 +48,4 @@ Os agentes leem este arquivo antes de criar.
 - 25/11/2026 · Faixa atrás do nome recusada. Depoimento final: fundo azul, nome sem faixa, print centralizado, símbolo no rodapé à direita.
 - 25/11/2026 · Comentários dos depoimentos: devem QUEBRAR OBJEÇÕES com humildade (dúvida real + resposta serena), nunca elogiar/engrandecer o próprio trabalho (soa arrogante). Vão num story SEPARADO, logo depois do print, no mesmo visual azul.
 - 25/11/2026 · Comentários de depoimento: NÃO falar que precisa de mais sessões nem que a mudança demora para aparecer. Comentar algo POSITIVO sobre o relato da pessoa (o que ela sentiu), respondendo à dúvida sem elogiar o próprio trabalho.
+- 25/11/2026 · Comentários de depoimento: escritos pelo Paulo em PRIMEIRA PESSOA, linguagem natural ("Fiquei muito feliz ao ler…", "Muita gente me pergunta"). Story do comentário com fundo BRANCO (textos em verde-petróleo); o story do print continua azul.
