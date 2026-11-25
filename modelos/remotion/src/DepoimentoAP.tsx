@@ -25,7 +25,7 @@ export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, v
   const d = itens[useCurrentFrame()];
   const arq = (a: string) => staticFile(`${pasta}/${a}`);
   const cl = !!d.claro;
-  const TX = cl ? '#14464A' : '#FFFFFF', SUB = cl ? '#1C5F63' : MENTA, AC = cl ? '#0E8F8E' : TURQ;
+  const TX = cl ? '#0A2B2E' : '#FFFFFF', SUB = cl ? '#1C5F63' : MENTA, AC = cl ? '#0E8F8E' : TURQ;
   const H = d.comentario && !d.separado ? 975 : 1040, W = Math.round(H * 0.466);
   return (
     <AbsoluteFill style={{background: cl ? 'linear-gradient(180deg, #FFFFFF 0%, #FBFCFC 60%, #F1F6F5 100%)' : 'linear-gradient(175deg, #10414B 0%, #0A2A33 50%, #061820 100%)', color: TX}}>
@@ -89,7 +89,7 @@ export const DepoimentoAP: React.FC<PropsAP> = ({pasta, fontes, foto, simbolo, v
           <div style={{fontFamily: 'AP-texto', fontWeight: 600, fontSize: 24, letterSpacing: '0.26em', color: AC}}>MUITA GENTE ME PERGUNTA</div>
           <div style={{fontFamily: 'AP-titulo', fontWeight: 500, fontSize: 82, lineHeight: 1.04, marginTop: 20}}>“{d.objecao}”</div>
           <div style={{width: 70, height: 2, background: AC, margin: '44px 0 36px'}} />
-          <div style={{fontFamily: 'AP-texto', fontWeight: 500, fontSize: 38, lineHeight: 1.5, opacity: 0.95, textWrap: 'pretty'} as React.CSSProperties}>{d.comentario}</div>
+          <div style={{fontFamily: 'AP-texto', fontWeight: 500, fontSize: 38, lineHeight: 1.5, opacity: cl ? 1 : 0.95, color: cl ? '#082426' : undefined, textWrap: 'pretty'} as React.CSSProperties}>{d.comentario}</div>
         </div>
       )}
 
