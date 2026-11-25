@@ -1,0 +1,24 @@
+# Comandos para o Gemini · Implantes astrais (versão 2, 26/11/2026)
+
+Regras para todos: mesma personagem em todas as cenas (mulher de cerca de 40 anos, cabelos castanhos na altura dos ombros, blusa clara); estilo cinematográfico realista, místico e elegante; paleta azul-petróleo, turquesa, um toque de lilás e pontos de luz vermelho-escuro nos implantes; SEM texto na imagem; sem sangue, sem monstros, sem terror explícito. Gerar tudo na mesma conversa para manter a personagem.
+
+## Capa (vídeo 9:16, 8 s)
+Vídeo vertical 9:16, cinematográfico e místico, 8 segundos. Uma mulher de cerca de 40 anos, cabelos castanhos na altura dos ombros, blusa clara, sentada sozinha numa sala escura iluminada só pela luz azulada de uma janela. Ao redor do corpo dela, uma aura luminosa azul-turquesa. Presos à aura, na nuca e no peito, pequenos artefatos escuros e antigos, de metal envelhecido com símbolos apagados, pulsando uma luz vermelho-escura. Atrás dela, quase invisíveis na penumbra, duas silhuetas translúcidas e sem rosto seguram fios finos de luz escura ligados aos artefatos. Pelos fios, filetes da luz azul da aura são puxados lentamente para a escuridão; a aura vai perdendo o brilho e ela fecha os olhos, cansada, sem perceber nada. Câmera se aproximando devagar. Clima místico e misterioso, sem terror. Sem texto na tela.
+
+## Lâmina 2 · "Estruturas no campo de energia" (imagem 4:5)
+Imagem vertical 4:5, fotografia cinematográfica realista e mística. A mesma mulher, de perfil, em pé num ambiente escuro com névoa suave. O corpo dela é envolvido por um campo de energia luminoso azul-turquesa, em camadas, como uma aura. Dentro dessa aura, e não no corpo físico, estão fixados três pequenos artefatos escuros de aparência antiga (metal envelhecido e pedra, com símbolos apagados): um na nuca, um no centro do peito e um na altura do estômago, cada um pulsando uma luz vermelho-escura, com raízes finas de luz escura se espalhando pela aura. Clima espiritual, elegante e misterioso. Sem texto.
+
+## Lâmina 3 · "Influenciar sem ser visto" (imagem 4:5)
+Imagem vertical 4:5, fotografia cinematográfica realista e mística. A mesma mulher sentada à mesa da cozinha de casa, à noite, olhando pensativa para uma xícara, sem perceber nada ao redor. Atrás dela, em pé na penumbra, três silhuetas humanas translúcidas, escuras e sem rosto, como sombras feitas de fumaça, seguram fios finíssimos de luz escura, como marionetistas. Os fios descem até pequenos artefatos de luz vermelho-escura presos à aura azul-turquesa dela, na nuca e nas têmporas. A cena é silenciosa e sutil: a influência acontece sem ser vista. Paleta azul-petróleo e turquesa, sem terror explícito. Sem texto.
+
+## Lâmina 4 · "Pela porta da afinidade" (imagem 4:5)
+Imagem vertical 4:5, fotografia cinematográfica realista e mística. A mesma mulher sentada na beira da cama, com a mão no rosto, tomada por mágoa e tristeza. A aura azul-turquesa dela está mais opaca e, na altura do peito, se abre uma fenda escura, como uma porta entreaberta no campo de energia. Uma mão translúcida e sombria, vinda da penumbra, aproxima um pequeno artefato escuro com luz vermelho-escura dessa abertura. Clima de vulnerabilidade, misterioso e respeitoso, sem terror. Sem texto.
+
+## Lâmina 5 · "Sinais que costumam aparecer" (imagem 4:5)
+Imagem vertical 4:5, fotografia cinematográfica realista e mística. A mesma mulher deitada na cama durante o dia, de olhos abertos, exausta, com a luz da manhã entrando pela cortina. A aura dela está fraca e acinzentada. Na nuca, um pequeno artefato com luz vermelho-escura puxa partículas de luz azul do corpo dela em direção a uma sombra discreta no canto do quarto. Sensação de cansaço que não passa com descanso. Paleta azul-petróleo, cinza e turquesa. Sem texto.
+
+## Lâmina 6 · "Retirar e fechar a porta" (imagem 4:5)
+Imagem vertical 4:5, fotografia cinematográfica realista, serena e luminosa. A mesma mulher de olhos fechados, com expressão de alívio, envolvida por uma luz branca e dourada suave. Mãos feitas de luz, delicadas e translúcidas, retiram com cuidado da nuca dela um pequeno artefato escuro, que se desfaz em partículas de luz. A aura volta a brilhar em turquesa e azul-claro, inteira e fechada. Ambiente claro, com luz entrando por uma janela. Clima de paz e proteção. Sem texto.
+
+## Vídeo extra opcional · "Influenciar sem ser visto" (9:16, 8 s)
+Vídeo vertical 9:16, cinematográfico e místico, 8 segundos. A mesma mulher caminha pela sala de casa fazendo tarefas do dia a dia, distraída. Atrás dela, três silhuetas translúcidas, escuras e sem rosto acompanham cada movimento, movendo fios finíssimos de luz escura ligados a pequenos artefatos de luz vermelho-escura presos à aura azul-turquesa dela, como marionetistas invisíveis. Ela não percebe nada; só parece cada vez mais pesada e cansada. Câmera lenta, clima silencioso e misterioso, sem terror. Sem texto na tela.
