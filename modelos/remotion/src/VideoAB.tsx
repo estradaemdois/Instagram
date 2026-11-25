@@ -19,6 +19,8 @@ export type PropsVideoAB = {
   telas?: {imagem: string; rotulo?: string; titulo: string; texto?: string}[];
   duracao_video?: number;
   duracao_tela?: number;
+  topo?: boolean; // texto no alto (para quando o essencial da cena está embaixo)
+  alinhar?: string; // objectPosition do vídeo, ex.: 'bottom'
 };
 
 const useFontes = (pasta: string, f: PropsVideoAB['fontes']) => {
@@ -39,8 +41,8 @@ const Brilho: React.FC<{x: number; y: number; s: number; o: number}> = ({x, y, s
   </g>
 );
 
-const Bloco: React.FC<{rotulo?: string; titulo: string; texto?: string; reel: boolean; base: number; op: number; dy: number; tam: number}> = ({rotulo, titulo, texto, reel, base, op, dy, tam}) => (
-  <div style={{position: 'absolute', left: 70, right: reel ? 170 : 120, bottom: base, color: '#FFFFFF', textShadow: '0 2px 18px rgba(0,0,0,0.5)', opacity: op, transform: `translateY(${dy}px)`}}>
+const Bloco: React.FC<{rotulo?: string; titulo: string; texto?: string; reel: boolean; base: number; op: number; dy: number; tam: number; topo?: boolean}> = ({rotulo, titulo, texto, reel, base, op, dy, tam, topo}) => (
+  <div style={{position: 'absolute', left: 70, right: reel ? 170 : 120, ...(topo ? {top: 80} : {bottom: base}), color: '#FFFFFF', textShadow: '0 2px 18px rgba(0,0,0,0.5)', opacity: op, transform: `translateY(${dy}px)`}}>
     {rotulo && <div style={{display: 'inline-block', background: 'rgba(0,160,170,0.75)', padding: '6px 14px', fontFamily: 'VA-texto', fontWeight: 500, fontSize: 34, lineHeight: 1.15, marginBottom: 14, textShadow: 'none'}}>{rotulo}</div>}
     <div style={{fontFamily: 'VA-titulo', fontWeight: 500, fontSize: tam, lineHeight: 1.0, letterSpacing: '-0.01em'}}>
       {titulo.split(' / ').map((t, k) => <div key={k}>{t}</div>)}
@@ -49,7 +51,7 @@ const Bloco: React.FC<{rotulo?: string; titulo: string; texto?: string; reel: bo
   </div>
 );
 
-export const VideoAB: React.FC<PropsVideoAB> = ({pasta, fontes, assinatura, video, formato, rotulo, titulo, texto, telas = [], duracao_video = 10, duracao_tela = 5}) => {
+export const VideoAB: React.FC<PropsVideoAB> = ({pasta, fontes, assinatura, video, formato, rotulo, titulo, texto, telas = [], duracao_video = 10, duracao_tela = 5, topo = false, alinhar = 'center'}) => {
   useFontes(pasta, fontes);
   const f = useCurrentFrame();
   const {width, height, fps} = useVideoConfig();
@@ -61,7 +63,7 @@ export const VideoAB: React.FC<PropsVideoAB> = ({pasta, fontes, assinatura, vide
   const ft = Math.round(duracao_tela * fps);
   return (
     <AbsoluteFill style={{background: '#0C2430'}}>
-      {f < fv + 15 && <OffthreadVideo src={arq(video)} muted style={{width: '100%', height: '100%', objectFit: 'cover'}} />}
+      {f < fv + 15 && <OffthreadVideo src={arq(video)} muted style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: alinhar}} />}
       {telas.map((t, k) => {
         const ini = fv + k * ft;
         if (f < ini - 15 || f > ini + ft + 15) return null;
@@ -69,7 +71,7 @@ export const VideoAB: React.FC<PropsVideoAB> = ({pasta, fontes, assinatura, vide
         const z = interpolate(f, [ini - 15, ini + ft + 15], [1.0, 1.1]);
         return <AbsoluteFill key={k} style={{opacity: op}}><Img src={arq(t.imagem)} style={{width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${z})`}} /><AbsoluteFill style={{background: 'rgba(8,28,38,0.25)'}} /></AbsoluteFill>;
       })}
-      <AbsoluteFill style={{background: reel
+      <AbsoluteFill style={{background: topo && !reel ? 'linear-gradient(180deg, rgba(8,28,38,0.92) 0%, rgba(8,28,38,0.70) 30%, rgba(12,45,60,0.15) 55%, rgba(12,45,60,0.10) 75%, rgba(8,28,38,0.75) 100%)' : reel
         ? 'linear-gradient(180deg, rgba(8,28,38,0.35) 0%, rgba(40,70,110,0.04) 25%, rgba(12,45,60,0.10) 45%, rgba(12,45,60,0.55) 62%, rgba(8,28,38,0.92) 82%, rgba(8,28,38,0.95) 100%)'
         : 'linear-gradient(180deg, rgba(120,110,190,0.10) 0%, rgba(40,70,110,0.06) 35%, rgba(12,45,60,0.38) 62%, rgba(8,28,38,0.90) 100%)'}} />
       <svg width={width} height={height} style={{position: 'absolute', inset: 0}}>
@@ -88,7 +90,7 @@ export const VideoAB: React.FC<PropsVideoAB> = ({pasta, fontes, assinatura, vide
           : interpolate(f, [ini, ini + 12, fim - 12, fim], [0, 1, 1, seg === telas.length - 1 ? 1 : 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
         const dy = seg < 0 ? 0 : interpolate(f, [ini, ini + 15], [24, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
         const c = seg < 0 ? {rotulo, titulo, texto} : telas[seg];
-        return <Bloco rotulo={c.rotulo} titulo={c.titulo} texto={c.texto} reel={reel} base={baseTexto} op={op} dy={dy} tam={seg < 0 ? 104 : 88} />;
+        return <Bloco rotulo={c.rotulo} titulo={c.titulo} texto={c.texto} reel={reel} base={baseTexto} op={op} dy={dy} tam={seg < 0 ? (topo ? 92 : 104) : 88} topo={topo && !reel} />;
       })()}
       <div style={{position: 'absolute', left: 70, bottom: baseAss, display: 'flex', alignItems: 'center', gap: 18}}>
         <Img src={arq(assinatura.foto)} style={{width: reel ? 80 : 96, height: reel ? 80 : 96, borderRadius: '50%', objectFit: 'cover', border: '3px solid rgba(255,255,255,0.9)'}} />
