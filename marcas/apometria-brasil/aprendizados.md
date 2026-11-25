@@ -45,3 +45,4 @@ Os agentes leem este arquivo antes de criar.
 - 25/11/2026 · Depoimentos devem seguir o design system já definido (céu cinematográfico, azul profundo com leve lilás, brilhos, rótulo turquesa, assinatura do Paulo), não um fundo liso inventado. Sem textos/comentários ao lado do print. Modelo: `DepoimentoCeu`.
 - 25/11/2026 · Depoimento com céu estrelado, brilhos e rótulo turquesa forte = "horrível", chamativo demais. Pedido: menos chamativo, mais soft, com a paleta da marca (creme/areia/sálvia + verde-petróleo). Teste: `DepoimentoSoft`.
 - 25/11/2026 · Decisão: manter o fundo azul/petróleo do `DepoimentoAP` (o claro e o de céu foram recusados). Nome "Paulo Rodrigues / Apometria" sobre uma faixa arredondada translúcida (menta→turquesa→petróleo). Print centralizado, sem comentários ao lado; símbolo no rodapé à direita.
+- 25/11/2026 · Faixa atrás do nome recusada. Depoimento final: fundo azul, nome sem faixa, print centralizado, símbolo no rodapé à direita.
