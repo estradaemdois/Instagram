@@ -1,5 +1,6 @@
-# Reels · Paulo falando sobre prosperidade (26/11/2026)
+# Reels · Paulo falando sobre prosperidade
+
 - Original: Google Drive, pasta "Apometria Brasil", "Sobre prosperidade.MP4" (726 MB, 1min33, vertical 4K/50fps).
-- Edição: modelo `ReelFala` (cortes sem pausas, zoom alternado a cada corte, título no alto, legenda palavra a palavra com destaque turquesa, assinatura, chamada "Salve para rever depois" nos 3 s finais).
-- Cortados por regra da marca (promessa de resultado): "trabalhando em detalhes vai dar um resultado positivo", "para uma garantia melhor e maior", "e não só dure… cinco meses, quatro meses… para sempre, sempre e para sempre". Também cortados: abertura "Então, pessoal…" e "tá bom, pessoal?".
-- Final: final/reels.mp4 (64 s), capa.jpg, legenda.txt, hashtags.txt. Transcrição completa em transcricao.json.
+- Versão final (25/11/2026): **sem nenhum corte** (os cortes travavam a fala), vídeo inteiro **acelerado 1,1x** (85 s).
+- Moldura `ReelFala`: título "Sobre prosperidade" no alto, assinatura do Paulo, legenda palavra a palavra com destaque turquesa (no alto nos primeiros ~7 s, quando o Paulo está baixo no quadro), chamada "Salve para rever depois" nos 3 s finais, símbolo da Apometria Brasil bem pequeno no canto inferior direito. Sem zoom.
+- Final: final/reels.mp4, capa.jpg, legenda.txt, hashtags.txt. Transcrição em transcricao.json.
