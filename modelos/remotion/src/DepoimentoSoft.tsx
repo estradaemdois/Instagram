@@ -37,16 +37,21 @@ export const DepoimentoSoft: React.FC<PropsSoft> = ({pasta, fontes, assinatura, 
       <div style={{position: 'absolute', top: topo, left: (1080 - W) / 2, width: W, height: H, borderRadius: 30, overflow: 'hidden', border: `1px solid ${LINHO}`, boxShadow: '0 24px 60px rgba(20,70,74,0.16), 0 4px 14px rgba(20,70,74,0.08)'}}>
         <Img src={arq(d.print)} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'top'}} />
       </div>
-      {/* rodapé */}
-      <div style={{position: 'absolute', top: topo + H + 40, left: 80, right: 80, display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-        <div style={{display: 'flex', alignItems: 'center', gap: 18}}>
-          <Img src={arq(assinatura.foto)} style={{width: 76, height: 76, borderRadius: '50%', objectFit: 'cover', border: `2px solid ${SALVIA}`}} />
-          <div>
-            <div style={{fontFamily: 'SO-titulo', fontWeight: 500, fontSize: 40, lineHeight: 1, color: PET}}>{assinatura.nome}</div>
-            {assinatura.cargo && <div style={{fontFamily: 'SO-texto', fontWeight: 600, fontSize: 18, letterSpacing: '0.32em', marginTop: 7, color: PET_M}}>{assinatura.cargo.toUpperCase()}</div>}
+      {/* rodapé: assinatura sobre faixa verde-petróleo */}
+      <div style={{position: 'absolute', top: topo + H + 36, left: 70, right: 70, height: 124, borderRadius: 62, overflow: 'hidden',
+        background: `linear-gradient(100deg, ${PET} 0%, ${PET_M} 60%, #2B6B6A 100%)`, boxShadow: '0 16px 40px rgba(20,70,74,0.25)'}}>
+        <div style={{position: 'absolute', inset: 0, background: 'radial-gradient(circle at 85% 0%, rgba(198,212,207,0.28) 0%, rgba(198,212,207,0) 55%)'}} />
+        <div style={{position: 'absolute', inset: 0, borderRadius: 62, border: '1px solid rgba(198,212,207,0.35)'}} />
+        <div style={{position: 'absolute', left: 22, top: 0, bottom: 0, right: 34, display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
+          <div style={{display: 'flex', alignItems: 'center', gap: 20}}>
+            <Img src={arq(assinatura.foto)} style={{width: 84, height: 84, borderRadius: '50%', objectFit: 'cover', border: `2px solid ${SALVIA}`}} />
+            <div>
+              <div style={{fontFamily: 'SO-titulo', fontWeight: 500, fontSize: 44, lineHeight: 1, color: CREME}}>{assinatura.nome}</div>
+              {assinatura.cargo && <div style={{fontFamily: 'SO-texto', fontWeight: 600, fontSize: 18, letterSpacing: '0.36em', marginTop: 8, color: SALVIA}}>{assinatura.cargo.toUpperCase()}</div>}
+            </div>
           </div>
+          <Img src={arq(simbolo)} style={{width: 60, height: 60, opacity: 0.9}} />
         </div>
-        <Img src={arq(simbolo)} style={{width: 58, height: 58, opacity: 0.75}} />
       </div>
     </AbsoluteFill>
   );
