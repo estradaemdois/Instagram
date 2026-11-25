@@ -47,3 +47,4 @@ Os agentes leem este arquivo antes de criar.
 - 25/11/2026 · Decisão: manter o fundo azul/petróleo do `DepoimentoAP` (o claro e o de céu foram recusados). Nome "Paulo Rodrigues / Apometria" sobre uma faixa arredondada translúcida (menta→turquesa→petróleo). Print centralizado, sem comentários ao lado; símbolo no rodapé à direita.
 - 25/11/2026 · Faixa atrás do nome recusada. Depoimento final: fundo azul, nome sem faixa, print centralizado, símbolo no rodapé à direita.
 - 25/11/2026 · Comentários dos depoimentos: devem QUEBRAR OBJEÇÕES com humildade (dúvida real + resposta serena), nunca elogiar/engrandecer o próprio trabalho (soa arrogante). Vão num story SEPARADO, logo depois do print, no mesmo visual azul.
+- 25/11/2026 · Comentários de depoimento: NÃO falar que precisa de mais sessões nem que a mudança demora para aparecer. Comentar algo POSITIVO sobre o relato da pessoa (o que ela sentiu), respondendo à dúvida sem elogiar o próprio trabalho.
