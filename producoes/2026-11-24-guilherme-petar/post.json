@@ -9,7 +9,7 @@
      "capitulo": "Lugares que parecem mentira · 01",
      "coordenadas": "24°32′S 48°41′O",
      "titulo": "Petar",
-     "frase": "um mundo debaixo do mundo",
+     "frase": "Parque Estadual Turístico do Alto Ribeira",
      "local": "Vale do Ribeira · SP",
      "foco": [
       0.36,
@@ -23,7 +23,7 @@
     {
      "foto": "DJI_20261120103153_0034_D.JPG",
      "layout": "curiosidade",
-     "curiosidade": "Essas cavernas foram esculpidas pela água, dissolvendo o calcário por milhões de anos.",
+     "curiosidade": "Cavernas formadas pela dissolução de metacalcários do Subgrupo Lajeado pela água subterrânea. O sistema Pérolas–Santana tem idade mínima estimada em 2 milhões de anos.",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
@@ -31,7 +31,9 @@
      ],
      "ajuste": {
       "brilho": 1.12
-     }
+     },
+     "rotulo": "Espeleogênese",
+     "tamanho": 40
     },
     {
      "foto": "DJI_20261120114944_0089_D.JPG",
@@ -44,12 +46,14 @@
     {
      "foto": "IMG-20261123-WA1666.jpg",
      "layout": "curiosidade",
-     "curiosidade": "Estalactites crescem frações de milímetro por ano. Olhar pra cima aqui é olhar pra milhares de anos.",
+     "curiosidade": "Estalactites crescem frações de milímetro por ano. No PETAR, estalactites tipo canudo atingem até 2 m de comprimento.",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
       0.4
-     ]
+     ],
+     "rotulo": "Espeleotemas",
+     "tamanho": 40
     },
     {
      "foto": "DJI_20261120111213_0050_D.JPG",
@@ -84,22 +88,26 @@
     {
      "foto": "IMG-20261123-WA1849.jpg",
      "layout": "curiosidade",
-     "curiosidade": "Água parada, limpa e sem luz do sol. Basta uma lanterna pra ela acender em verde.",
+     "curiosidade": "A maioria das cavernas do PETAR são trechos acessíveis de rotas de água subterrânea, que entram por sumidouros e saem por ressurgências.",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
       0.5
-     ]
+     ],
+     "rotulo": "Hidrologia",
+     "tamanho": 40
     },
     {
      "foto": "DJI_20261120165934_0191_D.JPG",
      "layout": "curiosidade",
-     "curiosidade": "O Vale do Ribeira guarda o maior trecho contínuo de Mata Atlântica do Brasil.",
+     "curiosidade": "O Vale do Ribeira abriga a maior área contínua remanescente de Mata Atlântica do Brasil. Precipitação média: 1.963 mm/ano, sem estação seca.",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
       0.55
-     ]
+     ],
+     "rotulo": "Mata Atlântica",
+     "tamanho": 40
     },
     {
      "foto": "DJI_20261120133109_0151_D.JPG",
@@ -185,7 +193,7 @@
      "capitulo": "Lugares que parecem mentira · 01",
      "coordenadas": "24°32′S 48°41′O",
      "titulo": "Subterrâneo",
-     "frase": "o que a Terra esconde",
+     "frase": "Carste do Alto Ribeira · SP",
      "local": "Petar · Vale do Ribeira · SP",
      "foco": [
       0.5,
@@ -217,12 +225,14 @@
     {
      "foto": "IMG-20261123-WA1786.jpg",
      "layout": "curiosidade",
-     "curiosidade": "Estalactite desce do teto. Estalagmite sobe do chão. Quando as duas se encontram, viram coluna.",
+     "curiosidade": "Estalactite: cresce a partir do teto. Estalagmite: cresce a partir do piso. A união das duas forma uma coluna.",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
       0.45
-     ]
+     ],
+     "rotulo": "Espeleotemas",
+     "tamanho": 40
     },
     {
      "foto": "IMG-20261123-WA1809.jpg",
@@ -251,12 +261,14 @@
     {
      "foto": "IMG-20261123-WA1783.jpg",
      "layout": "curiosidade",
-     "curiosidade": "A entrada da Caverna do Morro Preto tem 25 metros de altura. Cabe um prédio de 8 andares.",
+     "curiosidade": "Entrada da Caverna do Morro Preto: 25 m de altura. Pórticos associados a antigos sumidouros, hoje em níveis superiores, são frequentes no PETAR.",
      "etiqueta": "Morro Preto · Petar",
      "foco": [
       0.5,
       0.45
-     ]
+     ],
+     "rotulo": "Pórticos",
+     "tamanho": 40
     },
     {
      "layout": "video",
@@ -303,12 +315,14 @@
     {
      "foto": "DJI_20261121141214_0261_D.JPG",
      "layout": "curiosidade",
-     "curiosidade": "O PETAR tem mais de 300 cavernas cadastradas. Fora delas, cachoeira em cada curva da trilha.",
+     "curiosidade": "O PETAR tem cerca de 300 cavidades cadastradas. A mais extensa, a caverna Santana, tem 6,3 km de condutos mapeados.",
      "etiqueta": "Petar · 21.11.26",
      "foco": [
       0.5,
       0.45
-     ]
+     ],
+     "rotulo": "Patrimônio espeleológico",
+     "tamanho": 40
     },
     {
      "foto": "DJI_20261121131705_0234_D.JPG",
@@ -378,7 +392,7 @@
      "capitulo": "Lugares que parecem mentira · 01",
      "coordenadas": "24°32′S 48°41′O",
      "titulo": "Expedição",
-     "frase": "ninguém atravessa o escuro sozinho",
+     "frase": "Caverna do Morro Preto · PETAR",
      "local": "Morro Preto · Petar · SP",
      "posicao": "topo",
      "foco": [
@@ -418,12 +432,14 @@
     {
      "foto": "IMG-20261123-WA1698.jpg",
      "layout": "curiosidade",
-     "curiosidade": "Dentro da caverna, a temperatura quase não muda o ano inteiro. Lá fora, a mata ferve.",
+     "curiosidade": "No interior das cavernas, a temperatura do ar varia pouco ao longo do ano e tende à média anual externa, que no PETAR é de 20 a 22 °C.",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
       0.45
-     ]
+     ],
+     "rotulo": "Microclima",
+     "tamanho": 40
     },
     {
      "foto": "IMG-20261123-WA1713.jpg",
@@ -452,12 +468,14 @@
     {
      "foto": "IMG-20261123-WA1884.jpg",
      "layout": "curiosidade",
-     "curiosidade": "Só restam cerca de 12% da Mata Atlântica original. Por aqui, ela ainda manda.",
+     "curiosidade": "Restam cerca de 12% da cobertura original da Mata Atlântica no Brasil. O PETAR protege 35,1 mil hectares desse bioma.",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
       0.5,
       0.45
-     ]
+     ],
+     "rotulo": "Mata Atlântica",
+     "tamanho": 40
     },
     {
      "foto": "DJI_20261120170137_0197_D.JPG",
@@ -476,14 +494,20 @@
      ]
     },
     {
-     "foto": "DJI_20261120112204_0062_D.JPG",
+     "foto": "DJI_20261120102259_0032_D.JPG",
      "layout": "curiosidade",
-     "curiosidade": "Nas cavernas do PETAR só se entra com monitor credenciado, capacete e lanterna.",
+     "curiosidade": "Visitação somente com monitor credenciado. Equipamento obrigatório: capacete, lanterna, calça comprida e roupa de manga.",
      "etiqueta": "Petar · 20.11.26",
      "foco": [
-      0.5,
-      0.5
-     ]
+      0.4,
+      0.78
+     ],
+     "ajuste": {
+      "brilho": 1.1
+     },
+     "rotulo": "Regras de visitação",
+     "tamanho": 40,
+     "zoom": 1.25
     },
     {
      "foto": "IMG-20261123-WA1854.jpg",
