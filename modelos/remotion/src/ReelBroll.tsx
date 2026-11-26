@@ -4,7 +4,7 @@ import {AbsoluteFill, Img, OffthreadVideo, Sequence, staticFile, useCurrentFrame
 // Reels com imagens/vídeos representativos em tela cheia e o Paulo em miniatura redonda (ele lia o teleprompter).
 // A voz vem do vídeo do Paulo; legenda palavra a palavra; título e assinatura no alto; símbolo pequeno no canto.
 type Palavra = {p: string; i: number; f: number};
-export type Cena = {arquivo: string; tipo: 'video' | 'imagem'; ini: number; fim: number; foco?: string; inicio_no_arquivo?: number; zoom?: [number, number]};
+export type Cena = {arquivo: string; tipo: 'video' | 'imagem'; ini: number; fim: number; foco?: string; inicio_no_arquivo?: number; zoom?: [number, number]; inteira?: boolean};
 export type PropsReelBroll = {
   pasta: string; fala: string; duracao: number; blocos: Palavra[][]; cenas: Cena[];
   fontes: {titulo: string; texto: string; texto_forte: string};
@@ -35,7 +35,14 @@ const CenaView: React.FC<{c: Cena; arq: (a: string) => string; dur: number; prim
     <AbsoluteFill style={{opacity: op}}>
       {c.tipo === 'video'
         ? <OffthreadVideo src={arq(c.arquivo)} muted startFrom={Math.round((c.inicio_no_arquivo ?? 0) * 30)} style={st} />
-        : <Img src={arq(c.arquivo)} style={st} />}
+        : c.inteira
+          ? <>
+              <Img src={arq(c.arquivo)} style={{...st, filter: 'blur(28px) brightness(0.7)', transform: 'scale(1.3)'}} />
+              <AbsoluteFill style={{display: 'flex', alignItems: 'center', justifyContent: 'center', top: -120}}>
+                <Img src={arq(c.arquivo)} style={{width: '100%', objectFit: 'contain', transform: `scale(${z})`, boxShadow: '0 20px 60px rgba(0,0,0,0.5)'}} />
+              </AbsoluteFill>
+            </>
+          : <Img src={arq(c.arquivo)} style={st} />}
     </AbsoluteFill>
   );
 };
