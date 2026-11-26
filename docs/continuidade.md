@@ -79,3 +79,32 @@ Radar (tendências) · Sonda (dores/objeções) · Mestre (apometria/base do Pau
 - 25/11: 10 stories de depoimento enviados (aguardando aprovação), print às 12h e comentário às 12h05 — 26/11 (dep. 1), 29/11 (2), 01/12 (3), 03/12 (4), 05/12 (5). Pedidos 1fd8e889/01222462, 468387c9/1afc0c43, 27c65e12/1b8c2359, 3d2c3513/655e16d1, c89992fa/a6c27d07.
 - Reels do Paulo "Sobre prosperidade": sem cortes, 1,1x, moldura + símbolo, 85 s · producoes/2026-11-26-apometria-paulo-prosperidade/final/reels.mp4 (ainda não enviado ao estúdio).
 - 26/11: Reels "Sobre prosperidade" enviado ao estúdio (aguardando aprovação) — 29/11 às 15h · pedido bb9a9aae-570d-4bfd-bac6-fe371a6111c7. Versão comprimida (540p, 3,2 MB) por causa do limite de ~4,5 MB da integração; para qualidade total, trocar o vídeo no pedido pelo final/reels.mp4.
+
+## Depoimentos novos no estúdio (26/11/2026) — 1 a cada 3 dias, print 12h + comentário 12h05
+```
+2026-11-27 01-relatorios 5ad892f2-11d9-4093-bf55-7abf1af0531d ee41f94b-4924-49d5-9091-ad51c77ad54b
+2026-11-30 02-maria f21ec24d-d39c-4066-a622-b006c9a6aea6 31d42030-6294-456a-bd93-d0f0e8062d28
+2026-12-03 03-sandra1 b84223a4-6c98-4687-a81f-ae18f70fe862 cbe9c4cd-7ae6-4cca-9894-fd193bd43048
+2026-12-06 04-raquel1 da9e04b4-a286-41b5-bd58-4de1a853c8e6 3e502b6f-4c47-4e1a-b4c6-72b728c20341
+2026-12-09 05-cibele 3e6b157e-d39d-4a68-836e-7de89762eadf 98cce593-3c30-422f-8dd9-4c02e0d8be5e
+2026-12-12 06-ana 7d7fd294-7222-49ea-a33e-61e32600680d 0a5d115d-259a-4224-9ca0-795842b29641
+2026-12-15 07-cristina b52f4f66-e71f-41ea-8f76-c421b1dc99ca 357f1977-58ef-48f8-a84a-73919eb52184
+2026-12-18 08-daniel 28c767fd-28c5-4d21-82b4-4428ad544917 034090e2-3974-44bb-838b-cf20c2de582f
+2026-12-21 09-eliaspaz 48ad45ac-7404-4d2d-8735-4660585a4d6b d2342bd8-5fd2-4712-8b9b-87ab3c51481e
+2026-12-24 10-elisandra 84c24d94-1c97-44f7-a41a-9538545a0a35 4a433520-9a4e-4397-b77f-000411a8aeb4
+2026-12-27 11-emilia 0deccba4-7e01-4cf3-b5a8-ca911483b332 db5c47a2-572b-41f4-af07-0cacc1f7e0e0
+2026-12-30 12-felipe 2115b03c-ec48-43ba-8971-ed5b61cd7e3d 5ba3f003-0be6-4c1e-b6c9-b37d1613460e
+2027-01-02 13-graciele 37357173-52f8-4550-89dc-e688c61260bb 0ce758bf-a6e1-4020-8ab5-5f41f3684c58
+2027-01-05 14-heloisa 255b860d-62b7-4f15-b6d4-b29714f3069c 7439b6bb-cf7e-4e56-b2cc-21be156bde9b
+2027-01-08 15-isabel dfd2faff-9615-417b-abc2-a649dfdf0ec6 88d65031-ddc4-4715-8e83-bf1c06a109ab
+2027-01-11 16-mariaduas 86305239-e688-4fb2-a221-c076c4fb2f06 35731489-b5d8-45a0-9fbd-6f568780a44f
+2027-01-14 17-mariaf 715931fd-4fb6-42d6-b158-867bc4db9f71 42098062-e794-44e4-9750-18d34723e581
+2027-01-17 18-nelia 577ebb06-0566-4146-b352-316b0f9fd655 5a0ab413-95d4-443c-8ab1-970a04f00c6d
+2027-01-20 19-nervosa 496a7e53-8f22-47b2-a024-da32bb74f9e3 a30f6b35-ffb5-40fa-8dd0-64b4639c9e5f
+2027-01-23 20-raquel2 2de6f59e-1c7d-4657-8525-15f075bcb1c0 7b206ab2-35b6-4539-a3e2-b4877846a597
+2027-01-26 21-ridel a2dcbc60-d96f-4747-bec1-41d550276e0d 781ba8c7-19b9-46c9-9db3-7e04ba649fe8
+2027-01-29 22-sandra2 d95ad535-3bff-47da-8a35-89ca43321bf6 f44c72fc-784f-46f6-bc48-c351d4dc6bfa
+2027-02-01 23-vinicius aa3a8b12-f83a-400b-bd86-8484b394d675 e83749df-76db-4b84-8cc5-ab621f5616ad
+```
+- Os 10 stories de depoimento antigos (pedidos 1fd8e889/01222462, 468387c9/1afc0c43, 27c65e12/1b8c2359, 3d2c3513/655e16d1, c89992fa/a6c27d07) devem ser EXCLUÍDOS pela responsável (a integração não exclui).
+- Story de véspera da magia: 26/11 às 19h.
