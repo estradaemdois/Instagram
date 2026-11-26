@@ -47,7 +47,7 @@ export const ReelBroll: React.FC<PropsReelBroll> = ({pasta, fala, duracao, bloco
   const t = fr / fps;
   const arq = (a: string) => staticFile(`${pasta}/${a}`);
   const bloco = blocos.find((b) => t >= b[0].i - 0.05 && t <= b[b.length - 1].f + 0.12);
-  const D = 300; // diâmetro da miniatura
+  const D = 430; // diâmetro da miniatura
   const fimChamada = duracao - 3;
   // vídeo de fala escalado para que a altura do rosto ocupe a miniatura
   const esc = (D * mini.zoom) / mini.largura;
@@ -76,7 +76,7 @@ export const ReelBroll: React.FC<PropsReelBroll> = ({pasta, fala, duracao, bloco
         </div>
       </div>
       {/* miniatura do Paulo falando (a voz vem daqui) */}
-      <div style={{position: 'absolute', left: 60, top: 1140, width: D, height: D, borderRadius: '50%', overflow: 'hidden', border: '4px solid rgba(255,255,255,0.92)', boxShadow: '0 16px 40px rgba(0,0,0,0.55)', background: '#000'}}>
+      <div style={{position: 'absolute', left: 50, top: 1010, width: D, height: D, borderRadius: '50%', overflow: 'hidden', border: '4px solid rgba(255,255,255,0.92)', boxShadow: '0 16px 40px rgba(0,0,0,0.55)', background: '#000'}}>
         <div style={{position: 'absolute', width: W, height: H, left: D / 2 - mini.x * W, top: D / 2 - mini.y * H}}>
           <OffthreadVideo src={arq(fala)} style={{width: '100%', height: '100%'}} />
         </div>

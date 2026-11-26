@@ -60,3 +60,4 @@ Os agentes leem este arquivo antes de criar.
 - 25/11/2026 · Vídeos do Paulo falando: NÃO cortar frases dele (nem as de resultado/garantia) — cortar só pausas longas. Título simples e direto sobre o tema (ex.: "Sobre prosperidade"), sem inventar gancho.
 - 25/11/2026 · Vídeos do Paulo falando: NÃO cortar nada (cortes travam a fala). Só a moldura (título, assinatura, legendas), símbolo da Apometria Brasil bem pequeno no canto inferior e velocidade 1,1x.
 - 26/11/2026 · Vídeos em que o Paulo lê teleprompter: formato `ReelBroll` — ele em miniatura redonda e imagens/vídeos REALISTAS em tela cheia acompanhando a fala (Pexels + Gemini), sem cortes na fala.
+- 26/11/2026 · Imagens geradas: NÃO repetir sempre a mesma mulher; NADA de vultos/silhuetas fantasmagóricas. Preferir cenas realistas (objetos, ambientes, natureza, documental) que mantenham a ideia. ReelBroll: miniatura do Paulo grande (430 px) e vídeo a 1,25x.
