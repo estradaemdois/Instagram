@@ -64,3 +64,4 @@ Os agentes leem este arquivo antes de criar.
 - 26/11/2026 · "Por que fazer Apometria?": abertura com defumação, obsessor engaiolado pela equipe e ilustrações cósmicas foi RECUSADA ("ficou ruim"). Voltou à versão com pôr do sol, estrada, fotos antigas, retratos, névoa e varanda.
 - 26/11/2026 · Textos "genéricos" recusados (carrossel inveja v1). Pedido: parar de repetir "na visão energética e espiritual", falar com MAIS CERTEZA, títulos específicos e técnicos, explicar COMO o fenômeno ocorre (formas-pensamento, cordões, chakras, duplo etérico, contrapartida astral etc.).
 - 26/11/2026 · Carrossel inveja: só 2 das 6 mídias geradas ficaram boas (vídeo da capa e homem no celular); restante com fotos reais do Pexels.
+- 26/11/2026 · A responsável prefere imagens GERADAS (Gemini) às fotos de banco nos carrosséis. Comando que funciona: uma pessoa, cena simples, luz cinematográfica azul-petróleo e um único efeito de energia discreto; variar as pessoas.
