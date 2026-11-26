@@ -66,3 +66,4 @@ Os agentes leem este arquivo antes de criar.
 - 26/11/2026 · Carrossel inveja: só 2 das 6 mídias geradas ficaram boas (vídeo da capa e homem no celular); restante com fotos reais do Pexels.
 - 26/11/2026 · A responsável prefere imagens GERADAS (Gemini) às fotos de banco nos carrosséis. Comando que funciona: uma pessoa, cena simples, luz cinematográfica azul-petróleo e um único efeito de energia discreto; variar as pessoas.
 - 26/11/2026 · Imagens "genéricas" (cenas literais com efeitos de energia) recusadas. Preferência: fotografia CONCEITUAL, AUTORAL, simbólica e sem exageros (objetos reais, composição limpa, metáfora visual — ex.: série do fio vermelho).
+- 26/11/2026 · Imagens conceituais com fio vermelho recusadas ("nada a ver"). Para inveja: representar os CHAKRAS poluídos / plexo solar (dourado, entre umbigo e esterno) de forma realista e discreta. Não usar fio vermelho.

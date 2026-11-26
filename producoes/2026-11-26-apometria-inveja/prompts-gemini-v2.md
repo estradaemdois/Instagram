@@ -12,3 +12,10 @@ Padrão que funcionou (lâmina 2): uma pessoa, cena simples, luz cinematográfic
 4. Copo de água limpa; gotas de tinta escura caindo de pontos diferentes e turvando a água.
 5. Planta murchando ao lado de notebook fechado e caderno de planos; fio vermelho enrolado no caule.
 6. Mãos cortando o fio vermelho com tesoura; luz quente da manhã, creme e turquesa.
+
+## v4 (26/11) — chakras e plexo solar (sem fio vermelho)
+Plexo solar (Manipura): 3º chakra, entre o umbigo e o esterno, amarelo-dourado; poder pessoal, autoestima, vontade, ação — alvo principal da inveja. "Chakra poluído": vórtice opaco, acinzentado, com manchas de energia densa.
+3. Mulher ~40 de perfil; vórtice dourado no plexo solar coberto em parte por manchas de névoa cinza.
+4. Homem ~35 sentado de perfil; 7 pontos de luz na coluna; correntes de névoa escura de várias direções acumulando no plexo solar.
+5. Mulher ~50 exausta no sofá; camada acinzentada densa no corpo; chakras opacos, quase apagados.
+6. Homem ~45 na janela ao amanhecer; névoa se desfaz em partículas; chakras alinhados e brilhantes; proteção turquesa.
