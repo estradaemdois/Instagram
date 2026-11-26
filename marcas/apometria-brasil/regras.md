@@ -15,7 +15,7 @@ Origem de cada regra entre parênteses.
 9. Mais de **5 hashtags**; legenda acima de **2.200 caracteres**.
 
 ## Obrigatório
-- Conceito espiritual apresentado como **visão** ("na visão espiritual…"), não como fato científico.
+- ~~Conceito espiritual apresentado como visão ("na visão espiritual…")~~ → **atualizado em 26/11/2026:** a responsável quer tom assertivo e técnico; não repetir "na visão energética e espiritual". Continua proibido prometer cura, resultado ou prazo.
 - Linguagem acolhedora e sem julgamento sobre vícios, doenças e sofrimento.
 - Pontuação colada na palavra-chave em destaque.
 - Stories não usam figurinhas interativas (enquete, quiz, caixinha, link): tudo precisa ser publicável automaticamente pelo estúdio. Interação só por texto (responder a story / direct).

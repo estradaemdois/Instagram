@@ -1,0 +1,7 @@
+# Carrossel · Inveja (v2, técnico e assertivo) — aguardando aprovação
+1. Inveja | Por que a inveja pesa mais que uma magia | Como ela se forma, onde se prende no corpo energético e por que é mais difícil de desfazer.
+2. Como se forma | A inveja cria formas-pensamento | Cada pensamento de inveja carrega emoção: cobiça, frustração, raiva. Essa carga se condensa em formas-pensamento, estruturas de energia densa que ficam ligadas à pessoa invejada.
+3. Como se prende | Cordões ligados ao plexo solar | Pela repetição, forma-se um cordão energético entre quem inveja e quem é invejado. Ele se fixa principalmente no plexo solar e no chakra cardíaco e passa a drenar a energia vital do campo.
+4. Por que é pior que magia | Uma fonte viva, que se renova todo dia | Uma magia tem um ritual, um momento e uma contrapartida astral que pode ser desfeita. A inveja não tem objeto: é reabastecida a cada pensamento, por uma ou várias pessoas, quase sempre próximas.
+5. O efeito no campo | Duplo etérico sobrecarregado | Com o acúmulo, o duplo etérico fica denso e desvitalizado. Isso aparece como cansaço sem explicação, sono pesado, irritação e projetos que travam justamente quando começam a dar certo. Essa vibração ainda atrai espíritos afins, que aumentam o peso.
+6. Como a Apometria atua | Desintegrar, cortar e blindar | As formas-pensamento são identificadas e desintegradas, os cordões são cortados, os chakras atingidos são tratados, os espíritos atraídos são encaminhados e o campo recebe proteção.
