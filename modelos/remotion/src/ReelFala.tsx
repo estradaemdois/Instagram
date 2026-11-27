@@ -9,7 +9,7 @@ export type PropsReelFala = {
   fontes: {titulo: string; texto: string; texto_forte: string};
   assinatura: {nome: string; cargo?: string; foto: string};
   rotulo?: string; titulo: string; chamada_final?: string;
-  sem_zoom?: boolean; legenda_alto_ate?: number; simbolo?: string;
+  sem_zoom?: boolean; legenda_alto_ate?: number; simbolo?: string; faixa_legenda?: boolean;
 };
 
 const useFontes = (pasta: string, f: PropsReelFala['fontes']) => {
@@ -23,7 +23,7 @@ const useFontes = (pasta: string, f: PropsReelFala['fontes']) => {
   }, [h, pasta, f]);
 };
 
-export const ReelFala: React.FC<PropsReelFala> = ({pasta, video, duracao, inicios, blocos, fontes, assinatura, rotulo, titulo, chamada_final, sem_zoom, legenda_alto_ate, simbolo}) => {
+export const ReelFala: React.FC<PropsReelFala> = ({pasta, video, duracao, inicios, blocos, fontes, assinatura, rotulo, titulo, chamada_final, sem_zoom, legenda_alto_ate, simbolo, faixa_legenda}) => {
   useFontes(pasta, fontes);
   const fr = useCurrentFrame();
   const {fps} = useVideoConfig();
@@ -54,7 +54,7 @@ export const ReelFala: React.FC<PropsReelFala> = ({pasta, video, duracao, inicio
       </div>
       {/* legenda */}
       {bloco && (
-        <div style={{position: 'absolute', left: 70, right: 70, top: t < (legenda_alto_ate ?? inicios[2] ?? 0) ? 600 : 1480, display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '6px 14px', fontFamily: 'RF-texto', fontWeight: 600, fontSize: 54, lineHeight: 1.12, textAlign: 'center'}}>
+        <div style={{position: 'absolute', left: 70, right: 70, top: t < (legenda_alto_ate ?? inicios[2] ?? 0) ? 600 : 1480, display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '6px 14px', fontFamily: 'RF-texto', fontWeight: 600, fontSize: 54, lineHeight: 1.12, textAlign: 'center', ...(faixa_legenda ? {background: 'rgba(8,28,38,0.55)', borderRadius: 26, padding: '14px 26px', left: 90, right: 90} : {})}}>
           {bloco.map((w, k) => {
             const ativa = t >= w.i - 0.03 && t <= w.f + 0.05;
             const dita = t >= w.i - 0.03;
