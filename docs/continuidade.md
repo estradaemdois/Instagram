@@ -109,3 +109,4 @@ Radar (tendências) · Sonda (dores/objeções) · Mestre (apometria/base do Pau
 - Os 10 stories de depoimento antigos (pedidos 1fd8e889/01222462, 468387c9/1afc0c43, 27c65e12/1b8c2359, 3d2c3513/655e16d1, c89992fa/a6c27d07) devem ser EXCLUÍDOS pela responsável (a integração não exclui).
 - Story de véspera da magia: 26/11 às 19h.
 - 26/11: Reels 'Por que fazer Apometria?' enviado ao estúdio (aguardando aprovação) — 01/12 às 15h. Versão 540p comprimida; arquivo em boa qualidade: producoes/2026-11-26-apometria-paulo-uma-vez/final/reels-final.mp4 (21,5 MB).
+- 27/11: story em vídeo de véspera da magia enviado — 01/12 às 19h (véspera do carrossel de 02/12). O story estático de véspera (445a4f1f, 26/11 19h) ficou obsoleto.
