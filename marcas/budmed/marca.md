@@ -1,7 +1,8 @@
-# Kit da marca · BudMed (@budmed)
+# Kit da marca · BudMed (@budmedoficial)
 
 > Criado em 28/11/2026. Fase atual: **manter a paleta que o perfil já usa** e publicar conteúdo de saúde, plantas medicinais e cannabis medicinal. Mais para frente haverá uma **transição de tema** (a definir com a responsável).
-> ⚠️ **Paleta e fontes PENDENTES**: o Instagram não abre a partir do ambiente do Claude e o vidIQ ficou sem créditos em 28/11. Preencher a tabela abaixo a partir dos prints do feed enviados pela responsável (salvar em `referencias-perfil/`).
+> Perfil: "BudMed | Healthtech Canábica" · 40 mil seguidores · 246 posts · linktr.ee/budmed. Destaques: Bud News, Bud Mídias, Bud-commerce, BudAcademy.
+> Paleta e layout medidos nos prints do feed enviados pela responsável em 28/11/2026 (`referencias-perfil/`). Modelo: composição **`CarrosselBM`** (`modelos/remotion/src/CarrosselBM.tsx`).
 
 ## Quem é
 Perfil de educação em saúde: plantas como recurso terapêutico, fitoterapia, cannabis medicinal e canabidiol (CBD).
@@ -15,17 +16,21 @@ Chamadas permitidas: salvar, compartilhar, comentar, "converse com seu médico".
 - Traduz ciência para o dia a dia sem exagero: separa **"já comprovado"** de **"ainda em estudo"**.
 - Sem sensacionalismo ("milagre", "cura", "substitui o remédio" ficam de fora).
 
-## Identidade visual (PENDENTE · copiar do feed atual)
+## Identidade visual (copiada do feed, 28/11/2026)
 | Papel | Valor |
 |---|---|
-| Fundo principal | ? |
-| Fundo escuro / alternativo | ? |
-| Texto | ? |
-| Destaque (palavra-chave, rótulo, botão) | ? |
-| Apoio | ? |
-| Títulos | ? |
-| Textos | ? |
-| Logo / assinatura | ? |
+| Fundo | Cinza-claro `#F6F6F6` com pontilhado bem sutil |
+| Anel em volta da foto | Verde-vivo `#01CB37` |
+| Caixa de texto | Verde `#01D343`, cantos arredondados, texto branco |
+| Botão de chamada | Verde-escuro `#009734`, texto branco |
+| Título (parte 1) | Verde-escuro `#0A9743` |
+| Título (destaque) | Verde-vivo `#08CF4E` |
+| Títulos | Montserrat ExtraBold (800), centralizado |
+| Textos | Montserrat 500 (caixa) e 600 (botão) |
+| Logo | Gota com a folha + "BUDMED", branco, na base do anel (recriado em SVG; trocar pelo arquivo oficial quando a responsável enviar) |
+
+**Layout padrão:** foto em círculo grande no alto, dentro de um anel verde que vaza pelas laterais; detalhes laterais (pontinhos verdes + linha fina com canto arredondado); título em duas cores de verde; caixa verde com 2–3 linhas; botão verde-escuro com a chamada ("Salve este conteúdo e compartilhe…", "Leia a descrição…").
+Os Reels do perfil usam ilustração 3D clara com título em verde por cima.
 
 ## Estética das imagens (proposta, confirmar com a responsável)
 - Fotos reais ou geradas por IA, fotográficas: folhas, chás, ervas secas, frascos conta-gotas de vidro âmbar, mãos, luz natural, ambiente de cuidado (consultório, cozinha, jardim).

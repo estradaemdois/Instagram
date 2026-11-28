@@ -1,0 +1,45 @@
+{
+  "pasta": "producao/2026-11-28-budmed-plantas-remedios",
+  "laminas": [
+    {
+      "imagem": "capa.jpg",
+      "titulo": "Muitos remédios da sua farmácia *nasceram de uma planta*",
+      "texto": "Antes do laboratório, veio a natureza. Conheça 3 remédios que começaram no jardim.",
+      "chamada": "Arraste para o lado e salve este conteúdo"
+    },
+    {
+      "imagem": "salgueiro.jpg",
+      "foco": "center 30%",
+      "titulo": "A aspirina *veio da casca do salgueiro*",
+      "texto": "Há milênios, povos antigos usavam a casca dessa árvore contra dor e febre. Dela a ciência isolou a salicina, que deu origem ao ácido acetilsalicílico em 1897."
+    },
+    {
+      "imagem": "dedaleira2.jpg",
+      "foco": "center 40%",
+      "titulo": "Uma flor *que ajuda o coração*",
+      "texto": "Da dedaleira (Digitalis) vem a digoxina, usada até hoje em problemas cardíacos. O efeito da planta foi descrito por um médico inglês em 1785."
+    },
+    {
+      "imagem": "artemisia.jpg",
+      "titulo": "Uma erva chinesa *que virou Prêmio Nobel*",
+      "texto": "A cientista Tu Youyou isolou da Artemisia annua a artemisinina, base dos remédios contra a malária. A descoberta ganhou o Nobel de Medicina em 2015."
+    },
+    {
+      "imagem": "ervas.jpg",
+      "titulo": "Natural *não quer dizer inofensivo*",
+      "texto": "A mesma força que trata pode fazer mal na dose errada. A dedaleira, por exemplo, é tóxica se usada por conta própria. Planta medicinal também pede orientação."
+    },
+    {
+      "imagem": "lab.jpg",
+      "foco": "35% center",
+      "titulo": "A ciência *continua aprendendo com as plantas*",
+      "texto": "Estima-se que pelo menos 1 em cada 4 medicamentos modernos venha, direta ou indiretamente, de plantas.",
+      "chamada": "Salve e compartilhe com quem ama plantas"
+    }
+  ],
+  "fontes": {
+    "normal": "montserrat-500.woff2",
+    "media": "montserrat-600.woff2",
+    "forte": "montserrat-800.woff2"
+  }
+}

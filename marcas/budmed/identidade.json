@@ -1,0 +1,7 @@
+{
+  "nome": "BUDMED",
+  "perfil": "@budmedoficial",
+  "composicao": "CarrosselBM",
+  "cores": {"fundo": "#F6F6F6", "anel": "#01CB37", "caixa": "#01D343", "botao": "#009734", "titulo_escuro": "#0A9743", "titulo_vivo": "#08CF4E"},
+  "fontes": {"normal": "montserrat-500.woff2", "media": "montserrat-600.woff2", "forte": "montserrat-800.woff2"}
+}

@@ -1,5 +1,5 @@
 # Carrossel · 1,1 milhão de pacientes (v1) — aguardando aprovação
-Marca: BudMed (@budmed) · 4:5 · 7 lâminas · paleta do feed atual (pendente dos prints)
+Marca: BudMed (@budmedoficial) · 4:5 · 7 lâminas · paleta do feed atual (pendente dos prints)
 
 1. Capa | **1,1 milhão de brasileiros já tratam com cannabis medicinal** | E 2026 mudou as regras do jogo. Entenda em 1 minuto.
    Imagem: mãos segurando frasco conta-gotas âmbar, folha discreta ao fundo, luz de janela.
